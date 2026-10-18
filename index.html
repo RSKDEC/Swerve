@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#141625" />
+    <meta
+      name="description"
+      content="Five prompts. Three strategies. Can you read the crowd? Play the Swerve demo."
+    />
+    <title>swerve. — Read the crowd.</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to game</a>
+    <div class="wrap">
+      <header class="top">
+        <div class="logo" aria-label="Swerve">swerve<span>.</span></div>
+        <button
+          class="icon-btn"
+          id="helpBtn"
+          aria-label="How to play"
+          aria-haspopup="dialog"
+          disabled
+        >
+          ?
+        </button>
+      </header>
+      <p id="storageNotice" class="storage-notice" role="status" hidden></p>
+      <div id="pageError" class="page-error" role="alert" hidden></div>
+      <main class="app" id="app" tabindex="-1">
+        <p>Loading your Swerve…</p>
+      </main>
+      <p class="sr-only" id="announcer" role="status" aria-live="polite"></p>
+    </div>
+    <dialog id="helpDialog" aria-label="How to play">
+      <div id="helpContent"></div>
+    </dialog>
+    <dialog id="replayDialog" aria-labelledby="replayTitle">
+      <h2 id="replayTitle">Play again?</h2>
+      <p>This resets your demo score and starts all five questions again.</p>
+      <div class="dialog-actions">
+        <button class="btn" id="confirmReplay">Replay demo</button
+        ><button class="btn secondary" id="cancelReplay">Keep my score</button>
+      </div>
+    </dialog>
+    <dialog id="shareDialog" aria-labelledby="shareTitle">
+      <h2 id="shareTitle">Your Swerve result</h2>
+      <p>Copy this text to share your score.</p>
+      <textarea
+        id="shareText"
+        class="input"
+        aria-label="Your shareable result"
+        rows="6"
+        readonly
+      ></textarea>
+      <button class="btn secondary" id="closeShare">Done</button>
+    </dialog>
+    <noscript
+      ><p class="wrap">
+        Swerve needs JavaScript to run its timer and game.
+      </p></noscript
+    >
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
