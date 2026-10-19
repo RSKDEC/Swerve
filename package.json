@@ -1,6 +1,6 @@
 {
   "name": "swerve",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -17,7 +17,9 @@
     "format": "prettier --write src tests e2e scripts docs *.json *.ts *.md index.html",
     "check": "npm run content:check && npm run typecheck && npm test && npm run build",
     "content:import": "python3 scripts/import-surveys.py",
-    "content:check": "python3 -m unittest discover -s tests -p \"test_*.py\" && python3 scripts/import-surveys.py --check && node scripts/export-content.ts --check"
+    "content:check": "python3 -m unittest discover -s tests -p \"test_*.py\" && python3 scripts/import-surveys.py --check && node scripts/export-content.ts --check && node scripts/build-factual-content.ts --check",
+    "content:factual": "node scripts/build-factual-content.ts",
+    "content:factual:refresh": "python3 scripts/fetch-factual-evidence.py"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",

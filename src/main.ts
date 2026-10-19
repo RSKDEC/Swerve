@@ -24,9 +24,10 @@ async function bootstrap(): Promise<void> {
     now = remote.now;
   } else {
     const { DemoClient } = await import('./services/demo-client.ts');
-    const { demoChallenges } = await import('./services/demo-challenges.ts');
+    const { factualChallenges } =
+      await import('./services/factual-challenges.ts');
     client = new DemoClient(
-      demoChallenges,
+      factualChallenges,
       new LocalPlayers(storage),
       new LocalAttempts(storage),
     );

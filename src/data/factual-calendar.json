@@ -1,0 +1,35 @@
+[
+  {
+    "number": "001",
+    "day": "2026-10-19",
+    "questionIds": [
+      "facts-stan-countries",
+      "facts-pixar-films",
+      "facts-one-letter-elements",
+      "facts-mario-kart-64",
+      "facts-western-zodiac"
+    ]
+  },
+  {
+    "number": "002",
+    "day": "2026-10-20",
+    "questionIds": [
+      "facts-germany-neighbours",
+      "facts-bond-actors",
+      "facts-ancient-wonders",
+      "facts-greek-alphabet",
+      "facts-taylor-albums"
+    ]
+  },
+  {
+    "number": "003",
+    "day": "2026-10-21",
+    "questionIds": [
+      "facts-planets",
+      "facts-great-lakes",
+      "facts-olympian-gods",
+      "facts-chinese-zodiac",
+      "facts-disney-renaissance"
+    ]
+  }
+]

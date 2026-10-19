@@ -121,3 +121,59 @@ test('HTTP transport validates response choices and reference metadata before re
     context.challenge.prompts[0].choices,
   );
 });
+
+test('HTTP factual transport validates open prompts and evidence-shaped results without trusting client claims', async () => {
+  const { factualChallenges } =
+    await import('../src/services/factual-challenges.ts');
+  const f = fixture(factualChallenges);
+  f.setNow(Date.parse('2026-10-19T12:00:00Z'));
+  const context = await f.client.load();
+  const attempt = await f.client.advance(await f.client.start());
+  const completed = await f.client.submit(attempt, {
+    roundIndex: 0,
+    mode: 'swerve',
+    answer: 'Pakistan',
+    requestId: 'factual',
+  });
+  const responseContext = { ...context, attempt: completed };
+  const remote = new HttpGameClient('/api', new MemoryStorage(), async () =>
+    Response.json({ ...responseContext, serverNow: Date.now() }),
+  );
+  assert.equal(
+    (await remote.load()).attempt?.results[0].familiarity?.kind,
+    'attention-v1',
+  );
+  for (const invalid of [
+    { format: 'factual', answerCount: 0 },
+    { format: 'factual', answerCount: 7, choices: ['Pakistan', 'India'] },
+    { format: 'survey' },
+  ]) {
+    const challenge = structuredClone(context.challenge);
+    Object.assign(challenge.prompts[0], invalid);
+    const bad = new HttpGameClient('/api', new MemoryStorage(), async () =>
+      Response.json({ ...context, challenge, serverNow: Date.now() }),
+    );
+    await assert.rejects(bad.load(), /invalid game data/);
+  }
+  for (const edit of [
+    (a: typeof completed) => {
+      a.results[0].familiarity!.views = -1;
+    },
+    (a: typeof completed) => {
+      a.results[0].familiarity!.answers[0].index = 101;
+    },
+    (a: typeof completed) => {
+      a.results[0].pct = 17;
+    },
+    (a: typeof completed) => {
+      a.results[0].score = 999;
+    },
+  ]) {
+    const badAttempt = structuredClone(completed);
+    edit(badAttempt);
+    const bad = new HttpGameClient('/api', new MemoryStorage(), async () =>
+      Response.json({ ...context, attempt: badAttempt, serverNow: Date.now() }),
+    );
+    await assert.rejects(bad.load(), /invalid game data/);
+  }
+});

@@ -1,4 +1,4 @@
-import { MODES } from '../domain/modes.ts';
+import { MODES, isFactual } from '../domain/modes.ts';
 import type {
   Attempt,
   Challenge,
@@ -37,5 +37,7 @@ export function progress(attempt: Attempt, challenge: Challenge): string {
 }
 
 export function footer(challenge: Challenge): string {
+  if (isFactual(challenge))
+    return '<div class="footer-note">Open-answer pilot · UTC · <a href="./factual-credits.html" target="_blank" rel="noopener">Sources & scoring</a></div>';
   return `<div class="footer-note">${challenge.kind === 'demo' ? 'Demo · Sample crowd data · No live leaderboard' : 'A new challenge every day · UTC · <a href="./data-credits.html" target="_blank" rel="noopener">Data credits</a>'}</div>`;
 }

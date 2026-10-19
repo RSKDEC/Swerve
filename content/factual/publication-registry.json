@@ -1,0 +1,56 @@
+[
+  {
+    "number": "001",
+    "day": "2026-10-19",
+    "questionIds": [
+      "facts-stan-countries",
+      "facts-pixar-films",
+      "facts-one-letter-elements",
+      "facts-mario-kart-64",
+      "facts-western-zodiac"
+    ],
+    "digests": [
+      "9015f0410c3e7744fa25769fca8b4598118aab6393122ae02e258aa1ffc2ea09",
+      "6ca9a7ed0e1c31b008b35db344cf2ff91aeadc95c9077a8960defcb29fa5344c",
+      "4093e62b808454a5559020aa32d0b0bfc58978128cfad226622d9ce75d2bcf67",
+      "e0c428953117f4e482c999a85aa538b5a4af8c9532c78d7397e77346d0c8f991",
+      "9dcf1b0b814f1082c27e593e9d518052a133a685d3a67aba1f0707757108a179"
+    ]
+  },
+  {
+    "number": "002",
+    "day": "2026-10-20",
+    "questionIds": [
+      "facts-germany-neighbours",
+      "facts-bond-actors",
+      "facts-ancient-wonders",
+      "facts-greek-alphabet",
+      "facts-taylor-albums"
+    ],
+    "digests": [
+      "bfa6a747c4fd64ea0c5f9073ae4b3defc4e22200533b9c45a92459af11ec7d80",
+      "6f680615e65a843b20b4030a7e97dfa841bf5b2ea483d79d8da74c2878cf8d48",
+      "f88194c4bd5f81e5fed26c2d7f987741c3a13bdb046c83a087d6f908c06852cf",
+      "67ef52f7f71f57549588dbd300b7b192fe690e1a06e935b90249571e2b5f8efb",
+      "1171b7c53aa6fceb1323cbafcc33029b2191883602b566d3b4d0ba4e7e9b4157"
+    ]
+  },
+  {
+    "number": "003",
+    "day": "2026-10-21",
+    "questionIds": [
+      "facts-planets",
+      "facts-great-lakes",
+      "facts-olympian-gods",
+      "facts-chinese-zodiac",
+      "facts-disney-renaissance"
+    ],
+    "digests": [
+      "fbcefbe85b7f4b50b3c8290ed8da93ee6eb76fff020605fa4fd89237fe4c0f41",
+      "cbc4c04e38edc155b7a01add6ddc8cd5be493c1526bd549f61fc3616b63d1bf4",
+      "19b95c0a96af4aa279176a50a83aac88d6f5bf2e45a3a510e95c46bd93998790",
+      "5305c0db4766a817190df2cf59d4120182a5769ff3ef4d728282b6bea83af5ef",
+      "50843c9408717e6ad528f71536b6e9b254071e861cf5783e40daaa319d170313"
+    ]
+  }
+]

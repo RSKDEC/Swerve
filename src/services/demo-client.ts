@@ -1,4 +1,10 @@
 import { questionById } from '../data/challenge-bank.ts';
+import { factualQuestionById } from '../data/factual-bank.ts';
+import {
+  matchFactual,
+  familiarityPoints,
+  VIEW_WINDOW,
+} from '../domain/familiarity.ts';
 import { MODES } from '../domain/modes.ts';
 import {
   advance,
@@ -114,9 +120,36 @@ export class DemoClient implements GameClient {
     const answer = submission.answer.trim().slice(0, 70);
     if (!timeout && !answer)
       throw new Error('Enter an answer before submitting.');
-    const question = questionById(
-      this.context.challenge.prompts[submission.roundIndex].id,
-    );
+    const questionId = this.context.challenge.prompts[submission.roundIndex].id;
+    const factual = factualQuestionById(questionId);
+    if (factual) {
+      const answerGroup = timeout ? null : matchFactual(factual, answer);
+      return this.persist(
+        recordResult(current, {
+          i: submission.roundIndex,
+          mode: chosen,
+          answer: answer || 'No answer',
+          group: answerGroup?.name ?? null,
+          score: answerGroup ? familiarityPoints(chosen, answerGroup.index) : 0,
+          timeout,
+          unknown: !timeout && !answerGroup,
+          distribution: [],
+          familiarity: {
+            kind: 'attention-v1',
+            index: answerGroup?.index ?? null,
+            views: answerGroup?.views ?? null,
+            window: VIEW_WINDOW,
+            answers: factual.answers.map((a) => ({
+              name: a.name,
+              index: a.index,
+              views: a.views,
+              score: familiarityPoints(chosen, a.index),
+            })),
+          },
+        }),
+      );
+    }
+    const question = questionById(questionId);
     const group = timeout ? null : match(question, answer);
     return this.persist(
       recordResult(current, {

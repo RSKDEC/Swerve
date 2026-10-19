@@ -1,6 +1,10 @@
-# swerve. — Read the crowd.
+# swerve. — Obvious or overlooked.
 
-A maintainable continuation of the original daily social prediction game prototype. The original five prompts, answer aliases, 30-second rounds, 2 Blend / 2 Swerve / 1 Sweet Spot tokens, scoring formulas, reveals, results, sharing and demo replay are preserved.
+An open-answer daily knowledge game. Five factual categories, 30-second rounds, and **2 Blend / 2 Swerve / 1 Sweet Spot** tokens. Type a valid answer, then discover whether it was familiar, overlooked, or in the middle.
+
+The current **editorial pilot contains 15 unique questions / 3 daily sets**, scheduled for **19–21 October 2026**. It is not a full-year bank. After those dates the app shows a preparation message instead of recycling questions. The previous 310 survey items remain archived and tested, but are not the current game.
+
+Scoring uses a frozen, source-backed **English Wikipedia attention index**, not invented survey percentages. Every listed correct answer earns 20–100 points. Blend rewards high attention, Swerve low attention, and Sweet Spot the middle 40–60 band. See [the scoring design and its limits](docs/factual-game.md).
 
 ## Run locally
 
@@ -40,15 +44,19 @@ The site address is `https://<username>.github.io/<repository>/`. GitHub Pages i
 
 Clipboard failures now offer selectable share text instead of claiming success. Blocked browser storage shows a notice and permits in-memory play. Valid same-day progress from the original prototype migrates automatically when served from the same browser origin.
 
-## One-year question bank: in progress
+## Content direction and year goal
 
-The goal is **1,825 verified questions for 365 nonrepeating days**. The first expansion has **310 approved questions**, 201 more than the previous version: 121 from Miroslav Sabo's Young People Survey, 61 travel questions and 19 community questions from UK government publications. These join the original 109 source-backed items.
+The goal remains 1,825 unique, entertaining factual prompts for a year. Only the **15 new factual prompts** count toward that direction; the archived 310 survey questions do not. The pilot covers films, games, geography, mythology, science, and wordplay. It needs playtesting and editorial expansion before a sustained public launch.
 
-The calendar now contains **62 complete days with zero reused questions**. It runs from **19 October through 19 December 2026**. **1,515 more approved questions are still needed for a year.** The old 100-day repeating schedule has been retired. A permanent reservation registry preserves question/concept identities and scoring digests; adding sources extends the calendar rather than looping old content.
+- `content/factual/catalog.json`: original prompts, precisely scoped accepted answers and reviewed aliases.
+- `content/factual/evidence.json` plus SHA-256: 92 daily article-view observations per answer and pinned factual-source revisions.
+- `content/factual/publication-registry.json`: immutable day reservations and question/scoring digests.
+- `scripts/build-factual-content.ts`: offline evidence validation and deterministic generation of question bank, calendar and credits. Existing reservations cannot silently change.
+- `scripts/fetch-factual-evidence.py`: explicit network refresh for a new editorial version, never used in builds or gameplay. It caches successful responses outside the project and respects rate-limit delays.
 
-See the [content guide](docs/content/README.md), [all-question inventory](docs/content/question-inventory.csv), [verification ledger](docs/content/survey-ledger.json), [progress audit](docs/content/survey-audit.json), and [current calendar](docs/content/challenge-calendar.md). `content/source-catalog.json` separates verified additions from held, blocked and rights-review sources. Candidate collection sizes never count as prepared questions.
+The active game has no answer buttons or claimed population percentages. The reveal explains the score and lets players explore all accepted answers. Scores use the same frozen evidence for everyone, without live AI judging or a speed bonus.
 
-All percentages are either recorded-response frequencies or official weighted shares, with bases, original wording, file hashes and spreadsheet coordinates. No person counts are inferred from weighted estimates. Historical populations and years appear with prompts; a small Data credits link carries each source's CC BY, CC0 or Open Government Licence attribution. Numeric intermediate scale points retain their original labels.
+Historical survey evidence and policy remain under `content/surveys` and [the archived survey guide](docs/content/README.md). They are retained for audit and compatibility, not used as a substitute for the new content goal.
 
 ## Architecture and evidence
 
