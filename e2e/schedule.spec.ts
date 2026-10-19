@@ -1,8 +1,11 @@
 import { test, expect } from '@playwright/test';
+import { PREPARED_DAYS, questionById } from '../src/data/challenge-bank.ts';
+import { points } from '../src/domain/scoring.ts';
+import type { Mode } from '../src/domain/types.ts';
 
-test('first prepared day completes with its own questions, scores, share number and saved results', async ({
+test('verified daily game supports response choices, real scoring, credits, saving, sharing and practice', async ({
   page,
-}) => {
+}, testInfo) => {
   await page.clock.install({ time: new Date('2026-10-20T12:00:00Z') });
   await page.addInitScript(() => {
     Object.defineProperty(navigator, 'clipboard', {
@@ -16,50 +19,164 @@ test('first prepared day completes with its own questions, scores, share number 
   });
   await page.goto('/');
   await expect(page.locator('.tag')).toContainText('#002');
+  await expect(
+    page.getByRole('link', { name: 'Data credits', exact: true }),
+  ).toHaveAttribute('href', './data-credits.html');
   await page.getByRole('button', { name: /Play today/ }).click();
-  await expect(page.getByRole('heading')).toHaveText(
-    'Name a food people order when nobody wants to cook.',
-  );
-  const rounds = [
-    ['blend', 'pizza', 88],
-    ['swerve', 'dusting', 88],
-    ['sweet', 'wifi', 95],
-    ['swerve', 'luggage', 88],
-    ['blend', 'hello', 75],
-  ] as const;
-  for (const [i, [mode, answer, score]] of rounds.entries()) {
-    await page.locator(`[data-mode="${mode}"]`).click();
-    await page.getByLabel('YOUR ANSWER', { exact: true }).fill(answer);
+  const modes: Mode[] = ['blend', 'swerve', 'sweet', 'swerve', 'blend'];
+  let expected = 0;
+  for (const [i, id] of PREPARED_DAYS[1].questionIds.entries()) {
+    const q = questionById(id);
+    const group = q.groups[0];
+    await expect(page.getByRole('heading')).toHaveText(q.q);
+    await expect(page.locator('.hint')).toContainText(`${q.source!.year}`);
+    await expect(page.locator('.answer-choice')).toHaveCount(q.groups.length);
+    await expect(page.locator('.answer-choice').first()).toBeDisabled();
+    await page.locator(`[data-mode="${modes[i]}"]`).click();
+    await expect(
+      page.getByLabel('YOUR ANSWER', { exact: true }),
+    ).not.toBeFocused();
+    const choice = page.getByRole('button', { name: group.name, exact: true });
+    expect((await choice.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+    await choice.click();
+    await expect(choice).toHaveAttribute('aria-pressed', 'true');
+    await expect(page.getByLabel('YOUR ANSWER', { exact: true })).toHaveValue(
+      group.name,
+    );
+    if (i === 0) {
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.screenshot({
+        path: `test-results/${testInfo.project.name}-verified-round.png`,
+        fullPage: true,
+      });
+    }
+    if (i === 0) {
+      await page.clock.fastForward(5000);
+      await page.reload();
+      await expect(
+        page.getByRole('button', { name: group.name, exact: true }),
+      ).toHaveAttribute('aria-pressed', 'true');
+      expect(
+        Number(
+          (await page.locator('#timer').textContent())!.replace(/\D/g, ''),
+        ),
+      ).toBeLessThanOrEqual(25);
+    }
     await page.getByRole('button', { name: 'Lock it in' }).click();
+    const score = points(modes[i], group.pct);
+    expected += score;
     await expect(page.locator('.big')).toHaveText(`${score} / 100`);
+    await expect(page.getByText('WHAT THE REFERENCE GROUP SAID')).toBeVisible();
+    await expect(
+      page.getByRole('link', { name: 'Source details' }),
+    ).toHaveAttribute('href', `./data-credits.html#${id}`);
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= window.innerWidth,
+      ),
+    ).toBe(true);
     await page
       .getByRole('button', {
         name: i === 4 ? 'See your results' : 'Next question',
       })
       .click();
   }
-  await expect(page.locator('.result-number')).toContainText('434');
+  await expect(page.locator('.result-number')).toContainText(String(expected));
   await page.getByRole('button', { name: 'Copy result', exact: true }).click();
   expect(
     await page.evaluate(() => (window as unknown as { copied: string }).copied),
-  ).toContain('swerve. #002');
+  ).toContain(`swerve. #002\n${expected}/500`);
   await page.reload();
-  await expect(page.locator('.result-number')).toContainText('434');
+  await expect(page.locator('.result-number')).toContainText(String(expected));
+  await page.getByRole('button', { name: 'Replay for practice' }).click();
+  await page.getByRole('button', { name: 'Keep my score' }).click();
+  await expect(page.locator('.result-number')).toContainText(String(expected));
   await page.clock.fastForward(24 * 60 * 60 * 1000);
   await page.reload();
   await expect(page.locator('.tag')).toContainText('#003');
   await page.getByRole('button', { name: /Play today/ }).click();
   await expect(page.getByRole('heading')).toHaveText(
-    'What makes people rush in the morning?',
+    questionById(PREPARED_DAYS[2].questionIds[0]).q,
   );
 });
 
-test('scheduled draft survives reload and the bank end shows a clear message without replaying old content', async ({
+test('launch retires fabricated saves; source credits disclose counts and a checked historical example', async ({
   page,
 }) => {
-  await page.clock.install({ time: new Date('2027-01-27T12:00:00Z') });
+  await page.clock.install({ time: new Date('2026-10-19T12:00:00Z') });
   await page.goto('/');
-  await expect(page.locator('.tag')).toContainText('#101');
+  await page.evaluate(() =>
+    localStorage.setItem(
+      'swerve_attempt_v2:demo-2026-10-19',
+      JSON.stringify({ phase: 'complete', results: [] }),
+    ),
+  );
+  await page.reload();
+  await expect(page.getByRole('button', { name: /Play today/ })).toBeVisible();
+  await page.getByRole('button', { name: /Play today/ }).click();
+  await expect(page.getByRole('heading')).toHaveText(
+    questionById(PREPARED_DAYS[0].questionIds[0]).q,
+  );
+  await page.goto('/data-credits.html');
+  await expect(
+    page.getByRole('heading', { name: 'Data credits' }),
+  ).toBeVisible();
+  await expect(page.getByText(/310 verified unique questions/)).toBeVisible();
+  const item = page.locator('#comma-survey-01');
+  await item.locator('summary').click();
+  await expect(item).toContainText('641');
+  await expect(item).toContainText('488');
+  await expect(item).toContainText('n=1,129 valid item responses');
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth,
+    ),
+  ).toBe(true);
+  await page.goto('/data-credits.html#steak-survey-09');
+  await expect(page.locator('#steak-survey-09')).toHaveAttribute('open', '');
+  await expect(page.locator('#steak-survey-09')).toContainText(
+    'n=432 valid item responses',
+  );
+});
+
+test('a question with twelve recorded responses stays usable on narrow screens', async ({
+  page,
+}) => {
+  const target = 'thanksgiving-2015-54';
+  const day = PREPARED_DAYS.find((d) => d.questionIds.includes(target))!;
+  const round = day.questionIds.indexOf(target);
+  await page.clock.install({ time: new Date(`${day.day}T12:00:00Z`) });
+  await page.goto('/');
+  await page.getByRole('button', { name: /Play today/ }).click();
+  const modes: Mode[] = ['blend', 'swerve', 'sweet', 'blend', 'swerve'];
+  for (let i = 0; i <= round; i++) {
+    if (i === round) {
+      await expect(page.getByRole('heading')).toContainText('kids’ tables');
+      await expect(page.locator('.answer-choice')).toHaveCount(12);
+    }
+    await page.locator(`[data-mode="${modes[i]}"]`).click();
+    await page.locator('.answer-choice').last().click();
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= window.innerWidth,
+      ),
+    ).toBe(true);
+    await page.getByRole('button', { name: 'Lock it in' }).click();
+    await expect(page.getByText('WHAT THE REFERENCE GROUP SAID')).toBeVisible();
+    if (i < round)
+      await page.getByRole('button', { name: 'Next question' }).click();
+  }
+});
+
+test('last scheduled draft survives reload and exhausted calendar does not silently repeat', async ({
+  page,
+}) => {
+  const last = PREPARED_DAYS.at(-1)!;
+  await page.clock.install({ time: new Date(`${last.day}T12:00:00Z`) });
+  await page.goto('/');
+  await expect(page.locator('.tag')).toContainText(
+    `#${PREPARED_DAYS.at(-1)!.number}`,
+  );
   await page.getByRole('button', { name: /Play today/ }).click();
   const prompt = await page.getByRole('heading').textContent();
   await page.locator('[data-mode="blend"]').click();

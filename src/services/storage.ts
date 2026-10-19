@@ -178,7 +178,7 @@ export class LocalAttempts implements AttemptRepository {
     );
     if (validAttempt(saved, challenge, player)) return saved;
     // V1 stored the original five prompts only; never attach those scores to a prepared set.
-    if (challenge.number !== '001') return null;
+    if (challenge.number !== '001' || challenge.kind !== 'demo') return null;
     // Keep today's completed rounds from the original prototype. It never stored active rounds.
     const legacy = parse(this.storage.getItem('swerve_demo_v1')) as {
       day?: string;

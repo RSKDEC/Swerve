@@ -4,7 +4,7 @@ A maintainable continuation of the original daily social prediction game prototy
 
 ## Run locally
 
-Use Node **22.18+** (Node 24 recommended).
+Use Node **22.18+** (Node 24 recommended) and **Python 3.10+** for source-data validation. Hosting only needs the generated static files.
 
 ```bash
 npm ci
@@ -14,7 +14,7 @@ npm run dev
 Open the local URL printed by Vite. This version uses modules and needs an HTTP server; opening `index.html` directly as a file is no longer supported.
 
 ```bash
-npm run check       # TypeScript, domain/service tests, production build
+npm run check       # Evidence validation, TypeScript, game/service tests, production build
 npm run test:e2e    # Browser regression tests at three viewport sizes
 npm run preview    # Serve dist after building
 ```
@@ -40,11 +40,15 @@ The site address is `https://<username>.github.io/<repository>/`. GitHub Pages i
 
 Clipboard failures now offer selectable share text instead of claiming success. Blocked browser storage shows a notice and permits in-memory play. Valid same-day progress from the original prototype migrates automatically when served from the same browser origin.
 
-## 100 new days prepared
+## One-year question bank: in progress
 
-The app includes **100 new daily sets (500 new prompts)**, running from **20 October 2026 through 27 January 2027**, with five different prompts each day. The first new set opens at 00:00 UTC on 20 October, or 03:00 Cairo time. Today's original #001 stays unchanged; new sets are #002–#101. Each set mixes five categories, and no new prompt repeats within the schedule.
+The goal is **1,825 verified questions for 365 nonrepeating days**. The first expansion has **310 approved questions**, 201 more than the previous version: 121 from Miroslav Sabo's Young People Survey, 61 travel questions and 19 community questions from UK government publications. These join the original 109 source-backed items.
 
-Review the [content guide](docs/content/README.md), [100-day calendar](docs/content/100-day-calendar.md), or [CSV with all answer groups and aliases](docs/content/100-day-calendar.csv). Source JSON lives in `src/data/`; regenerate exports with `npm run content:export`. Percentages are authored demo weights, not collected player responses. After the final prepared date, the app shows a preparation message until the calendar is extended.
+The calendar now contains **62 complete days with zero reused questions**. It runs from **19 October through 19 December 2026**. **1,515 more approved questions are still needed for a year.** The old 100-day repeating schedule has been retired. A permanent reservation registry preserves question/concept identities and scoring digests; adding sources extends the calendar rather than looping old content.
+
+See the [content guide](docs/content/README.md), [all-question inventory](docs/content/question-inventory.csv), [verification ledger](docs/content/survey-ledger.json), [progress audit](docs/content/survey-audit.json), and [current calendar](docs/content/challenge-calendar.md). `content/source-catalog.json` separates verified additions from held, blocked and rights-review sources. Candidate collection sizes never count as prepared questions.
+
+All percentages are either recorded-response frequencies or official weighted shares, with bases, original wording, file hashes and spreadsheet coordinates. No person counts are inferred from weighted estimates. Historical populations and years appear with prompts; a small Data credits link carries each source's CC BY, CC0 or Open Government Licence attribution. Numeric intermediate scale points retain their original labels.
 
 ## Architecture and evidence
 
@@ -57,7 +61,7 @@ The source is organized under `src/domain`, `src/data`, `src/services`, `src/ui`
 
 ## Current scope
 
-This is still an explicitly labeled **playable demo**. Date-based selection now covers 100 new daily sets; percentages are authored fixtures. Unknown answers earn zero. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
+This remains a **local playable application**. Scheduled percentages come from recorded survey responses or official weighted survey tables; the original authored fixture is retained only for pre-launch demo dates and regression testing. Unknown answers earn zero. Public prompts offer actual response choices. Local practice replay remains available. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
 
 The HTTP client is implemented and tested against mocked responses. No server, database or authentication provider is provisioned. Leave `VITE_SWERVE_API_BASE` unset to play locally. To connect a real server, implement [the contract](docs/backend-contract.md), set `VITE_SWERVE_API_BASE=/api` at build time and rebuild. Browser environment variables are public; keep secrets on the server.
 

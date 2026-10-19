@@ -49,6 +49,6 @@ export function renderResults(context: GameContext) {
       <button class="btn" id="share">Share your Swerve ${arrowIcon}</button
       ><button class="btn secondary" style="margin-top:10px" id="copy">
         Copy result</button
-      >${challenge.kind === 'demo' ? '<button class="btn ghost" style="margin-top:10px" id="reset">↻ Replay demo</button>' : ''}${footer(challenge)}
+      >${challenge.kind === 'demo' || challenge.practiceAllowed ? `<button class="btn ghost" style="margin-top:10px" id="reset">↻ ${challenge.kind === 'demo' ? 'Replay demo' : 'Replay for practice'}</button>` : ''}${footer(challenge)}
     </div>`;
 }

@@ -19,7 +19,7 @@ export function renderHome(context: GameContext) {
       <h1>Can you <span class="accent">read</span><br />the crowd?</h1>
       <p>
         Sometimes fit in. Sometimes stand out. Five prompts to prove you know
-        what everyone else is thinking.
+        how well you can predict the crowd.
       </p>
     </div>
     <div class="orb" aria-hidden="true">
@@ -38,7 +38,7 @@ export function renderHome(context: GameContext) {
       </div>
     </div>
     <div class="bottom">
-      <p class="footer-note">New prompts daily · Resets at 00:00 UTC</p>
+      <p class="footer-note">A new daily mix · Resets at 00:00 UTC</p>
       <button class="btn" id="start">
         ${attempt ? 'Continue today’s game' : 'Play today’s Swerve'}
         ${arrowIcon}</button

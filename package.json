@@ -15,7 +15,9 @@
     "test": "node --experimental-transform-types --test --experimental-test-isolation=none tests/*.test.ts",
     "test:e2e": "playwright test",
     "format": "prettier --write src tests e2e scripts docs *.json *.ts *.md index.html",
-    "check": "npm run typecheck && npm test && npm run build"
+    "check": "npm run content:check && npm run typecheck && npm test && npm run build",
+    "content:import": "python3 scripts/import-surveys.py",
+    "content:check": "python3 -m unittest discover -s tests -p \"test_*.py\" && python3 scripts/import-surveys.py --check && node scripts/export-content.ts --check"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",

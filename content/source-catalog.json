@@ -1,0 +1,115 @@
+{
+  "goal": {
+    "questions": 1825,
+    "questionsPerDay": 5,
+    "completeDays": 365,
+    "noRepeats": true
+  },
+  "reviewedAt": "2026-10-19",
+  "policy": "Counts below describe this reviewed batch. Candidate questions, repeated survey waves, demographic cuts and blocked collections do not count toward verified inventory.",
+  "collections": [
+    {
+      "id": "fivethirtyeight",
+      "status": "approved",
+      "approvedQuestions": 109,
+      "url": "https://github.com/fivethirtyeight/data",
+      "license": "CC BY 4.0",
+      "evidence": "Pinned source CSVs, READMEs, licence and SHA-256 hashes."
+    },
+    {
+      "id": "young-people-2013",
+      "status": "approved",
+      "approvedQuestions": 121,
+      "reviewedItems": 150,
+      "heldItems": 0,
+      "excludedItems": 29,
+      "url": "https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?datasetVersionNumber=2",
+      "license": "CC0 1.0",
+      "evidence": "Author metadata declares CC0; raw 1010-row responses, original-to-short column dictionary, translated questionnaire and version metadata archived.",
+      "reviewFile": "content/young-people-review.json"
+    },
+    {
+      "id": "ntas-2019-2020",
+      "status": "approved",
+      "approvedQuestions": 61,
+      "reviewedItems": 119,
+      "excludedItems": 58,
+      "url": "https://www.gov.uk/government/statistical-data-sets/national-travel-attitudes-study-ntas",
+      "license": "Open Government Licence v3.0",
+      "evidence": "Seven official ODS workbooks, full-precision weighted percentage cells, wave identifiers, unweighted item bases, exact sheet/row/header/column references and hashes.",
+      "reviewFile": "content/government-review.json",
+      "sourceIssue": "Wave 3 PDF and publication/table global totals differ by one person. Use each numeric table row\u2019s explicit item base and weighted percentages together; see docs/content/source-issues.md."
+    },
+    {
+      "id": "community-life-2025",
+      "status": "approved",
+      "approvedQuestions": 19,
+      "url": "https://www.gov.uk/government/statistics/community-life-survey-202425-annual-publication",
+      "license": "Open Government Licence v3.0",
+      "evidence": "Official ODS single-response counts; grouped totals discarded and each option count reconciled to its unweighted item base. Weighted headline estimates are not substituted.",
+      "reviewFile": "content/government-review.json"
+    },
+    {
+      "id": "participation-2025",
+      "status": "review-required",
+      "approvedQuestions": 0,
+      "url": "https://www.gov.uk/government/statistics/participation-survey-2024-25-annual-publication",
+      "license": "Open Government Licence v3.0",
+      "reason": "43-sheet workbook downloaded and profiled. Many tables contain checkbox answers, overlapping grouped totals, or different bases; direct single-response or clearly documented derived distributions need item-level review. No candidate count is claimed as ready."
+    },
+    {
+      "id": "food-and-you-wave9",
+      "status": "access-blocked",
+      "approvedQuestions": 0,
+      "url": "https://data.food.gov.uk/catalog/datasets/2cbce6a5-4041-4f18-af2a-f22dc99244a8",
+      "license": "Open Government Licence v3.0",
+      "reason": "Official catalogue provides CSV, numeric tables and user guide, but the published Azure Blob download host returned tunnel 403. No response data imported and no access restriction bypass attempted."
+    },
+    {
+      "id": "sapa-696",
+      "status": "access-blocked",
+      "approvedQuestions": 0,
+      "reportedSourceItems": 696,
+      "url": "https://doi.org/10.7910/DVN/SD7SVE",
+      "documentationUrl": "https://doi.org/10.5334/jopd.al",
+      "license": "CC0 according to the dataset authors",
+      "reason": "Author publication describes 696 items and 23681 respondents. Harvard Dataverse downloads/API returned 403 in this environment; item dictionaries and responses have not been audited. Overlap/clinical content still needs review. Reported source items are not verified game inventory."
+    },
+    {
+      "id": "public-attitudes-science-2019",
+      "status": "review-required",
+      "approvedQuestions": 0,
+      "url": "https://www.gov.uk/government/publications/public-attitudes-to-science-2019",
+      "reason": "Official methodology and report identified; complete numeric distributions, question wording and table-specific bases still need acquisition and review."
+    },
+    {
+      "id": "open-source-survey-2017",
+      "status": "review-required",
+      "approvedQuestions": 0,
+      "url": "https://opensourcesurvey.org/2017/",
+      "license": "CC0 1.0",
+      "reason": "Publisher offers questionnaire and response data with over 50 questions; evaluate accessible topics, conditional bases and duplicate content before importing."
+    },
+    {
+      "id": "gss-norc",
+      "status": "rights-review-required",
+      "approvedQuestions": 0,
+      "url": "https://gss.norc.org/terms-and-conditions.html",
+      "reason": "Public access and citation guidance are documented, alongside a broad copyright notice. No assumption of CC0 or blanket redistribution permission is made."
+    },
+    {
+      "id": "openpsychometrics",
+      "status": "rights-review-required",
+      "approvedQuestions": 0,
+      "url": "https://openpsychometrics.org/_rawdata/",
+      "reason": "Public downloads exist, but public-domain questionnaire items do not by themselves establish a blanket licence for all response datasets. Resolve dataset/instrument terms individually."
+    },
+    {
+      "id": "pew",
+      "status": "acquisition-and-rights-review-required",
+      "approvedQuestions": 0,
+      "url": "https://www.pewresearch.org/about/terms-and-conditions/",
+      "reason": "Terms permit attributed excerpts with required disclaimers, while restricting bulk reproduction and unauthorized automated scraping. No bulk import is approved."
+    }
+  ]
+}

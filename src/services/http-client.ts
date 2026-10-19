@@ -20,6 +20,8 @@ function validChallenge(value: unknown): value is Challenge {
     Number.isFinite(Date.parse(c.closesAt)) &&
     Date.parse(c.closesAt) > Date.parse(c.opensAt) &&
     typeof c.scoringVersion === 'string' &&
+    (c.practiceAllowed === undefined ||
+      typeof c.practiceAllowed === 'boolean') &&
     Number.isInteger(c.roundSeconds) &&
     c.roundSeconds > 0 &&
     c.roundSeconds <= 300 &&
@@ -30,7 +32,26 @@ function validChallenge(value: unknown): value is Challenge {
         p &&
         typeof p.id === 'string' &&
         typeof p.q === 'string' &&
-        typeof p.sub === 'string',
+        typeof p.sub === 'string' &&
+        (p.choices === undefined ||
+          (Array.isArray(p.choices) &&
+            p.choices.length >= 2 &&
+            p.choices.length <= 30 &&
+            p.choices.every(
+              (choice) =>
+                typeof choice === 'string' &&
+                choice.length > 0 &&
+                choice.length <= 70,
+            ))) &&
+        (p.source === undefined ||
+          (p.source !== null &&
+            typeof p.source.id === 'string' &&
+            typeof p.source.title === 'string' &&
+            Number.isInteger(p.source.year) &&
+            Number.isInteger(p.source.n) &&
+            p.source.n > 0 &&
+            typeof p.source.url === 'string' &&
+            p.source.url.startsWith('https://'))),
     )
   );
 }

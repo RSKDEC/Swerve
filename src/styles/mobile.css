@@ -240,3 +240,41 @@ dialog .btn {
     scroll-behavior: auto !important;
   }
 }
+
+/* Recorded response choices remain separate from the strategy controls. */
+.answer-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+.answer-choice {
+  min-height: 44px;
+  max-width: 100%;
+  padding: 10px 13px;
+  border: 1px solid var(--stroke);
+  border-radius: 12px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.answer-choice[aria-pressed='true'] {
+  background: var(--panel2);
+  border-color: #7bdec3;
+}
+.answer-choice:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.answer-choice:focus-visible {
+  outline: 3px solid #c3a8ff;
+  outline-offset: 2px;
+}
+.footer-note a,
+.smallprint a {
+  color: inherit;
+  text-underline-offset: 3px;
+}

@@ -1,0 +1,162 @@
+{
+  "repository": "https://github.com/fivethirtyeight/data",
+  "commit": "4c1ff5e3aef1816ae04af63218015066e186c147",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+    },
+    {
+      "path": "README.md",
+      "sha256": "df6cc1332e12ee4bb5c38d1a9247dd7250ef6b937ecd31069d6532ec45bc9d60"
+    },
+    {
+      "path": "comma-survey/comma-survey.csv",
+      "sha256": "ca41a94aea9b7845b1f03c79590d540814431eb8c124905af0950885aa7e867b"
+    },
+    {
+      "path": "flying-etiquette-survey/flying-etiquette.csv",
+      "sha256": "d65ad4105666732c9cb93780f6ac28617f916c2450ac48618f89ac0145d670f2"
+    },
+    {
+      "path": "food-world-cup/food-world-cup-data.csv",
+      "sha256": "0ada78c5e93576f50fa84954d1c940292c2211ff9f0cfc0ba5f2d46ac232dd98"
+    },
+    {
+      "path": "star-wars-survey/StarWars.csv",
+      "sha256": "8b4ae2a4ce59d124ac98ce5810a22bca5710e1dcd644fb7cb26344811ba3f989"
+    },
+    {
+      "path": "steak-survey/steak-risk-survey.csv",
+      "sha256": "cc25080bf53209ba5034d738e857bd6106314f8e49ac7c203dbca9ff35474a1a"
+    },
+    {
+      "path": "thanksgiving-2015/thanksgiving-2015-poll-data.csv",
+      "sha256": "992cc96b60f1591a7efb2480c2a3461d7f4f77c965ce8e1d9ca8b6ef78b33527"
+    },
+    {
+      "path": "comma-survey/README.md",
+      "sha256": "7ca630bb7aa0f6457c71b7ef14a67c852e663eccd03b81c56582bd1f156dd985"
+    },
+    {
+      "path": "flying-etiquette-survey/README.md",
+      "sha256": "75539084041d08b4caeeec5ae3194bb89025b3d35a04f3116fed5f76af9cbeac"
+    },
+    {
+      "path": "food-world-cup/README.md",
+      "sha256": "e7d65d2dfe39443c6d91aa1b902bc0f26a659a7c2717c363b63ec78892cbe820"
+    },
+    {
+      "path": "star-wars-survey/README.md",
+      "sha256": "3dfe3c83190eef7e806c9eadcbd87d57bff7ff1769a214f753e810a70e1f23df"
+    },
+    {
+      "path": "steak-survey/README.md",
+      "sha256": "a79af8c57213038bddfbea4976bd47995577311963c8e9bd1e140006f9678026"
+    },
+    {
+      "path": "thanksgiving-2015/README.md",
+      "sha256": "6379c83c28e39479cd855fd44c7e81968470b4c55f411eab3cf2fc232db5e031"
+    },
+    {
+      "path": "young-people-2013/columns.csv",
+      "sha256": "4422e3f7bb33e020211c6d0599e39d9d85b4d852b6f66a2a64dba7bf20704e4c",
+      "url": "https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?datasetVersionNumber=2"
+    },
+    {
+      "path": "young-people-2013/metadata.json",
+      "sha256": "03f805591e1840b9ce9e7bc31feb9ae6e6957333916f7e97f2369847def94771",
+      "url": "https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?datasetVersionNumber=2"
+    },
+    {
+      "path": "young-people-2013/questionnaire.md",
+      "sha256": "c40db5176311b0882f28064595a4640c6e53b648be3f7e3309e6268b6b968f65",
+      "url": "https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?datasetVersionNumber=2"
+    },
+    {
+      "path": "young-people-2013/responses.csv",
+      "sha256": "e6b2297a06292c439f58d33ea11e35d154dbe4ebdad0e2bff032ddf07d14af01",
+      "url": "https://www.kaggle.com/datasets/miroslavsabo/young-people-survey?datasetVersionNumber=2"
+    },
+    {
+      "path": "ntas-ntas0601/ntas0601.ods",
+      "sha256": "1d3018db24d4c04cdeef86b2b598072dfd402249edb23d6c404cff9bd1c73957",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a018fa8f57ac14f692c/ntas0601.ods"
+    },
+    {
+      "path": "ntas-ntas0101/ntas0101.ods",
+      "sha256": "ff58bc782eda39d45377d8860ade5590f010bc46a5598f98be426da1e506a818",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a00e90e071a5b04b50c/ntas0101.ods"
+    },
+    {
+      "path": "ntas-ntas0301/ntas0301.ods",
+      "sha256": "f92e16cbbe5b5fd4aca91d84ef71d9cd15afa714e384429224e83a1f263c2f1b",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a00d3bf7f1b1c0d8248/ntas0301.ods"
+    },
+    {
+      "path": "ntas-ntas0701/ntas0701.ods",
+      "sha256": "c006015a54c7962da363cb9d6d062ac4c2a5027ec155e3d5ab157ac20285e9af",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a018fa8f57ac5fbce4c/ntas0701.ods"
+    },
+    {
+      "path": "ntas-ntas0401/ntas0401.ods",
+      "sha256": "b09df737e98e742fb2d4348a5ae292b5e05d5db06eebc58099bbb41ba0edfa06",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a008fa8f57ac5fbce4b/ntas0401.ods"
+    },
+    {
+      "path": "ntas-ntas0501/ntas0501.ods",
+      "sha256": "8dc2a6bab0d152f1950c4ead500d5ea215160b7ee272a8e30971aaf88c626365",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a00e90e071a6147b2e9/ntas0501.ods"
+    },
+    {
+      "path": "ntas-ntas0201/ntas0201.ods",
+      "sha256": "6a787e100c6aaf661ae82bdf4c4cc0380baac30e45087eca89b5fff1d9872127",
+      "url": "https://assets.publishing.service.gov.uk/media/5f241a008fa8f57ad0429075/ntas0201.ods"
+    },
+    {
+      "path": "community-life-2025/tables.ods",
+      "sha256": "d4d0d7937234426d1145b294a80825d21fe388fb7a4a3518983dca127cba46a1",
+      "url": "https://assets.publishing.service.gov.uk/media/6a6b26e30c36759b5ccaa210/Community_Life_Survey_2024_25_Annual_data_tables.FINAL.ods"
+    },
+    {
+      "path": "government-ntas-metadata.json",
+      "sha256": "ad1f6c15e394fc041fdd3e909ce9230a11666355608a4c151defcf48c2ee12e9",
+      "url": "https://www.gov.uk/api/content/government/statistical-data-sets/national-travel-attitudes-study-ntas"
+    },
+    {
+      "path": "government-community-metadata.json",
+      "sha256": "62c910a3202f36f8b7fda724cb26cbe72310f9e84658b3a42fe9eb87392bc07d",
+      "url": "https://www.gov.uk/api/content/government/statistics/community-life-survey-202425-annual-publication"
+    },
+    {
+      "path": "ntas-wave-1-report.pdf",
+      "sha256": "e89ac4594e337b0ecaf2eaa358d1026ed6d1c49cab9129cc444982d7ca577afc",
+      "url": "https://assets.publishing.service.gov.uk/media/5d0cb3dded915d094666a780/national-travel-attitudes-study-2019-wave-1.pdf"
+    },
+    {
+      "path": "ntas-wave-1-metadata.json",
+      "sha256": "2ce192d97113a094f13dab38e2e45298d909ac667bb5dadb1318be55c48bb21e",
+      "url": "https://www.gov.uk/api/content/government/statistics/national-travel-attitudes-study-ntas-2019-wave-1"
+    },
+    {
+      "path": "ntas-wave-2-report.pdf",
+      "sha256": "5faa5917b9a0ac06eef4fe2238293d2c22d96db48c190c2d1d18662916e939e2",
+      "url": "https://assets.publishing.service.gov.uk/media/5e1f2f3940f0b611435cc671/national-travel-attitudes-study-wave-2.pdf"
+    },
+    {
+      "path": "ntas-wave-2-metadata.json",
+      "sha256": "1b6bc153a925a755ace8e875adb3f1b0dd8805e7a031d5f3bb038a8844113730",
+      "url": "https://www.gov.uk/api/content/government/statistics/national-travel-attitudes-study-wave-2"
+    },
+    {
+      "path": "ntas-wave-3-report.pdf",
+      "sha256": "cf6e3c56dc91b743d83e823c5fa1cc53bb72acbfec3d6fd8d97263ed48dbfac2",
+      "url": "https://assets.publishing.service.gov.uk/media/5f2417c2e90e071a597ba469/national-travel-attitudes-study-wave-3.pdf"
+    },
+    {
+      "path": "ntas-wave-3-metadata.json",
+      "sha256": "2b5126b3ec3a2ffb8b9e835dcfe3aeb8ec887d7a37a8cb75f96a3e8847f00257",
+      "url": "https://www.gov.uk/api/content/government/statistics/national-travel-attitudes-study-wave-3"
+    }
+  ]
+}

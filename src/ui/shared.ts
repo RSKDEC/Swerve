@@ -29,11 +29,13 @@ export const safe = (value: string): string =>
         char
       ]!,
   );
+export const percent = (value: number): string =>
+  new Intl.NumberFormat('en', { maximumFractionDigits: 1 }).format(value);
 
 export function progress(attempt: Attempt, challenge: Challenge): string {
   return `<div class="progress" role="img" aria-label="${attempt.results.length} of ${challenge.prompts.length} rounds completed">${challenge.prompts.map((_, i) => `<div class="seg ${i < attempt.results.length ? 'done' : i === attempt.results.length ? 'current' : ''}"></div>`).join('')}</div>`;
 }
 
 export function footer(challenge: Challenge): string {
-  return `<div class="footer-note">${challenge.kind === 'demo' ? 'Demo · Sample crowd data · No live leaderboard' : 'A new challenge every day · UTC'}</div>`;
+  return `<div class="footer-note">${challenge.kind === 'demo' ? 'Demo · Sample crowd data · No live leaderboard' : 'A new challenge every day · UTC · <a href="./data-credits.html" target="_blank" rel="noopener">Data credits</a>'}</div>`;
 }
