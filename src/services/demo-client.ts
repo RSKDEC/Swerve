@@ -1,4 +1,4 @@
-import { DEMO_QUESTIONS } from '../data/demo-questions.ts';
+import { questionById } from '../data/challenge-bank.ts';
 import { MODES } from '../domain/modes.ts';
 import {
   advance,
@@ -114,7 +114,9 @@ export class DemoClient implements GameClient {
     const answer = submission.answer.trim().slice(0, 70);
     if (!timeout && !answer)
       throw new Error('Enter an answer before submitting.');
-    const question = DEMO_QUESTIONS[submission.roundIndex];
+    const question = questionById(
+      this.context.challenge.prompts[submission.roundIndex].id,
+    );
     const group = timeout ? null : match(question, answer);
     return this.persist(
       recordResult(current, {

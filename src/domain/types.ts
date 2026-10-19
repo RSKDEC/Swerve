@@ -17,6 +17,15 @@ export interface DemoQuestion {
   sub: string;
   groups: AnswerGroup[];
 }
+export interface PreparedQuestion extends DemoQuestion {
+  id: string;
+  category: string;
+}
+export interface PreparedDay {
+  number: string;
+  day: string;
+  questionIds: string[];
+}
 export interface Prompt {
   id: string;
   q: string;

@@ -42,3 +42,11 @@ The complete game regression produces **437/500** for: Blend/phone, Swerve/wine,
 Other checks cover blank and unknown answers, exact deadline boundary, typed-answer timeout, no-strategy fallback, refresh/draft continuity, expiry while help is open, duplicate submission, stale attempt rejection, UTC rollover, legacy migration, malformed saves, blocked storage, HTTP payloads/clock/error responses, clipboard failure, HTML escaping, keyboard submission and modal focus return.
 
 Remaining production work is explicit in [the backend contract](backend-contract.md): real challenge scheduling, validated and frozen reference distributions, authenticated guest/account sessions, transactional daily locks, authoritative scoring and account linking. None of those are simulated as live services in this release.
+
+## 5 — Prepare 100 new daily challenges
+
+Added 500 new, distinct English-language prompts across ten categories, with five authored answer groups and curated aliases for every prompt. The explicit calendar assigns each prompt exactly once across 100 days, from 20 October 2026 through 27 January 2027. Categories rotate within daily sets. A readable calendar and a 500-row CSV export support editorial review; the original #001 remains available before the first new date.
+
+The demo service now scores using each published prompt ID rather than an index in the original fixed five-question array. This preserves the scoring bank for a round crossing midnight. Old v1 saves migrate only into the original set, so they cannot attach an old score to a different prepared question. All percentages remain authored demonstration weights; no survey is implied. The bank ends with an explicit preparation message instead of quietly repeating old content.
+
+Validation: **25 unit/service tests** passed, including a full five-round game for every one of the 100 dates. **24 browser scenarios** passed across mobile, small-phone and desktop viewports, covering the original game plus the first/last prepared sets, UTC rollover, share numbering, draft restoration and exhaustion. Strict type checking and the production build passed. Review the [content guide](content/README.md) and [calendar](content/100-day-calendar.md) for the exact schedule and publication assumptions.

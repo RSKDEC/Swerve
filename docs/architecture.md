@@ -10,7 +10,7 @@ ui/controller → screen renderers + shared HTML helpers
 GameClient interface
        ├─ DemoClient → challenge / player / attempt repositories
        │                   ↓                 ↓
-       │             fixed demo data   validated localStorage
+       │             dated demo bank   validated localStorage
        │                   ↓
        │             pure game/scoring rules
        └─ HttpGameClient → same-origin API (future server)
@@ -22,6 +22,7 @@ GameClient interface
 - `src/domain/game.ts`: explicit state transitions, token counts, totals, countdown calculation and spoiler-free summaries.
 - `src/domain/scoring.ts`: original normalization, matching and score formulas. Used by the local demo; the HTTP client never computes an official score.
 - `src/data/demo-questions.ts`: the original authored fixture with unchanged percentages and aliases.
+- `src/data/challenge-bank.ts`: stable prompt-ID lookup, original-fixture compatibility and access to the explicit 100-day calendar and 500 new authored prompts. Prepared questions and dates are maintained in adjacent JSON files.
 - `src/services/contracts.ts`: replaceable game and repository boundaries.
 - `src/services/demo-client.ts`: local orchestration with injectable clock/IDs and idempotent completed-round handling.
 - `src/services/storage.ts`: fallible browser storage, persistent guest, runtime save validation and legacy migration. Failure is visible and falls back to memory.
@@ -46,7 +47,7 @@ The UI uses a short interval for display, but `deadline - now` determines time. 
 
 Version 2 saves are keyed by challenge ID (`swerve_attempt_v2:demo-YYYY-MM-DD`). They store the active round, answer, mode, results and phase. Valid same-day v1 completed rounds migrate with unchanged scores; malformed or stale legacy records are ignored. Replay replaces the demo attempt, preserving guest identity.
 
-Demo #001 repeats the same content each UTC day. The date-specific ID isolates attempts; it is not a live challenge feed. A loaded demo attempt can finish across midnight; a reload or new start resolves the current UTC challenge. Real close-time policy belongs to the backend contract.
+Demo #001 is retained before 20 October 2026. From that date, an explicit calendar selects #002–#101, five new questions per date, through 27 January 2027. The prepared bank has 500 unique prompts and does not loop after it ends. Date-specific IDs isolate attempts; published prompt IDs choose the scoring groups. A loaded demo attempt can finish across midnight using its original groups; a reload or new start resolves the current UTC challenge. Only original #001 accepts v1 migration. Real close-time policy and a trusted clock belong to the backend contract.
 
 Storage events reconcile sequential updates between tabs. The demo still has no transactional cross-tab locking, tamper protection, account sync or trustworthy leaderboard. Never promote its stored scores to official results. A server must enforce uniqueness and atomic transitions.
 

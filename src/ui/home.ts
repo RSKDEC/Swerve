@@ -38,6 +38,7 @@ export function renderHome(context: GameContext) {
       </div>
     </div>
     <div class="bottom">
+      <p class="footer-note">New prompts daily · Resets at 00:00 UTC</p>
       <button class="btn" id="start">
         ${attempt ? 'Continue today’s game' : 'Play today’s Swerve'}
         ${arrowIcon}</button
