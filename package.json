@@ -11,9 +11,10 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "typecheck": "tsc --noEmit",
+    "content:export": "node scripts/export-content.ts",
     "test": "node --experimental-transform-types --test --experimental-test-isolation=none tests/*.test.ts",
     "test:e2e": "playwright test",
-    "format": "prettier --write src tests e2e docs *.json *.ts *.md index.html",
+    "format": "prettier --write src tests e2e scripts docs *.json *.ts *.md index.html",
     "check": "npm run typecheck && npm test && npm run build"
   },
   "devDependencies": {

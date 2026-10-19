@@ -9,9 +9,10 @@
     "noUnusedParameters": true,
     "noEmit": true,
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "types": ["node", "vite/client"]
   },
-  "include": ["src", "tests", "e2e", "*.ts"]
+  "include": ["src", "tests", "e2e", "scripts", "*.ts"]
 }

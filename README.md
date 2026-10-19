@@ -40,6 +40,12 @@ The site address is `https://<username>.github.io/<repository>/`. GitHub Pages i
 
 Clipboard failures now offer selectable share text instead of claiming success. Blocked browser storage shows a notice and permits in-memory play. Valid same-day progress from the original prototype migrates automatically when served from the same browser origin.
 
+## 100 new days prepared
+
+The app includes **100 new daily sets (500 new prompts)**, running from **20 October 2026 through 27 January 2027**, with five different prompts each day. The first new set opens at 00:00 UTC on 20 October, or 03:00 Cairo time. Today's original #001 stays unchanged; new sets are #002–#101. Each set mixes five categories, and no new prompt repeats within the schedule.
+
+Review the [content guide](docs/content/README.md), [100-day calendar](docs/content/100-day-calendar.md), or [CSV with all answer groups and aliases](docs/content/100-day-calendar.csv). Source JSON lives in `src/data/`; regenerate exports with `npm run content:export`. Percentages are authored demo weights, not collected player responses. After the final prepared date, the app shows a preparation message until the calendar is extended.
+
 ## Architecture and evidence
 
 - [Original mechanics and file audit](docs/prototype-audit.md)
@@ -51,7 +57,7 @@ The source is organized under `src/domain`, `src/data`, `src/services`, `src/ui`
 
 ## Current scope
 
-This is still an explicitly labeled **playable demo**. The content repeats as #001 each UTC day; percentages are authored fixtures. Unknown answers earn zero. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
+This is still an explicitly labeled **playable demo**. Date-based selection now covers 100 new daily sets; percentages are authored fixtures. Unknown answers earn zero. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
 
 The HTTP client is implemented and tested against mocked responses. No server, database or authentication provider is provisioned. Leave `VITE_SWERVE_API_BASE` unset to play locally. To connect a real server, implement [the contract](docs/backend-contract.md), set `VITE_SWERVE_API_BASE=/api` at build time and rebuild. Browser environment variables are public; keep secrets on the server.
 
