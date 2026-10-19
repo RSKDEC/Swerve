@@ -1,6 +1,7 @@
 import { available, counts, secondsLeft } from '../domain/game.ts';
 import type { GameContext, Mode } from '../domain/types.ts';
-import { safe, progress, modeEntries } from './shared.ts';
+import { safe, progress } from './shared.ts';
+import { modesFor, isFactual } from '../domain/modes.ts';
 import { html, modeSymbol } from './shared.ts';
 
 export function renderRound(
@@ -47,7 +48,7 @@ export function renderRound(
     <fieldset class="mode-fieldset">
       <legend class="section-title">CHOOSE YOUR STRATEGY</legend>
       <div class="mode-list">
-        ${modeEntries
+        ${modesFor(challenge)
           .map(
             ([key, m]) =>
               html`<button
@@ -97,7 +98,7 @@ export function renderRound(
         style="text-align:center;margin-top:11px"
       >
         Select a strategy before answering.
-        ${challenge.kind === 'demo' ? 'Unrecognized answers earn 0 points in this demo.' : 'Tap a listed response or type it. Unrecognized answers earn 0 points.'}
+        ${isFactual(challenge) ? 'Type one answer. Listed correct answers earn 20–100 points. Unlisted answers earn 0; check your spelling.' : challenge.kind === 'demo' ? 'Unrecognized answers earn 0 points in this demo.' : 'Tap a listed response or type it. Unrecognized answers earn 0 points.'}
       </p>
     </div>
   </form>`;

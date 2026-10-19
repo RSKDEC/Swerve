@@ -4,11 +4,13 @@ import { normalize } from '../domain/scoring.ts';
 import type { GameContext } from '../domain/types.ts';
 import { safe, progress, footer, percent } from './shared.ts';
 import { html } from './shared.ts';
+import { renderFactualReveal } from './factual-reveal.ts';
 
 export function renderReveal(context: GameContext) {
   const { challenge, attempt } = context;
   const game = attempt!;
   const r = game.results[game.results.length - 1];
+  if (r.familiarity) return renderFactualReveal(context);
   const reactions = r.timeout
     ? 'Time is up!'
     : r.unknown
@@ -26,7 +28,7 @@ export function renderReveal(context: GameContext) {
       <h2>${reactions}</h2>
       <div class="big">${r.score}<small> / 100</small></div>
       <p>
-        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer does not match a listed response. It earns zero points.' : challenge.kind === 'demo' ? percent(r.pct) + '% of the sample crowd gave your answer.' : 'Your answer’s reference share: ' + percent(r.pct) + '%.'}
+        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer does not match a listed response. It earns zero points.' : challenge.kind === 'demo' ? percent(r.pct!) + '% of the sample crowd gave your answer.' : 'Your answer’s reference share: ' + percent(r.pct!) + '%.'}
       </p>
     </div>
     <div class="response-label">

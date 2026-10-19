@@ -56,3 +56,11 @@ Use the same `100 × count / validAnswers` fraction and original score rounding 
 ## Global question-use registry
 
 The one-year content target is 1,825 unique questions. Mirror `content/publication-registry.json` with a server-side reservation table that has global unique constraints on stable question ID, reviewed concept key and original-wording fingerprint. A new wave/year, demographic cut, paraphrase or content version must not reserve the same underlying question again. Preserve existing published/reserved scoring digests and append new complete days only; never wrap an exhausted pool. Practice attempts reuse the same challenge explicitly and do not publish new inventory. Human editorial review remains necessary for semantic duplicates that exact fingerprints cannot detect.
+
+## Current factual scoring: attention-v1
+
+The active pilot supersedes the reference-scoring section above. See [factual design](factual-game.md). Public prompts have `format: "factual"` and `answerCount` (5–1000), omit `choices`, and carry no pre-answer familiarity values. New challenges use `factual-v1:attention-v1:YYYY-MM-DD` IDs. Pin the factual catalog, canonical article mapping, raw dated view evidence, content hashes, aliases and scoring version to each published challenge.
+
+A factual result **omits `pct`**, uses an empty legacy `distribution`, and returns `familiarity: {kind: "attention-v1", index: number|null, views: number|null, window: string, answers: [{name, index, views, score}]}`. Only the completed round's answer list may be returned. Unknown/timeout results have null index/views and score 0. Valid results must match their listed canonical answer, frozen evidence and deterministic strategy score. The client validates these invariants before rendering or restoring saved results.
+
+Submissions remain `{roundIndex, mode, answer}` with stable idempotency keys, never client-claimed index, score or view counts. Server clock, ownership, 2/2/1 token limits, once-per-day attempts and atomic scoring remain authoritative. A source refresh cannot change an already-published challenge. Use the new factual reservation registry with global editorial concept checks; do not count the archived survey inventory toward this format's year goal.

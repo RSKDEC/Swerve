@@ -2,6 +2,7 @@ import { MODES } from '../domain/modes.ts';
 import type { Attempt, Challenge, Player } from '../domain/types.ts';
 import type { AttemptRepository, PlayerRepository } from './contracts.ts';
 import { DEMO_QUESTIONS } from '../data/demo-questions.ts';
+import { validFamiliarityResult } from '../domain/familiarity.ts';
 
 export interface KeyValueStorage {
   getItem(key: string): string | null;
@@ -96,9 +97,13 @@ export function validAttempt(
       typeof r.answer !== 'string' ||
       r.answer.length > 70 ||
       !(r.group === null || typeof r.group === 'string') ||
-      !Number.isFinite(r.pct) ||
-      r.pct < 0 ||
-      r.pct > 100 ||
+      (challenge.scoringVersion === 'attention-v1'
+        ? !validFamiliarityResult(r)
+        : r.familiarity !== undefined ||
+          typeof r.pct !== 'number' ||
+          !Number.isFinite(r.pct) ||
+          r.pct < 0 ||
+          r.pct > 100) ||
       !Number.isInteger(r.score) ||
       r.score < 0 ||
       r.score > 100 ||

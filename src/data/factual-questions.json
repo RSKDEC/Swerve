@@ -1,0 +1,1635 @@
+[
+  {
+    "id": "facts-stan-countries",
+    "q": "Name a country ending in “stan”.",
+    "sub": "Use the English short name of a present-day UN member.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1379151400",
+    "answers": [
+      {
+        "name": "Afghanistan",
+        "article": "https://en.wikipedia.org/wiki/Afghanistan",
+        "aliases": [],
+        "views": 618255,
+        "index": 66.66666666666667,
+        "rank": 3
+      },
+      {
+        "name": "Kazakhstan",
+        "article": "https://en.wikipedia.org/wiki/Kazakhstan",
+        "aliases": [],
+        "views": 689035,
+        "index": 83.33333333333333,
+        "rank": 2
+      },
+      {
+        "name": "Kyrgyzstan",
+        "article": "https://en.wikipedia.org/wiki/Kyrgyzstan",
+        "aliases": [],
+        "views": 470027,
+        "index": 33.333333333333336,
+        "rank": 5
+      },
+      {
+        "name": "Pakistan",
+        "article": "https://en.wikipedia.org/wiki/Pakistan",
+        "aliases": [],
+        "views": 716758,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Tajikistan",
+        "article": "https://en.wikipedia.org/wiki/Tajikistan",
+        "aliases": [],
+        "views": 270087,
+        "index": 0,
+        "rank": 7
+      },
+      {
+        "name": "Turkmenistan",
+        "article": "https://en.wikipedia.org/wiki/Turkmenistan",
+        "aliases": [],
+        "views": 339485,
+        "index": 16.666666666666668,
+        "rank": 6
+      },
+      {
+        "name": "Uzbekistan",
+        "article": "https://en.wikipedia.org/wiki/Uzbekistan",
+        "aliases": [],
+        "views": 473169,
+        "index": 50,
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "id": "facts-pixar-films",
+    "q": "Name a Pixar feature film released before 2025.",
+    "sub": "English titles. Sequels count; shorts do not.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1380598900",
+    "answers": [
+      {
+        "name": "Toy Story",
+        "article": "https://en.wikipedia.org/wiki/Toy_Story",
+        "aliases": [],
+        "views": 405751,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "A Bug’s Life",
+        "article": "https://en.wikipedia.org/wiki/A_Bug's_Life",
+        "aliases": [
+          "A Bug's Life",
+          "Bugs Life"
+        ],
+        "views": 230018,
+        "index": 74.07407407407408,
+        "rank": 8
+      },
+      {
+        "name": "Toy Story 2",
+        "article": "https://en.wikipedia.org/wiki/Toy_Story_2",
+        "aliases": [],
+        "views": 240973,
+        "index": 77.77777777777777,
+        "rank": 7
+      },
+      {
+        "name": "Monsters, Inc.",
+        "article": "https://en.wikipedia.org/wiki/Monsters%2C_Inc.",
+        "aliases": [
+          "Monsters Inc",
+          "Monsters Incorporated"
+        ],
+        "views": 199390,
+        "index": 62.96296296296296,
+        "rank": 11
+      },
+      {
+        "name": "Finding Nemo",
+        "article": "https://en.wikipedia.org/wiki/Finding_Nemo",
+        "aliases": [],
+        "views": 202021,
+        "index": 66.66666666666667,
+        "rank": 10
+      },
+      {
+        "name": "The Incredibles",
+        "article": "https://en.wikipedia.org/wiki/The_Incredibles",
+        "aliases": [
+          "Incredibles"
+        ],
+        "views": 195102,
+        "index": 59.25925925925926,
+        "rank": 12
+      },
+      {
+        "name": "Cars",
+        "article": "https://en.wikipedia.org/wiki/Cars_(film)",
+        "aliases": [],
+        "views": 327937,
+        "index": 92.5925925925926,
+        "rank": 3
+      },
+      {
+        "name": "Ratatouille",
+        "article": "https://en.wikipedia.org/wiki/Ratatouille_(film)",
+        "aliases": [],
+        "views": 264604,
+        "index": 81.48148148148148,
+        "rank": 6
+      },
+      {
+        "name": "WALL-E",
+        "article": "https://en.wikipedia.org/wiki/WALL-E",
+        "aliases": [
+          "Wall E",
+          "Walle"
+        ],
+        "views": 180229,
+        "index": 55.55555555555556,
+        "rank": 13
+      },
+      {
+        "name": "Up",
+        "article": "https://en.wikipedia.org/wiki/Up_(2009_film)",
+        "aliases": [],
+        "views": 176730,
+        "index": 51.851851851851855,
+        "rank": 14
+      },
+      {
+        "name": "Toy Story 3",
+        "article": "https://en.wikipedia.org/wiki/Toy_Story_3",
+        "aliases": [],
+        "views": 295348,
+        "index": 88.88888888888889,
+        "rank": 4
+      },
+      {
+        "name": "Cars 2",
+        "article": "https://en.wikipedia.org/wiki/Cars_2",
+        "aliases": [],
+        "views": 126945,
+        "index": 14.814814814814815,
+        "rank": 24
+      },
+      {
+        "name": "Brave",
+        "article": "https://en.wikipedia.org/wiki/Brave_(2012_film)",
+        "aliases": [],
+        "views": 139463,
+        "index": 44.44444444444444,
+        "rank": 16
+      },
+      {
+        "name": "Monsters University",
+        "article": "https://en.wikipedia.org/wiki/Monsters_University",
+        "aliases": [],
+        "views": 98162,
+        "index": 3.7037037037037037,
+        "rank": 27
+      },
+      {
+        "name": "Inside Out",
+        "article": "https://en.wikipedia.org/wiki/Inside_Out",
+        "aliases": [],
+        "views": 127401,
+        "index": 18.51851851851852,
+        "rank": 23
+      },
+      {
+        "name": "The Good Dinosaur",
+        "article": "https://en.wikipedia.org/wiki/The_Good_Dinosaur",
+        "aliases": [],
+        "views": 97485,
+        "index": 0,
+        "rank": 28
+      },
+      {
+        "name": "Finding Dory",
+        "article": "https://en.wikipedia.org/wiki/Finding_Dory",
+        "aliases": [],
+        "views": 111053,
+        "index": 7.407407407407407,
+        "rank": 26
+      },
+      {
+        "name": "Cars 3",
+        "article": "https://en.wikipedia.org/wiki/Cars_3",
+        "aliases": [],
+        "views": 128129,
+        "index": 22.22222222222222,
+        "rank": 22
+      },
+      {
+        "name": "Coco",
+        "article": "https://en.wikipedia.org/wiki/Coco_(2017_film)",
+        "aliases": [],
+        "views": 271538,
+        "index": 85.18518518518519,
+        "rank": 5
+      },
+      {
+        "name": "Incredibles 2",
+        "article": "https://en.wikipedia.org/wiki/Incredibles_2",
+        "aliases": [
+          "The Incredibles 2"
+        ],
+        "views": 145436,
+        "index": 48.148148148148145,
+        "rank": 15
+      },
+      {
+        "name": "Toy Story 4",
+        "article": "https://en.wikipedia.org/wiki/Toy_Story_4",
+        "aliases": [],
+        "views": 397702,
+        "index": 96.29629629629629,
+        "rank": 2
+      },
+      {
+        "name": "Onward",
+        "article": "https://en.wikipedia.org/wiki/Onward_(film)",
+        "aliases": [],
+        "views": 122454,
+        "index": 11.11111111111111,
+        "rank": 25
+      },
+      {
+        "name": "Soul",
+        "article": "https://en.wikipedia.org/wiki/Soul_(2020_film)",
+        "aliases": [],
+        "views": 130704,
+        "index": 29.62962962962963,
+        "rank": 20
+      },
+      {
+        "name": "Luca",
+        "article": "https://en.wikipedia.org/wiki/Luca_(2021_film)",
+        "aliases": [],
+        "views": 131071,
+        "index": 33.333333333333336,
+        "rank": 19
+      },
+      {
+        "name": "Turning Red",
+        "article": "https://en.wikipedia.org/wiki/Turning_Red",
+        "aliases": [],
+        "views": 128637,
+        "index": 25.925925925925927,
+        "rank": 21
+      },
+      {
+        "name": "Lightyear",
+        "article": "https://en.wikipedia.org/wiki/Lightyear_(film)",
+        "aliases": [],
+        "views": 135980,
+        "index": 40.74074074074074,
+        "rank": 17
+      },
+      {
+        "name": "Elemental",
+        "article": "https://en.wikipedia.org/wiki/Elemental_(2023_film)",
+        "aliases": [],
+        "views": 135834,
+        "index": 37.03703703703704,
+        "rank": 18
+      },
+      {
+        "name": "Inside Out 2",
+        "article": "https://en.wikipedia.org/wiki/Inside_Out_2",
+        "aliases": [],
+        "views": 205931,
+        "index": 70.37037037037037,
+        "rank": 9
+      }
+    ]
+  },
+  {
+    "id": "facts-one-letter-elements",
+    "q": "Name an element with a one-letter chemical symbol.",
+    "sub": "Type the element’s name or its symbol.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1377683963",
+    "answers": [
+      {
+        "name": "Boron",
+        "article": "https://en.wikipedia.org/wiki/Boron",
+        "aliases": [
+          "B"
+        ],
+        "views": 69212,
+        "index": 23.076923076923077,
+        "rank": 11
+      },
+      {
+        "name": "Carbon",
+        "article": "https://en.wikipedia.org/wiki/Carbon",
+        "aliases": [
+          "C"
+        ],
+        "views": 101178,
+        "index": 61.53846153846154,
+        "rank": 6
+      },
+      {
+        "name": "Fluorine",
+        "article": "https://en.wikipedia.org/wiki/Fluorine",
+        "aliases": [
+          "F"
+        ],
+        "views": 48096,
+        "index": 15.384615384615385,
+        "rank": 12
+      },
+      {
+        "name": "Hydrogen",
+        "article": "https://en.wikipedia.org/wiki/Hydrogen",
+        "aliases": [
+          "H"
+        ],
+        "views": 133868,
+        "index": 92.3076923076923,
+        "rank": 2
+      },
+      {
+        "name": "Iodine",
+        "article": "https://en.wikipedia.org/wiki/Iodine",
+        "aliases": [
+          "I"
+        ],
+        "views": 71991,
+        "index": 30.76923076923077,
+        "rank": 10
+      },
+      {
+        "name": "Potassium",
+        "article": "https://en.wikipedia.org/wiki/Potassium",
+        "aliases": [
+          "K"
+        ],
+        "views": 91306,
+        "index": 46.15384615384615,
+        "rank": 8
+      },
+      {
+        "name": "Nitrogen",
+        "article": "https://en.wikipedia.org/wiki/Nitrogen",
+        "aliases": [
+          "N"
+        ],
+        "views": 92119,
+        "index": 53.84615384615385,
+        "rank": 7
+      },
+      {
+        "name": "Oxygen",
+        "article": "https://en.wikipedia.org/wiki/Oxygen",
+        "aliases": [
+          "O"
+        ],
+        "views": 121937,
+        "index": 84.61538461538461,
+        "rank": 3
+      },
+      {
+        "name": "Phosphorus",
+        "article": "https://en.wikipedia.org/wiki/Phosphorus",
+        "aliases": [
+          "P"
+        ],
+        "views": 91111,
+        "index": 38.46153846153846,
+        "rank": 9
+      },
+      {
+        "name": "Sulfur",
+        "article": "https://en.wikipedia.org/wiki/Sulfur",
+        "aliases": [
+          "S",
+          "Sulphur"
+        ],
+        "views": 114848,
+        "index": 76.92307692307692,
+        "rank": 4
+      },
+      {
+        "name": "Uranium",
+        "article": "https://en.wikipedia.org/wiki/Uranium",
+        "aliases": [
+          "U"
+        ],
+        "views": 104000,
+        "index": 69.23076923076923,
+        "rank": 5
+      },
+      {
+        "name": "Vanadium",
+        "article": "https://en.wikipedia.org/wiki/Vanadium",
+        "aliases": [
+          "V"
+        ],
+        "views": 45645,
+        "index": 7.6923076923076925,
+        "rank": 13
+      },
+      {
+        "name": "Tungsten",
+        "article": "https://en.wikipedia.org/wiki/Tungsten",
+        "aliases": [
+          "W"
+        ],
+        "views": 175759,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Yttrium",
+        "article": "https://en.wikipedia.org/wiki/Yttrium",
+        "aliases": [
+          "Y"
+        ],
+        "views": 33440,
+        "index": 0,
+        "rank": 14
+      }
+    ]
+  },
+  {
+    "id": "facts-mario-kart-64",
+    "q": "Name a playable racer in Mario Kart 64.",
+    "sub": "The original Nintendo 64 game. Use a character’s name.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1374865844",
+    "answers": [
+      {
+        "name": "Mario",
+        "article": "https://en.wikipedia.org/wiki/Mario",
+        "aliases": [],
+        "views": 126931,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Luigi",
+        "article": "https://en.wikipedia.org/wiki/Luigi_(character)",
+        "aliases": [],
+        "views": 40722,
+        "index": 42.857142857142854,
+        "rank": 5
+      },
+      {
+        "name": "Peach",
+        "article": "https://en.wikipedia.org/wiki/Princess_Peach",
+        "aliases": [
+          "Princess Peach"
+        ],
+        "views": 58723,
+        "index": 85.71428571428571,
+        "rank": 2
+      },
+      {
+        "name": "Toad",
+        "article": "https://en.wikipedia.org/wiki/Toad_(Mario)",
+        "aliases": [],
+        "views": 23639,
+        "index": 14.285714285714286,
+        "rank": 7
+      },
+      {
+        "name": "Yoshi",
+        "article": "https://en.wikipedia.org/wiki/Yoshi",
+        "aliases": [],
+        "views": 44832,
+        "index": 57.142857142857146,
+        "rank": 4
+      },
+      {
+        "name": "Donkey Kong",
+        "article": "https://en.wikipedia.org/wiki/Donkey_Kong_(character)",
+        "aliases": [
+          "DK"
+        ],
+        "views": 20827,
+        "index": 0,
+        "rank": 8
+      },
+      {
+        "name": "Wario",
+        "article": "https://en.wikipedia.org/wiki/Wario",
+        "aliases": [],
+        "views": 33074,
+        "index": 28.571428571428573,
+        "rank": 6
+      },
+      {
+        "name": "Bowser",
+        "article": "https://en.wikipedia.org/wiki/Bowser",
+        "aliases": [
+          "King Koopa"
+        ],
+        "views": 51304,
+        "index": 71.42857142857143,
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "id": "facts-western-zodiac",
+    "q": "Name a Western zodiac sign.",
+    "sub": "Use its English astrological name.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1380061051",
+    "answers": [
+      {
+        "name": "Aries",
+        "article": "https://en.wikipedia.org/wiki/Aries_(astrology)",
+        "aliases": [],
+        "views": 124859,
+        "index": 54.54545454545455,
+        "rank": 6
+      },
+      {
+        "name": "Taurus",
+        "article": "https://en.wikipedia.org/wiki/Taurus_(astrology)",
+        "aliases": [],
+        "views": 145166,
+        "index": 81.81818181818181,
+        "rank": 3
+      },
+      {
+        "name": "Gemini",
+        "article": "https://en.wikipedia.org/wiki/Gemini_(astrology)",
+        "aliases": [],
+        "views": 222018,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Cancer",
+        "article": "https://en.wikipedia.org/wiki/Cancer_(astrology)",
+        "aliases": [],
+        "views": 86268,
+        "index": 0,
+        "rank": 12
+      },
+      {
+        "name": "Leo",
+        "article": "https://en.wikipedia.org/wiki/Leo_(astrology)",
+        "aliases": [],
+        "views": 107132,
+        "index": 18.181818181818183,
+        "rank": 10
+      },
+      {
+        "name": "Virgo",
+        "article": "https://en.wikipedia.org/wiki/Virgo_(astrology)",
+        "aliases": [],
+        "views": 140399,
+        "index": 72.72727272727273,
+        "rank": 4
+      },
+      {
+        "name": "Libra",
+        "article": "https://en.wikipedia.org/wiki/Libra_(astrology)",
+        "aliases": [],
+        "views": 107649,
+        "index": 27.272727272727273,
+        "rank": 9
+      },
+      {
+        "name": "Scorpio",
+        "article": "https://en.wikipedia.org/wiki/Scorpio_(astrology)",
+        "aliases": [],
+        "views": 116333,
+        "index": 45.45454545454545,
+        "rank": 7
+      },
+      {
+        "name": "Sagittarius",
+        "article": "https://en.wikipedia.org/wiki/Sagittarius_(astrology)",
+        "aliases": [],
+        "views": 187680,
+        "index": 90.9090909090909,
+        "rank": 2
+      },
+      {
+        "name": "Capricorn",
+        "article": "https://en.wikipedia.org/wiki/Capricorn_(astrology)",
+        "aliases": [],
+        "views": 125229,
+        "index": 63.63636363636363,
+        "rank": 5
+      },
+      {
+        "name": "Aquarius",
+        "article": "https://en.wikipedia.org/wiki/Aquarius_(astrology)",
+        "aliases": [],
+        "views": 111411,
+        "index": 36.36363636363637,
+        "rank": 8
+      },
+      {
+        "name": "Pisces",
+        "article": "https://en.wikipedia.org/wiki/Pisces_(astrology)",
+        "aliases": [],
+        "views": 98273,
+        "index": 9.090909090909092,
+        "rank": 11
+      }
+    ]
+  },
+  {
+    "id": "facts-germany-neighbours",
+    "q": "Name a country sharing a land border with Germany.",
+    "sub": "Present-day borders. English country names.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1379912685",
+    "answers": [
+      {
+        "name": "Austria",
+        "article": "https://en.wikipedia.org/wiki/Austria",
+        "aliases": [],
+        "views": 445643,
+        "index": 12.5,
+        "rank": 8
+      },
+      {
+        "name": "Belgium",
+        "article": "https://en.wikipedia.org/wiki/Belgium",
+        "aliases": [],
+        "views": 746226,
+        "index": 87.5,
+        "rank": 2
+      },
+      {
+        "name": "Czechia",
+        "article": "https://en.wikipedia.org/wiki/Czech_Republic",
+        "aliases": [
+          "Czech Republic"
+        ],
+        "views": 642862,
+        "index": 50,
+        "rank": 5
+      },
+      {
+        "name": "Denmark",
+        "article": "https://en.wikipedia.org/wiki/Denmark",
+        "aliases": [],
+        "views": 452301,
+        "index": 25,
+        "rank": 7
+      },
+      {
+        "name": "France",
+        "article": "https://en.wikipedia.org/wiki/France",
+        "aliases": [],
+        "views": 878011,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Luxembourg",
+        "article": "https://en.wikipedia.org/wiki/Luxembourg",
+        "aliases": [],
+        "views": 411252,
+        "index": 0,
+        "rank": 9
+      },
+      {
+        "name": "Netherlands",
+        "article": "https://en.wikipedia.org/wiki/Netherlands",
+        "aliases": [
+          "Holland"
+        ],
+        "views": 719001,
+        "index": 62.5,
+        "rank": 4
+      },
+      {
+        "name": "Poland",
+        "article": "https://en.wikipedia.org/wiki/Poland",
+        "aliases": [],
+        "views": 620202,
+        "index": 37.5,
+        "rank": 6
+      },
+      {
+        "name": "Switzerland",
+        "article": "https://en.wikipedia.org/wiki/Switzerland",
+        "aliases": [],
+        "views": 725404,
+        "index": 75,
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "id": "facts-bond-actors",
+    "q": "Name an actor who played James Bond in an Eon film.",
+    "sub": "The official film series, through No Time to Die (2021).",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1286505061",
+    "answers": [
+      {
+        "name": "Sean Connery",
+        "article": "https://en.wikipedia.org/wiki/Sean_Connery",
+        "aliases": [
+          "Connery"
+        ],
+        "views": 597870,
+        "index": 80,
+        "rank": 2
+      },
+      {
+        "name": "George Lazenby",
+        "article": "https://en.wikipedia.org/wiki/George_Lazenby",
+        "aliases": [
+          "Lazenby"
+        ],
+        "views": 163768,
+        "index": 0,
+        "rank": 6
+      },
+      {
+        "name": "Roger Moore",
+        "article": "https://en.wikipedia.org/wiki/Roger_Moore",
+        "aliases": [
+          "Moore"
+        ],
+        "views": 298064,
+        "index": 40,
+        "rank": 4
+      },
+      {
+        "name": "Timothy Dalton",
+        "article": "https://en.wikipedia.org/wiki/Timothy_Dalton",
+        "aliases": [
+          "Dalton"
+        ],
+        "views": 297731,
+        "index": 20,
+        "rank": 5
+      },
+      {
+        "name": "Pierce Brosnan",
+        "article": "https://en.wikipedia.org/wiki/Pierce_Brosnan",
+        "aliases": [
+          "Brosnan"
+        ],
+        "views": 723268,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Daniel Craig",
+        "article": "https://en.wikipedia.org/wiki/Daniel_Craig",
+        "aliases": [
+          "Craig"
+        ],
+        "views": 560940,
+        "index": 60,
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "id": "facts-ancient-wonders",
+    "q": "Name one of the Seven Wonders of the Ancient World.",
+    "sub": "The traditional ancient list, not the modern New Seven Wonders.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1379000984",
+    "answers": [
+      {
+        "name": "Great Pyramid of Giza",
+        "article": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+        "aliases": [
+          "Great Pyramid",
+          "Pyramid of Giza",
+          "Pyramids of Giza"
+        ],
+        "views": 234855,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Hanging Gardens of Babylon",
+        "article": "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon",
+        "aliases": [
+          "Hanging Gardens"
+        ],
+        "views": 143197,
+        "index": 66.66666666666667,
+        "rank": 3
+      },
+      {
+        "name": "Statue of Zeus at Olympia",
+        "article": "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+        "aliases": [
+          "Statue of Zeus"
+        ],
+        "views": 82544,
+        "index": 0,
+        "rank": 7
+      },
+      {
+        "name": "Temple of Artemis at Ephesus",
+        "article": "https://en.wikipedia.org/wiki/Temple_of_Artemis",
+        "aliases": [
+          "Temple of Artemis"
+        ],
+        "views": 116248,
+        "index": 50,
+        "rank": 4
+      },
+      {
+        "name": "Mausoleum at Halicarnassus",
+        "article": "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+        "aliases": [
+          "Mausoleum of Halicarnassus"
+        ],
+        "views": 91696,
+        "index": 16.666666666666668,
+        "rank": 6
+      },
+      {
+        "name": "Colossus of Rhodes",
+        "article": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+        "aliases": [
+          "Colossus"
+        ],
+        "views": 172633,
+        "index": 83.33333333333333,
+        "rank": 2
+      },
+      {
+        "name": "Lighthouse of Alexandria",
+        "article": "https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria",
+        "aliases": [
+          "Pharos of Alexandria",
+          "Pharos"
+        ],
+        "views": 107712,
+        "index": 33.333333333333336,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "facts-greek-alphabet",
+    "q": "Name a letter of the Greek alphabet.",
+    "sub": "The standard modern 24-letter alphabet; English names count.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1374375776",
+    "answers": [
+      {
+        "name": "Alpha",
+        "article": "https://en.wikipedia.org/wiki/Alpha",
+        "aliases": [],
+        "views": 57044,
+        "index": 91.30434782608695,
+        "rank": 3
+      },
+      {
+        "name": "Beta",
+        "article": "https://en.wikipedia.org/wiki/Beta",
+        "aliases": [],
+        "views": 25808,
+        "index": 47.82608695652174,
+        "rank": 13
+      },
+      {
+        "name": "Gamma",
+        "article": "https://en.wikipedia.org/wiki/Gamma",
+        "aliases": [],
+        "views": 34710,
+        "index": 60.869565217391305,
+        "rank": 10
+      },
+      {
+        "name": "Delta",
+        "article": "https://en.wikipedia.org/wiki/Delta_(letter)",
+        "aliases": [
+          "Delta letter"
+        ],
+        "views": 50249,
+        "index": 78.26086956521739,
+        "rank": 6
+      },
+      {
+        "name": "Epsilon",
+        "article": "https://en.wikipedia.org/wiki/Epsilon",
+        "aliases": [],
+        "views": 38992,
+        "index": 65.21739130434783,
+        "rank": 9
+      },
+      {
+        "name": "Zeta",
+        "article": "https://en.wikipedia.org/wiki/Zeta",
+        "aliases": [],
+        "views": 23209,
+        "index": 39.130434782608695,
+        "rank": 15
+      },
+      {
+        "name": "Eta",
+        "article": "https://en.wikipedia.org/wiki/Eta",
+        "aliases": [],
+        "views": 17892,
+        "index": 17.391304347826086,
+        "rank": 20
+      },
+      {
+        "name": "Theta",
+        "article": "https://en.wikipedia.org/wiki/Theta",
+        "aliases": [],
+        "views": 72728,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Iota",
+        "article": "https://en.wikipedia.org/wiki/Iota",
+        "aliases": [],
+        "views": 14568,
+        "index": 13.043478260869565,
+        "rank": 21
+      },
+      {
+        "name": "Kappa",
+        "article": "https://en.wikipedia.org/wiki/Kappa",
+        "aliases": [],
+        "views": 12248,
+        "index": 4.3478260869565215,
+        "rank": 23
+      },
+      {
+        "name": "Lambda",
+        "article": "https://en.wikipedia.org/wiki/Lambda",
+        "aliases": [
+          "Lamda"
+        ],
+        "views": 41243,
+        "index": 73.91304347826087,
+        "rank": 7
+      },
+      {
+        "name": "Mu",
+        "article": "https://en.wikipedia.org/wiki/Mu_(letter)",
+        "aliases": [],
+        "views": 40003,
+        "index": 69.56521739130434,
+        "rank": 8
+      },
+      {
+        "name": "Nu",
+        "article": "https://en.wikipedia.org/wiki/Nu_(Greek)",
+        "aliases": [],
+        "views": 11904,
+        "index": 0,
+        "rank": 24
+      },
+      {
+        "name": "Xi",
+        "article": "https://en.wikipedia.org/wiki/Xi_(letter)",
+        "aliases": [],
+        "views": 21427,
+        "index": 34.78260869565217,
+        "rank": 16
+      },
+      {
+        "name": "Omicron",
+        "article": "https://en.wikipedia.org/wiki/Omicron",
+        "aliases": [],
+        "views": 13081,
+        "index": 8.695652173913043,
+        "rank": 22
+      },
+      {
+        "name": "Pi",
+        "article": "https://en.wikipedia.org/wiki/Pi_(letter)",
+        "aliases": [],
+        "views": 21301,
+        "index": 26.08695652173913,
+        "rank": 18
+      },
+      {
+        "name": "Rho",
+        "article": "https://en.wikipedia.org/wiki/Rho",
+        "aliases": [],
+        "views": 25084,
+        "index": 43.47826086956522,
+        "rank": 14
+      },
+      {
+        "name": "Sigma",
+        "article": "https://en.wikipedia.org/wiki/Sigma",
+        "aliases": [],
+        "views": 59544,
+        "index": 95.65217391304348,
+        "rank": 2
+      },
+      {
+        "name": "Tau",
+        "article": "https://en.wikipedia.org/wiki/Tau",
+        "aliases": [],
+        "views": 31352,
+        "index": 52.17391304347826,
+        "rank": 12
+      },
+      {
+        "name": "Upsilon",
+        "article": "https://en.wikipedia.org/wiki/Upsilon",
+        "aliases": [],
+        "views": 21415,
+        "index": 30.434782608695652,
+        "rank": 17
+      },
+      {
+        "name": "Phi",
+        "article": "https://en.wikipedia.org/wiki/Phi",
+        "aliases": [],
+        "views": 50284,
+        "index": 82.6086956521739,
+        "rank": 5
+      },
+      {
+        "name": "Chi",
+        "article": "https://en.wikipedia.org/wiki/Chi_(letter)",
+        "aliases": [],
+        "views": 31734,
+        "index": 56.52173913043478,
+        "rank": 11
+      },
+      {
+        "name": "Psi",
+        "article": "https://en.wikipedia.org/wiki/Psi_(Greek)",
+        "aliases": [],
+        "views": 20974,
+        "index": 21.73913043478261,
+        "rank": 19
+      },
+      {
+        "name": "Omega",
+        "article": "https://en.wikipedia.org/wiki/Omega",
+        "aliases": [],
+        "views": 55030,
+        "index": 86.95652173913044,
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "id": "facts-taylor-albums",
+    "q": "Name a Taylor Swift studio album released before 2025.",
+    "sub": "Original studio albums only; re-recordings and live albums do not count.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1381034373",
+    "answers": [
+      {
+        "name": "Taylor Swift",
+        "article": "https://en.wikipedia.org/wiki/Taylor_Swift_(album)",
+        "aliases": [
+          "Debut"
+        ],
+        "views": 97810,
+        "index": 70,
+        "rank": 4
+      },
+      {
+        "name": "Fearless",
+        "article": "https://en.wikipedia.org/wiki/Fearless_(Taylor_Swift_album)",
+        "aliases": [],
+        "views": 78362,
+        "index": 30,
+        "rank": 8
+      },
+      {
+        "name": "Speak Now",
+        "article": "https://en.wikipedia.org/wiki/Speak_Now",
+        "aliases": [],
+        "views": 68231,
+        "index": 0,
+        "rank": 11
+      },
+      {
+        "name": "Red",
+        "article": "https://en.wikipedia.org/wiki/Red_(Taylor_Swift_album)",
+        "aliases": [],
+        "views": 82566,
+        "index": 40,
+        "rank": 7
+      },
+      {
+        "name": "1989",
+        "article": "https://en.wikipedia.org/wiki/1989_(album)",
+        "aliases": [],
+        "views": 98215,
+        "index": 80,
+        "rank": 3
+      },
+      {
+        "name": "Reputation",
+        "article": "https://en.wikipedia.org/wiki/Reputation_(album)",
+        "aliases": [],
+        "views": 86314,
+        "index": 50,
+        "rank": 6
+      },
+      {
+        "name": "Lover",
+        "article": "https://en.wikipedia.org/wiki/Lover_(album)",
+        "aliases": [],
+        "views": 75746,
+        "index": 20,
+        "rank": 9
+      },
+      {
+        "name": "Folklore",
+        "article": "https://en.wikipedia.org/wiki/Folklore_(Taylor_Swift_album)",
+        "aliases": [],
+        "views": 104276,
+        "index": 90,
+        "rank": 2
+      },
+      {
+        "name": "Evermore",
+        "article": "https://en.wikipedia.org/wiki/Evermore",
+        "aliases": [],
+        "views": 71638,
+        "index": 10,
+        "rank": 10
+      },
+      {
+        "name": "Midnights",
+        "article": "https://en.wikipedia.org/wiki/Midnights",
+        "aliases": [],
+        "views": 90297,
+        "index": 60,
+        "rank": 5
+      },
+      {
+        "name": "The Tortured Poets Department",
+        "article": "https://en.wikipedia.org/wiki/The_Tortured_Poets_Department",
+        "aliases": [
+          "Tortured Poets Department",
+          "TTPD"
+        ],
+        "views": 123440,
+        "index": 100,
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "id": "facts-planets",
+    "q": "Name one of the eight planets in our Solar System.",
+    "sub": "Planet names. Dwarf planets, including Pluto, do not count.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1379807231",
+    "answers": [
+      {
+        "name": "Mercury",
+        "article": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+        "aliases": [],
+        "views": 208497,
+        "index": 28.571428571428573,
+        "rank": 6
+      },
+      {
+        "name": "Venus",
+        "article": "https://en.wikipedia.org/wiki/Venus",
+        "aliases": [],
+        "views": 280002,
+        "index": 71.42857142857143,
+        "rank": 3
+      },
+      {
+        "name": "Earth",
+        "article": "https://en.wikipedia.org/wiki/Earth",
+        "aliases": [],
+        "views": 758934,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Mars",
+        "article": "https://en.wikipedia.org/wiki/Mars",
+        "aliases": [],
+        "views": 261005,
+        "index": 42.857142857142854,
+        "rank": 5
+      },
+      {
+        "name": "Jupiter",
+        "article": "https://en.wikipedia.org/wiki/Jupiter",
+        "aliases": [],
+        "views": 319327,
+        "index": 85.71428571428571,
+        "rank": 2
+      },
+      {
+        "name": "Saturn",
+        "article": "https://en.wikipedia.org/wiki/Saturn",
+        "aliases": [],
+        "views": 265460,
+        "index": 57.142857142857146,
+        "rank": 4
+      },
+      {
+        "name": "Uranus",
+        "article": "https://en.wikipedia.org/wiki/Uranus",
+        "aliases": [],
+        "views": 173376,
+        "index": 0,
+        "rank": 8
+      },
+      {
+        "name": "Neptune",
+        "article": "https://en.wikipedia.org/wiki/Neptune",
+        "aliases": [],
+        "views": 204824,
+        "index": 14.285714285714286,
+        "rank": 7
+      }
+    ]
+  },
+  {
+    "id": "facts-great-lakes",
+    "q": "Name one of the five Great Lakes of North America.",
+    "sub": "Use the individual named lakes, not the combined Michigan–Huron body.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1379976071",
+    "answers": [
+      {
+        "name": "Superior",
+        "article": "https://en.wikipedia.org/wiki/Lake_Superior",
+        "aliases": [
+          "Lake Superior"
+        ],
+        "views": 162547,
+        "index": 75,
+        "rank": 2
+      },
+      {
+        "name": "Michigan",
+        "article": "https://en.wikipedia.org/wiki/Lake_Michigan",
+        "aliases": [
+          "Lake Michigan"
+        ],
+        "views": 105814,
+        "index": 50,
+        "rank": 3
+      },
+      {
+        "name": "Huron",
+        "article": "https://en.wikipedia.org/wiki/Lake_Huron",
+        "aliases": [
+          "Lake Huron"
+        ],
+        "views": 62532,
+        "index": 0,
+        "rank": 5
+      },
+      {
+        "name": "Erie",
+        "article": "https://en.wikipedia.org/wiki/Lake_Erie",
+        "aliases": [
+          "Lake Erie"
+        ],
+        "views": 93071,
+        "index": 25,
+        "rank": 4
+      },
+      {
+        "name": "Ontario",
+        "article": "https://en.wikipedia.org/wiki/Lake_Ontario",
+        "aliases": [
+          "Lake Ontario"
+        ],
+        "views": 1241462,
+        "index": 100,
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "id": "facts-olympian-gods",
+    "q": "Name a Greek god counted among the Twelve Olympians.",
+    "sub": "Both Hestia and Dionysus qualify across the traditional lists.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1375778717",
+    "answers": [
+      {
+        "name": "Zeus",
+        "article": "https://en.wikipedia.org/wiki/Zeus",
+        "aliases": [],
+        "views": 407571,
+        "index": 91.66666666666667,
+        "rank": 2
+      },
+      {
+        "name": "Hera",
+        "article": "https://en.wikipedia.org/wiki/Hera",
+        "aliases": [],
+        "views": 205280,
+        "index": 33.333333333333336,
+        "rank": 9
+      },
+      {
+        "name": "Poseidon",
+        "article": "https://en.wikipedia.org/wiki/Poseidon",
+        "aliases": [],
+        "views": 290675,
+        "index": 50,
+        "rank": 7
+      },
+      {
+        "name": "Demeter",
+        "article": "https://en.wikipedia.org/wiki/Demeter",
+        "aliases": [],
+        "views": 155373,
+        "index": 8.333333333333334,
+        "rank": 12
+      },
+      {
+        "name": "Athena",
+        "article": "https://en.wikipedia.org/wiki/Athena",
+        "aliases": [],
+        "views": 537253,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Apollo",
+        "article": "https://en.wikipedia.org/wiki/Apollo",
+        "aliases": [],
+        "views": 349284,
+        "index": 83.33333333333333,
+        "rank": 3
+      },
+      {
+        "name": "Artemis",
+        "article": "https://en.wikipedia.org/wiki/Artemis",
+        "aliases": [],
+        "views": 308920,
+        "index": 66.66666666666667,
+        "rank": 5
+      },
+      {
+        "name": "Ares",
+        "article": "https://en.wikipedia.org/wiki/Ares",
+        "aliases": [],
+        "views": 163600,
+        "index": 16.666666666666668,
+        "rank": 11
+      },
+      {
+        "name": "Aphrodite",
+        "article": "https://en.wikipedia.org/wiki/Aphrodite",
+        "aliases": [],
+        "views": 302800,
+        "index": 58.333333333333336,
+        "rank": 6
+      },
+      {
+        "name": "Hephaestus",
+        "article": "https://en.wikipedia.org/wiki/Hephaestus",
+        "aliases": [],
+        "views": 163842,
+        "index": 25,
+        "rank": 10
+      },
+      {
+        "name": "Hermes",
+        "article": "https://en.wikipedia.org/wiki/Hermes",
+        "aliases": [],
+        "views": 315350,
+        "index": 75,
+        "rank": 4
+      },
+      {
+        "name": "Hestia",
+        "article": "https://en.wikipedia.org/wiki/Hestia",
+        "aliases": [],
+        "views": 107269,
+        "index": 0,
+        "rank": 13
+      },
+      {
+        "name": "Dionysus",
+        "article": "https://en.wikipedia.org/wiki/Dionysus",
+        "aliases": [],
+        "views": 256859,
+        "index": 41.666666666666664,
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "id": "facts-chinese-zodiac",
+    "q": "Name an animal in the Chinese zodiac.",
+    "sub": "The traditional twelve-animal cycle.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1378488319",
+    "answers": [
+      {
+        "name": "Rat",
+        "article": "https://en.wikipedia.org/wiki/Rat_(zodiac)",
+        "aliases": [],
+        "views": 27566,
+        "index": 81.81818181818181,
+        "rank": 3
+      },
+      {
+        "name": "Ox",
+        "article": "https://en.wikipedia.org/wiki/Ox_(zodiac)",
+        "aliases": [
+          "Cow",
+          "Bull"
+        ],
+        "views": 21267,
+        "index": 36.36363636363637,
+        "rank": 8
+      },
+      {
+        "name": "Tiger",
+        "article": "https://en.wikipedia.org/wiki/Tiger_(zodiac)",
+        "aliases": [],
+        "views": 21644,
+        "index": 45.45454545454545,
+        "rank": 7
+      },
+      {
+        "name": "Rabbit",
+        "article": "https://en.wikipedia.org/wiki/Rabbit_(zodiac)",
+        "aliases": [
+          "Hare"
+        ],
+        "views": 20708,
+        "index": 18.181818181818183,
+        "rank": 10
+      },
+      {
+        "name": "Dragon",
+        "article": "https://en.wikipedia.org/wiki/Dragon_(zodiac)",
+        "aliases": [],
+        "views": 28417,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Snake",
+        "article": "https://en.wikipedia.org/wiki/Snake_(zodiac)",
+        "aliases": [],
+        "views": 24172,
+        "index": 63.63636363636363,
+        "rank": 5
+      },
+      {
+        "name": "Horse",
+        "article": "https://en.wikipedia.org/wiki/Horse_(zodiac)",
+        "aliases": [],
+        "views": 27589,
+        "index": 90.9090909090909,
+        "rank": 2
+      },
+      {
+        "name": "Goat",
+        "article": "https://en.wikipedia.org/wiki/Goat_(zodiac)",
+        "aliases": [
+          "Sheep",
+          "Ram"
+        ],
+        "views": 27447,
+        "index": 72.72727272727273,
+        "rank": 4
+      },
+      {
+        "name": "Monkey",
+        "article": "https://en.wikipedia.org/wiki/Monkey_(zodiac)",
+        "aliases": [],
+        "views": 20802,
+        "index": 27.272727272727273,
+        "rank": 9
+      },
+      {
+        "name": "Rooster",
+        "article": "https://en.wikipedia.org/wiki/Rooster_(zodiac)",
+        "aliases": [
+          "Chicken",
+          "Cock"
+        ],
+        "views": 20548,
+        "index": 9.090909090909092,
+        "rank": 11
+      },
+      {
+        "name": "Dog",
+        "article": "https://en.wikipedia.org/wiki/Dog_(zodiac)",
+        "aliases": [],
+        "views": 17346,
+        "index": 0,
+        "rank": 12
+      },
+      {
+        "name": "Pig",
+        "article": "https://en.wikipedia.org/wiki/Pig_(zodiac)",
+        "aliases": [
+          "Boar"
+        ],
+        "views": 23539,
+        "index": 54.54545454545455,
+        "rank": 6
+      }
+    ]
+  },
+  {
+    "id": "facts-disney-renaissance",
+    "q": "Name a Disney Renaissance animated film.",
+    "sub": "The ten Disney films in the 1989–1999 Renaissance era.",
+    "sourceUrl": "https://en.wikipedia.org/w/index.php?oldid=1380167433",
+    "answers": [
+      {
+        "name": "The Little Mermaid",
+        "article": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)",
+        "aliases": [
+          "Little Mermaid"
+        ],
+        "views": 158695,
+        "index": 44.44444444444444,
+        "rank": 6
+      },
+      {
+        "name": "The Rescuers Down Under",
+        "article": "https://en.wikipedia.org/wiki/The_Rescuers_Down_Under",
+        "aliases": [
+          "Rescuers Down Under"
+        ],
+        "views": 73129,
+        "index": 0,
+        "rank": 10
+      },
+      {
+        "name": "Beauty and the Beast",
+        "article": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)",
+        "aliases": [],
+        "views": 177480,
+        "index": 66.66666666666667,
+        "rank": 4
+      },
+      {
+        "name": "Aladdin",
+        "article": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)",
+        "aliases": [],
+        "views": 181680,
+        "index": 77.77777777777777,
+        "rank": 3
+      },
+      {
+        "name": "The Lion King",
+        "article": "https://en.wikipedia.org/wiki/The_Lion_King",
+        "aliases": [
+          "Lion King"
+        ],
+        "views": 282644,
+        "index": 100,
+        "rank": 1
+      },
+      {
+        "name": "Pocahontas",
+        "article": "https://en.wikipedia.org/wiki/Pocahontas_(1995_film)",
+        "aliases": [],
+        "views": 133837,
+        "index": 11.11111111111111,
+        "rank": 9
+      },
+      {
+        "name": "The Hunchback of Notre Dame",
+        "article": "https://en.wikipedia.org/wiki/The_Hunchback_of_Notre_Dame_(1996_film)",
+        "aliases": [
+          "Hunchback of Notre Dame"
+        ],
+        "views": 153419,
+        "index": 33.333333333333336,
+        "rank": 7
+      },
+      {
+        "name": "Hercules",
+        "article": "https://en.wikipedia.org/wiki/Hercules_(1997_film)",
+        "aliases": [],
+        "views": 181976,
+        "index": 88.88888888888889,
+        "rank": 2
+      },
+      {
+        "name": "Mulan",
+        "article": "https://en.wikipedia.org/wiki/Mulan_(1998_film)",
+        "aliases": [],
+        "views": 170837,
+        "index": 55.55555555555556,
+        "rank": 5
+      },
+      {
+        "name": "Tarzan",
+        "article": "https://en.wikipedia.org/wiki/Tarzan_(1999_film)",
+        "aliases": [],
+        "views": 134984,
+        "index": 22.22222222222222,
+        "rank": 8
+      }
+    ]
+  }
+]

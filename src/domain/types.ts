@@ -44,6 +44,8 @@ export interface Prompt {
   sub: string;
   choices?: string[];
   source?: ReferenceSource;
+  format?: 'factual';
+  answerCount?: number;
 }
 // Public metadata deliberately excludes answer groups and scoring keys.
 export interface Challenge {
@@ -72,11 +74,34 @@ export interface RoundResult {
   mode: Mode;
   answer: string;
   group: string | null;
-  pct: number;
+  pct?: number;
   score: number;
   timeout: boolean;
   unknown: boolean;
   distribution: Distribution[];
+  familiarity?: FamiliarityReveal;
+}
+export interface FactualAnswer {
+  name: string;
+  aliases: string[];
+  article: string;
+  views: number;
+  index: number;
+  rank: number;
+}
+export interface FactualQuestion {
+  id: string;
+  q: string;
+  sub: string;
+  sourceUrl: string;
+  answers: FactualAnswer[];
+}
+export interface FamiliarityReveal {
+  kind: 'attention-v1';
+  index: number | null;
+  views: number | null;
+  window: string;
+  answers: { name: string; index: number; views: number; score: number }[];
 }
 export interface ActiveRound {
   i: number;

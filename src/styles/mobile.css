@@ -278,3 +278,99 @@ dialog .btn {
   color: inherit;
   text-underline-offset: 3px;
 }
+
+/* Post-answer discovery and a scale that never implies a crowd percentage. */
+.attention-card {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  background: var(--panel2);
+}
+.attention-heading,
+.attention-ends,
+.answer-discovery {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.attention-heading {
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.attention-scale {
+  height: 12px;
+  margin: 18px 5px 10px;
+  position: relative;
+  border-radius: 6px;
+  background: linear-gradient(to right, #ffad77, #c3a8ff, #7bdec3);
+}
+.sweet-band {
+  position: absolute;
+  left: 40%;
+  width: 20%;
+  height: 100%;
+  outline: 2px solid white;
+  border-radius: 3px;
+}
+.attention-scale i {
+  position: absolute;
+  top: -4px;
+  width: 4px;
+  height: 20px;
+  background: #141625;
+  border: 2px solid white;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+.attention-ends {
+  font-size: 12px;
+  color: var(--muted);
+}
+.attention-card p {
+  margin: 14px 0 6px;
+  font-size: 14px;
+}
+.attention-card small {
+  color: var(--muted);
+  font-size: 12px;
+}
+.answer-discovery {
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--stroke);
+}
+.answer-discovery > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.answer-discovery small {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+.answer-discovery > strong {
+  flex-shrink: 0;
+  text-align: right;
+}
+.answer-discovery.yours {
+  color: #7bdec3;
+}
+.answer-explorer {
+  margin: 16px 0;
+}
+.answer-explorer summary {
+  cursor: pointer;
+  min-height: 44px;
+  padding: 12px 0;
+}
+/* Keep the longer open-answer headline within a 320px viewport. */
+.hero h1 {
+  font-size: clamp(39px, 10vw, 62px);
+}
+@media (max-width: 370px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+}

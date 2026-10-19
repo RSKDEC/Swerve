@@ -1,3 +1,5 @@
+> **Archived survey collection:** The active game now uses factual open-answer prompts. The 310 items and 62 days below describe the retired survey format, not current playable inventory. See [the current design](../factual-game.md).
+
 # Growing the one-year question bank
 
 **Target: 1,825 verified, nonrepeating questions = 365 days at five questions per day.**

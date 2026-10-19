@@ -1,3 +1,17 @@
+# Current factual game architecture
+
+The browser boots with `factualChallenges`, which publishes prompt text, scope and accepted-answer counts without choices or scoring keys. `factual-bank.ts` loads generated, typed answer data. The same `DemoClient`, repositories and controller retain the timer, tokens, drafts, idempotent submissions, persistence, help, sharing and replay flow. Dates before the factual launch retain the original fixture for compatibility.
+
+`domain/familiarity.ts` owns normalization, reviewed exact alias matching, tie-aware attention ranks, strategy scoring and validation of factual results. A result has an optional `familiarity` reveal and omits `pct`; old survey results keep their percentage fields. New challenge IDs include `factual-v1:attention-v1`, isolating saves from every survey/demo scoring version. Loaded challenges stay pinned across midnight.
+
+The factual evidence generator runs offline during `npm run check`. It verifies the source hash, complete date sequence, daily sums, canonical article mappings, alias collisions, unique prompts, immutable day reservations and that every question offers a 100-point answer for each strategy. The source refresh is explicit and never changes a running challenge.
+
+See [design, formulas, provenance and limits](factual-game.md). This remains a local, noncompetitive pilot. An API-backed deployment must own answer keys, deadlines, scoring snapshots and atomic submissions. The existing HTTP client now accepts and validates factual metadata/results as well as historical survey data.
+
+The following describes the preserved prototype and historical survey implementation. Its 310-question/62-day inventory is archived and is not the active calendar.
+
+---
+
 # Application architecture
 
 The application stays framework-free: TypeScript ES modules and Vite provide structure, type checking and a small static build without rewriting the game around a larger UI framework.

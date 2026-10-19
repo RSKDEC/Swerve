@@ -33,6 +33,13 @@ function validChallenge(value: unknown): value is Challenge {
         typeof p.id === 'string' &&
         typeof p.q === 'string' &&
         typeof p.sub === 'string' &&
+        (p.format === undefined ||
+          (p.format === 'factual' &&
+            p.choices === undefined &&
+            Number.isInteger(p.answerCount) &&
+            p.answerCount! >= 5 &&
+            p.answerCount! <= 1000)) &&
+        (c.scoringVersion !== 'attention-v1' || p.format === 'factual') &&
         (p.choices === undefined ||
           (Array.isArray(p.choices) &&
             p.choices.length >= 2 &&

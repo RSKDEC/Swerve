@@ -1,4 +1,4 @@
-import type { Mode, ModeDefinition } from './types.ts';
+import type { Challenge, Mode, ModeDefinition } from './types.ts';
 export const MODES: Record<Mode, ModeDefinition> = {
   blend: {
     name: 'BLEND',
@@ -25,3 +25,24 @@ export const MODES: Record<Mode, ModeDefinition> = {
     limit: 1,
   },
 };
+
+export const isFactual = (challenge: Challenge): boolean =>
+  challenge.scoringVersion === 'attention-v1';
+export function modesFor(challenge: Challenge): [Mode, ModeDefinition][] {
+  return (Object.entries(MODES) as [Mode, ModeDefinition][]).map(
+    ([key, mode]) => [
+      key,
+      isFactual(challenge)
+        ? {
+            ...mode,
+            desc:
+              key === 'blend'
+                ? 'Go for the familiar'
+                : key === 'swerve'
+                  ? 'Find the overlooked'
+                  : 'Aim between obvious and obscure',
+          }
+        : mode,
+    ],
+  );
+}

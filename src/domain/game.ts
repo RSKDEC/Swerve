@@ -1,4 +1,4 @@
-import { MODES } from './modes.ts';
+import { MODES, isFactual } from './modes.ts';
 import type { Attempt, Challenge, Mode, Player, RoundResult } from './types.ts';
 
 export function counts(attempt: Attempt | null): Record<Mode, number> {
@@ -75,5 +75,5 @@ export function summaryText(attempt: Attempt, challenge: Challenge): string {
   const symbols = attempt.results
     .map((r) => (r.score >= 80 ? '🟩' : r.score >= 50 ? '🟨' : '⬛'))
     .join('');
-  return `swerve. #${challenge.number}${challenge.kind === 'demo' ? ' · Demo' : ''}\n${total(attempt)}/${challenge.prompts.length * 100}\n${symbols}\n${attempt.results.map((r) => MODES[r.mode].symbol).join(' ')}\nCan you read the crowd?`;
+  return `swerve. #${challenge.number}${isFactual(challenge) ? ' · Open answers' : challenge.kind === 'demo' ? ' · Demo' : ''}\n${total(attempt)}/${challenge.prompts.length * 100}\n${symbols}\n${attempt.results.map((r) => MODES[r.mode].symbol).join(' ')}\n${isFactual(challenge) ? 'Obvious or overlooked?' : 'Can you read the crowd?'}`;
 }

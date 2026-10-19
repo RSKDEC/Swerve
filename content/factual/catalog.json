@@ -1,0 +1,1122 @@
+{
+  "version": "factual-v1",
+  "startDay": "2026-10-19",
+  "viewWindow": {
+    "start": "2026070100",
+    "end": "2026093000",
+    "days": 92
+  },
+  "questions": [
+    {
+      "id": "stan-countries",
+      "q": "Name a country ending in “stan”.",
+      "sub": "Use the English short name of a present-day UN member.",
+      "sourceArticle": "-stan",
+      "answers": [
+        {
+          "name": "Afghanistan",
+          "article": "Afghanistan",
+          "aliases": []
+        },
+        {
+          "name": "Kazakhstan",
+          "article": "Kazakhstan",
+          "aliases": []
+        },
+        {
+          "name": "Kyrgyzstan",
+          "article": "Kyrgyzstan",
+          "aliases": []
+        },
+        {
+          "name": "Pakistan",
+          "article": "Pakistan",
+          "aliases": []
+        },
+        {
+          "name": "Tajikistan",
+          "article": "Tajikistan",
+          "aliases": []
+        },
+        {
+          "name": "Turkmenistan",
+          "article": "Turkmenistan",
+          "aliases": []
+        },
+        {
+          "name": "Uzbekistan",
+          "article": "Uzbekistan",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "pixar-films",
+      "q": "Name a Pixar feature film released before 2025.",
+      "sub": "English titles. Sequels count; shorts do not.",
+      "sourceArticle": "List_of_Pixar_films",
+      "answers": [
+        {
+          "name": "Toy Story",
+          "article": "Toy_Story",
+          "aliases": []
+        },
+        {
+          "name": "A Bug’s Life",
+          "article": "A_Bug%27s_Life",
+          "aliases": [
+            "A Bug's Life",
+            "Bugs Life"
+          ]
+        },
+        {
+          "name": "Toy Story 2",
+          "article": "Toy_Story_2",
+          "aliases": []
+        },
+        {
+          "name": "Monsters, Inc.",
+          "article": "Monsters,_Inc.",
+          "aliases": [
+            "Monsters Inc",
+            "Monsters Incorporated"
+          ]
+        },
+        {
+          "name": "Finding Nemo",
+          "article": "Finding_Nemo",
+          "aliases": []
+        },
+        {
+          "name": "The Incredibles",
+          "article": "The_Incredibles",
+          "aliases": [
+            "Incredibles"
+          ]
+        },
+        {
+          "name": "Cars",
+          "article": "Cars_(film)",
+          "aliases": []
+        },
+        {
+          "name": "Ratatouille",
+          "article": "Ratatouille_(film)",
+          "aliases": []
+        },
+        {
+          "name": "WALL-E",
+          "article": "WALL-E",
+          "aliases": [
+            "Wall E",
+            "Walle"
+          ]
+        },
+        {
+          "name": "Up",
+          "article": "Up_(2009_film)",
+          "aliases": []
+        },
+        {
+          "name": "Toy Story 3",
+          "article": "Toy_Story_3",
+          "aliases": []
+        },
+        {
+          "name": "Cars 2",
+          "article": "Cars_2",
+          "aliases": []
+        },
+        {
+          "name": "Brave",
+          "article": "Brave_(2012_film)",
+          "aliases": []
+        },
+        {
+          "name": "Monsters University",
+          "article": "Monsters_University",
+          "aliases": []
+        },
+        {
+          "name": "Inside Out",
+          "article": "Inside_Out_(2015_film)",
+          "aliases": []
+        },
+        {
+          "name": "The Good Dinosaur",
+          "article": "The_Good_Dinosaur",
+          "aliases": []
+        },
+        {
+          "name": "Finding Dory",
+          "article": "Finding_Dory",
+          "aliases": []
+        },
+        {
+          "name": "Cars 3",
+          "article": "Cars_3",
+          "aliases": []
+        },
+        {
+          "name": "Coco",
+          "article": "Coco_(2017_film)",
+          "aliases": []
+        },
+        {
+          "name": "Incredibles 2",
+          "article": "Incredibles_2",
+          "aliases": [
+            "The Incredibles 2"
+          ]
+        },
+        {
+          "name": "Toy Story 4",
+          "article": "Toy_Story_4",
+          "aliases": []
+        },
+        {
+          "name": "Onward",
+          "article": "Onward_(film)",
+          "aliases": []
+        },
+        {
+          "name": "Soul",
+          "article": "Soul_(2020_film)",
+          "aliases": []
+        },
+        {
+          "name": "Luca",
+          "article": "Luca_(2021_film)",
+          "aliases": []
+        },
+        {
+          "name": "Turning Red",
+          "article": "Turning_Red",
+          "aliases": []
+        },
+        {
+          "name": "Lightyear",
+          "article": "Lightyear_(film)",
+          "aliases": []
+        },
+        {
+          "name": "Elemental",
+          "article": "Elemental_(2023_film)",
+          "aliases": []
+        },
+        {
+          "name": "Inside Out 2",
+          "article": "Inside_Out_2",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "one-letter-elements",
+      "q": "Name an element with a one-letter chemical symbol.",
+      "sub": "Type the element’s name or its symbol.",
+      "sourceArticle": "List_of_chemical_elements",
+      "answers": [
+        {
+          "name": "Boron",
+          "article": "Boron",
+          "aliases": [
+            "B"
+          ]
+        },
+        {
+          "name": "Carbon",
+          "article": "Carbon",
+          "aliases": [
+            "C"
+          ]
+        },
+        {
+          "name": "Fluorine",
+          "article": "Fluorine",
+          "aliases": [
+            "F"
+          ]
+        },
+        {
+          "name": "Hydrogen",
+          "article": "Hydrogen",
+          "aliases": [
+            "H"
+          ]
+        },
+        {
+          "name": "Iodine",
+          "article": "Iodine",
+          "aliases": [
+            "I"
+          ]
+        },
+        {
+          "name": "Potassium",
+          "article": "Potassium",
+          "aliases": [
+            "K"
+          ]
+        },
+        {
+          "name": "Nitrogen",
+          "article": "Nitrogen",
+          "aliases": [
+            "N"
+          ]
+        },
+        {
+          "name": "Oxygen",
+          "article": "Oxygen",
+          "aliases": [
+            "O"
+          ]
+        },
+        {
+          "name": "Phosphorus",
+          "article": "Phosphorus",
+          "aliases": [
+            "P"
+          ]
+        },
+        {
+          "name": "Sulfur",
+          "article": "Sulfur",
+          "aliases": [
+            "S",
+            "Sulphur"
+          ]
+        },
+        {
+          "name": "Uranium",
+          "article": "Uranium",
+          "aliases": [
+            "U"
+          ]
+        },
+        {
+          "name": "Vanadium",
+          "article": "Vanadium",
+          "aliases": [
+            "V"
+          ]
+        },
+        {
+          "name": "Tungsten",
+          "article": "Tungsten",
+          "aliases": [
+            "W"
+          ]
+        },
+        {
+          "name": "Yttrium",
+          "article": "Yttrium",
+          "aliases": [
+            "Y"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mario-kart-64",
+      "q": "Name a playable racer in Mario Kart 64.",
+      "sub": "The original Nintendo 64 game. Use a character’s name.",
+      "sourceArticle": "Mario_Kart_64",
+      "answers": [
+        {
+          "name": "Mario",
+          "article": "Mario",
+          "aliases": []
+        },
+        {
+          "name": "Luigi",
+          "article": "Luigi_(Mario)",
+          "aliases": []
+        },
+        {
+          "name": "Peach",
+          "article": "Princess_Peach",
+          "aliases": [
+            "Princess Peach"
+          ]
+        },
+        {
+          "name": "Toad",
+          "article": "Toad_(Nintendo)",
+          "aliases": []
+        },
+        {
+          "name": "Yoshi",
+          "article": "Yoshi",
+          "aliases": []
+        },
+        {
+          "name": "Donkey Kong",
+          "article": "Donkey_Kong_(character)",
+          "aliases": [
+            "DK"
+          ]
+        },
+        {
+          "name": "Wario",
+          "article": "Wario",
+          "aliases": []
+        },
+        {
+          "name": "Bowser",
+          "article": "Bowser",
+          "aliases": [
+            "King Koopa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "western-zodiac",
+      "q": "Name a Western zodiac sign.",
+      "sub": "Use its English astrological name.",
+      "sourceArticle": "Zodiac",
+      "answers": [
+        {
+          "name": "Aries",
+          "article": "Aries_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Taurus",
+          "article": "Taurus_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Gemini",
+          "article": "Gemini_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Cancer",
+          "article": "Cancer_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Leo",
+          "article": "Leo_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Virgo",
+          "article": "Virgo_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Libra",
+          "article": "Libra_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Scorpio",
+          "article": "Scorpio_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Sagittarius",
+          "article": "Sagittarius_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Capricorn",
+          "article": "Capricorn_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Aquarius",
+          "article": "Aquarius_(astrology)",
+          "aliases": []
+        },
+        {
+          "name": "Pisces",
+          "article": "Pisces_(astrology)",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "germany-neighbours",
+      "q": "Name a country sharing a land border with Germany.",
+      "sub": "Present-day borders. English country names.",
+      "sourceArticle": "Geography_of_Germany",
+      "answers": [
+        {
+          "name": "Austria",
+          "article": "Austria",
+          "aliases": []
+        },
+        {
+          "name": "Belgium",
+          "article": "Belgium",
+          "aliases": []
+        },
+        {
+          "name": "Czechia",
+          "article": "Czech_Republic",
+          "aliases": [
+            "Czech Republic"
+          ]
+        },
+        {
+          "name": "Denmark",
+          "article": "Denmark",
+          "aliases": []
+        },
+        {
+          "name": "France",
+          "article": "France",
+          "aliases": []
+        },
+        {
+          "name": "Luxembourg",
+          "article": "Luxembourg",
+          "aliases": []
+        },
+        {
+          "name": "Netherlands",
+          "article": "Netherlands",
+          "aliases": [
+            "Holland"
+          ]
+        },
+        {
+          "name": "Poland",
+          "article": "Poland",
+          "aliases": []
+        },
+        {
+          "name": "Switzerland",
+          "article": "Switzerland",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "bond-actors",
+      "q": "Name an actor who played James Bond in an Eon film.",
+      "sub": "The official film series, through No Time to Die (2021).",
+      "sourceArticle": "James_Bond_in_film",
+      "answers": [
+        {
+          "name": "Sean Connery",
+          "article": "Sean_Connery",
+          "aliases": [
+            "Connery"
+          ]
+        },
+        {
+          "name": "George Lazenby",
+          "article": "George_Lazenby",
+          "aliases": [
+            "Lazenby"
+          ]
+        },
+        {
+          "name": "Roger Moore",
+          "article": "Roger_Moore",
+          "aliases": [
+            "Moore"
+          ]
+        },
+        {
+          "name": "Timothy Dalton",
+          "article": "Timothy_Dalton",
+          "aliases": [
+            "Dalton"
+          ]
+        },
+        {
+          "name": "Pierce Brosnan",
+          "article": "Pierce_Brosnan",
+          "aliases": [
+            "Brosnan"
+          ]
+        },
+        {
+          "name": "Daniel Craig",
+          "article": "Daniel_Craig",
+          "aliases": [
+            "Craig"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-wonders",
+      "q": "Name one of the Seven Wonders of the Ancient World.",
+      "sub": "The traditional ancient list, not the modern New Seven Wonders.",
+      "sourceArticle": "Seven_Wonders_of_the_Ancient_World",
+      "answers": [
+        {
+          "name": "Great Pyramid of Giza",
+          "article": "Great_Pyramid_of_Giza",
+          "aliases": [
+            "Great Pyramid",
+            "Pyramid of Giza",
+            "Pyramids of Giza"
+          ]
+        },
+        {
+          "name": "Hanging Gardens of Babylon",
+          "article": "Hanging_Gardens_of_Babylon",
+          "aliases": [
+            "Hanging Gardens"
+          ]
+        },
+        {
+          "name": "Statue of Zeus at Olympia",
+          "article": "Statue_of_Zeus_at_Olympia",
+          "aliases": [
+            "Statue of Zeus"
+          ]
+        },
+        {
+          "name": "Temple of Artemis at Ephesus",
+          "article": "Temple_of_Artemis",
+          "aliases": [
+            "Temple of Artemis"
+          ]
+        },
+        {
+          "name": "Mausoleum at Halicarnassus",
+          "article": "Mausoleum_at_Halicarnassus",
+          "aliases": [
+            "Mausoleum of Halicarnassus"
+          ]
+        },
+        {
+          "name": "Colossus of Rhodes",
+          "article": "Colossus_of_Rhodes",
+          "aliases": [
+            "Colossus"
+          ]
+        },
+        {
+          "name": "Lighthouse of Alexandria",
+          "article": "Lighthouse_of_Alexandria",
+          "aliases": [
+            "Pharos of Alexandria",
+            "Pharos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greek-alphabet",
+      "q": "Name a letter of the Greek alphabet.",
+      "sub": "The standard modern 24-letter alphabet; English names count.",
+      "sourceArticle": "Greek_alphabet",
+      "answers": [
+        {
+          "name": "Alpha",
+          "article": "Alpha",
+          "aliases": []
+        },
+        {
+          "name": "Beta",
+          "article": "Beta",
+          "aliases": []
+        },
+        {
+          "name": "Gamma",
+          "article": "Gamma",
+          "aliases": []
+        },
+        {
+          "name": "Delta",
+          "article": "Delta_(letter)",
+          "aliases": [
+            "Delta letter"
+          ]
+        },
+        {
+          "name": "Epsilon",
+          "article": "Epsilon",
+          "aliases": []
+        },
+        {
+          "name": "Zeta",
+          "article": "Zeta",
+          "aliases": []
+        },
+        {
+          "name": "Eta",
+          "article": "Eta",
+          "aliases": []
+        },
+        {
+          "name": "Theta",
+          "article": "Theta",
+          "aliases": []
+        },
+        {
+          "name": "Iota",
+          "article": "Iota",
+          "aliases": []
+        },
+        {
+          "name": "Kappa",
+          "article": "Kappa",
+          "aliases": []
+        },
+        {
+          "name": "Lambda",
+          "article": "Lambda",
+          "aliases": [
+            "Lamda"
+          ]
+        },
+        {
+          "name": "Mu",
+          "article": "Mu_(letter)",
+          "aliases": []
+        },
+        {
+          "name": "Nu",
+          "article": "Nu_(Greek)",
+          "aliases": []
+        },
+        {
+          "name": "Xi",
+          "article": "Xi_(letter)",
+          "aliases": []
+        },
+        {
+          "name": "Omicron",
+          "article": "Omicron",
+          "aliases": []
+        },
+        {
+          "name": "Pi",
+          "article": "Pi_(letter)",
+          "aliases": []
+        },
+        {
+          "name": "Rho",
+          "article": "Rho",
+          "aliases": []
+        },
+        {
+          "name": "Sigma",
+          "article": "Sigma",
+          "aliases": []
+        },
+        {
+          "name": "Tau",
+          "article": "Tau",
+          "aliases": []
+        },
+        {
+          "name": "Upsilon",
+          "article": "Upsilon",
+          "aliases": []
+        },
+        {
+          "name": "Phi",
+          "article": "Phi",
+          "aliases": []
+        },
+        {
+          "name": "Chi",
+          "article": "Chi_(letter)",
+          "aliases": []
+        },
+        {
+          "name": "Psi",
+          "article": "Psi_(Greek)",
+          "aliases": []
+        },
+        {
+          "name": "Omega",
+          "article": "Omega",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "taylor-albums",
+      "q": "Name a Taylor Swift studio album released before 2025.",
+      "sub": "Original studio albums only; re-recordings and live albums do not count.",
+      "sourceArticle": "Taylor_Swift_albums_discography",
+      "answers": [
+        {
+          "name": "Taylor Swift",
+          "article": "Taylor_Swift_(album)",
+          "aliases": [
+            "Debut"
+          ]
+        },
+        {
+          "name": "Fearless",
+          "article": "Fearless_(Taylor_Swift_album)",
+          "aliases": []
+        },
+        {
+          "name": "Speak Now",
+          "article": "Speak_Now",
+          "aliases": []
+        },
+        {
+          "name": "Red",
+          "article": "Red_(Taylor_Swift_album)",
+          "aliases": []
+        },
+        {
+          "name": "1989",
+          "article": "1989_(Taylor_Swift_album)",
+          "aliases": []
+        },
+        {
+          "name": "Reputation",
+          "article": "Reputation_(album)",
+          "aliases": []
+        },
+        {
+          "name": "Lover",
+          "article": "Lover_(album)",
+          "aliases": []
+        },
+        {
+          "name": "Folklore",
+          "article": "Folklore_(Taylor_Swift_album)",
+          "aliases": []
+        },
+        {
+          "name": "Evermore",
+          "article": "Evermore_(Taylor_Swift_album)",
+          "aliases": []
+        },
+        {
+          "name": "Midnights",
+          "article": "Midnights",
+          "aliases": []
+        },
+        {
+          "name": "The Tortured Poets Department",
+          "article": "The_Tortured_Poets_Department",
+          "aliases": [
+            "Tortured Poets Department",
+            "TTPD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets",
+      "q": "Name one of the eight planets in our Solar System.",
+      "sub": "Planet names. Dwarf planets, including Pluto, do not count.",
+      "sourceArticle": "Solar_System",
+      "answers": [
+        {
+          "name": "Mercury",
+          "article": "Mercury_(planet)",
+          "aliases": []
+        },
+        {
+          "name": "Venus",
+          "article": "Venus",
+          "aliases": []
+        },
+        {
+          "name": "Earth",
+          "article": "Earth",
+          "aliases": []
+        },
+        {
+          "name": "Mars",
+          "article": "Mars",
+          "aliases": []
+        },
+        {
+          "name": "Jupiter",
+          "article": "Jupiter",
+          "aliases": []
+        },
+        {
+          "name": "Saturn",
+          "article": "Saturn",
+          "aliases": []
+        },
+        {
+          "name": "Uranus",
+          "article": "Uranus",
+          "aliases": []
+        },
+        {
+          "name": "Neptune",
+          "article": "Neptune",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "great-lakes",
+      "q": "Name one of the five Great Lakes of North America.",
+      "sub": "Use the individual named lakes, not the combined Michigan–Huron body.",
+      "sourceArticle": "Great_Lakes",
+      "answers": [
+        {
+          "name": "Superior",
+          "article": "Lake_Superior",
+          "aliases": [
+            "Lake Superior"
+          ]
+        },
+        {
+          "name": "Michigan",
+          "article": "Lake_Michigan",
+          "aliases": [
+            "Lake Michigan"
+          ]
+        },
+        {
+          "name": "Huron",
+          "article": "Lake_Huron",
+          "aliases": [
+            "Lake Huron"
+          ]
+        },
+        {
+          "name": "Erie",
+          "article": "Lake_Erie",
+          "aliases": [
+            "Lake Erie"
+          ]
+        },
+        {
+          "name": "Ontario",
+          "article": "Lake_Ontario",
+          "aliases": [
+            "Lake Ontario"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olympian-gods",
+      "q": "Name a Greek god counted among the Twelve Olympians.",
+      "sub": "Both Hestia and Dionysus qualify across the traditional lists.",
+      "sourceArticle": "Twelve_Olympians",
+      "answers": [
+        {
+          "name": "Zeus",
+          "article": "Zeus",
+          "aliases": []
+        },
+        {
+          "name": "Hera",
+          "article": "Hera",
+          "aliases": []
+        },
+        {
+          "name": "Poseidon",
+          "article": "Poseidon",
+          "aliases": []
+        },
+        {
+          "name": "Demeter",
+          "article": "Demeter",
+          "aliases": []
+        },
+        {
+          "name": "Athena",
+          "article": "Athena",
+          "aliases": []
+        },
+        {
+          "name": "Apollo",
+          "article": "Apollo",
+          "aliases": []
+        },
+        {
+          "name": "Artemis",
+          "article": "Artemis",
+          "aliases": []
+        },
+        {
+          "name": "Ares",
+          "article": "Ares",
+          "aliases": []
+        },
+        {
+          "name": "Aphrodite",
+          "article": "Aphrodite",
+          "aliases": []
+        },
+        {
+          "name": "Hephaestus",
+          "article": "Hephaestus",
+          "aliases": []
+        },
+        {
+          "name": "Hermes",
+          "article": "Hermes",
+          "aliases": []
+        },
+        {
+          "name": "Hestia",
+          "article": "Hestia",
+          "aliases": []
+        },
+        {
+          "name": "Dionysus",
+          "article": "Dionysus",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "chinese-zodiac",
+      "q": "Name an animal in the Chinese zodiac.",
+      "sub": "The traditional twelve-animal cycle.",
+      "sourceArticle": "Chinese_zodiac",
+      "answers": [
+        {
+          "name": "Rat",
+          "article": "Rat_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Ox",
+          "article": "Ox_(zodiac)",
+          "aliases": [
+            "Cow",
+            "Bull"
+          ]
+        },
+        {
+          "name": "Tiger",
+          "article": "Tiger_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Rabbit",
+          "article": "Rabbit_(zodiac)",
+          "aliases": [
+            "Hare"
+          ]
+        },
+        {
+          "name": "Dragon",
+          "article": "Dragon_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Snake",
+          "article": "Snake_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Horse",
+          "article": "Horse_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Goat",
+          "article": "Goat_(zodiac)",
+          "aliases": [
+            "Sheep",
+            "Ram"
+          ]
+        },
+        {
+          "name": "Monkey",
+          "article": "Monkey_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Rooster",
+          "article": "Rooster_(zodiac)",
+          "aliases": [
+            "Chicken",
+            "Cock"
+          ]
+        },
+        {
+          "name": "Dog",
+          "article": "Dog_(zodiac)",
+          "aliases": []
+        },
+        {
+          "name": "Pig",
+          "article": "Pig_(zodiac)",
+          "aliases": [
+            "Boar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disney-renaissance",
+      "q": "Name a Disney Renaissance animated film.",
+      "sub": "The ten Disney films in the 1989–1999 Renaissance era.",
+      "sourceArticle": "Disney_Renaissance",
+      "answers": [
+        {
+          "name": "The Little Mermaid",
+          "article": "The_Little_Mermaid_(1989_film)",
+          "aliases": [
+            "Little Mermaid"
+          ]
+        },
+        {
+          "name": "The Rescuers Down Under",
+          "article": "The_Rescuers_Down_Under",
+          "aliases": [
+            "Rescuers Down Under"
+          ]
+        },
+        {
+          "name": "Beauty and the Beast",
+          "article": "Beauty_and_the_Beast_(1991_film)",
+          "aliases": []
+        },
+        {
+          "name": "Aladdin",
+          "article": "Aladdin_(1992_Disney_film)",
+          "aliases": []
+        },
+        {
+          "name": "The Lion King",
+          "article": "The_Lion_King",
+          "aliases": [
+            "Lion King"
+          ]
+        },
+        {
+          "name": "Pocahontas",
+          "article": "Pocahontas_(1995_film)",
+          "aliases": []
+        },
+        {
+          "name": "The Hunchback of Notre Dame",
+          "article": "The_Hunchback_of_Notre_Dame_(1996_film)",
+          "aliases": [
+            "Hunchback of Notre Dame"
+          ]
+        },
+        {
+          "name": "Hercules",
+          "article": "Hercules_(1997_film)",
+          "aliases": []
+        },
+        {
+          "name": "Mulan",
+          "article": "Mulan_(1998_film)",
+          "aliases": []
+        },
+        {
+          "name": "Tarzan",
+          "article": "Tarzan_(1999_film)",
+          "aliases": []
+        }
+      ]
+    }
+  ]
+}

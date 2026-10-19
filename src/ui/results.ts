@@ -1,4 +1,4 @@
-import { MODES } from '../domain/modes.ts';
+import { MODES, isFactual } from '../domain/modes.ts';
 import { total } from '../domain/game.ts';
 import type { GameContext } from '../domain/types.ts';
 import { safe, footer } from './shared.ts';
@@ -8,8 +8,15 @@ export function renderResults(context: GameContext) {
   const { challenge, attempt } = context;
   const game = attempt!;
   let score = total(game);
-  const label =
-    score >= 400
+  const label = isFactual(challenge)
+    ? score >= 400
+      ? 'A brilliant balance.'
+      : score >= 300
+        ? 'You know your deep cuts.'
+        : score >= 200
+          ? 'A few good surprises.'
+          : 'More to discover.'
+    : score >= 400
       ? 'You ARE the crowd.'
       : score >= 300
         ? 'You know people.'

@@ -1,6 +1,7 @@
 import type { GameContext } from '../domain/types.ts';
 import { safe, footer } from './shared.ts';
 import { html, arrowIcon } from './shared.ts';
+import { isFactual } from '../domain/modes.ts';
 
 export function renderHome(context: GameContext) {
   const { challenge, attempt } = context;
@@ -12,14 +13,13 @@ export function renderHome(context: GameContext) {
       <div>
         <span class="tag"
           ><i></i>
-          ${challenge.kind === 'demo' ? 'DEMO CHALLENGE' : 'DAILY CROWD CHALLENGE'}
+          ${isFactual(challenge) ? 'DAILY KNOWLEDGE CHALLENGE' : challenge.kind === 'demo' ? 'DEMO CHALLENGE' : 'DAILY CROWD CHALLENGE'}
           · #${safe(challenge.number)}</span
         >
       </div>
-      <h1>Can you <span class="accent">read</span><br />the crowd?</h1>
+      ${isFactual(challenge) ? '<h1>Obvious?<br /><span class="accent">Or overlooked?</span></h1>' : '<h1>Can you <span class="accent">read</span><br />the crowd?</h1>'}
       <p>
-        Sometimes fit in. Sometimes stand out. Five prompts to prove you know
-        how well you can predict the crowd.
+        ${isFactual(challenge) ? 'Five categories. Plenty of right answers. Spend your strategies on the familiar, the unexpected, and the ones in between.' : 'Sometimes fit in. Sometimes stand out. Five prompts to prove you know how well you can predict the crowd.'}
       </p>
     </div>
     <div class="orb" aria-hidden="true">

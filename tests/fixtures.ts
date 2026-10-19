@@ -6,6 +6,7 @@ import {
   SafeStorage,
 } from '../src/services/storage.ts';
 import type { KeyValueStorage } from '../src/services/storage.ts';
+import type { ChallengeRepository } from '../src/services/contracts.ts';
 
 export class MemoryStorage implements KeyValueStorage {
   data = new Map<string, string>();
@@ -20,7 +21,7 @@ export class MemoryStorage implements KeyValueStorage {
   }
 }
 
-export function fixture() {
+export function fixture(challenges: ChallengeRepository = demoChallenges) {
   let now = Date.parse('2026-10-18T12:00:00Z');
   let id = 0;
   const storage = new SafeStorage(new MemoryStorage());
@@ -28,7 +29,7 @@ export function fixture() {
   const attempts = new LocalAttempts(storage, () => `migrated-${++id}`);
   const makeClient = () =>
     new DemoClient(
-      demoChallenges,
+      challenges,
       players,
       attempts,
       () => now,
