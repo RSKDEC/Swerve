@@ -1,0 +1,62 @@
+{
+  "repository": "https://github.com/fivethirtyeight/data",
+  "commit": "4c1ff5e3aef1816ae04af63218015066e186c147",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+    },
+    {
+      "path": "README.md",
+      "sha256": "df6cc1332e12ee4bb5c38d1a9247dd7250ef6b937ecd31069d6532ec45bc9d60"
+    },
+    {
+      "path": "comma-survey/comma-survey.csv",
+      "sha256": "ca41a94aea9b7845b1f03c79590d540814431eb8c124905af0950885aa7e867b"
+    },
+    {
+      "path": "flying-etiquette-survey/flying-etiquette.csv",
+      "sha256": "d65ad4105666732c9cb93780f6ac28617f916c2450ac48618f89ac0145d670f2"
+    },
+    {
+      "path": "food-world-cup/food-world-cup-data.csv",
+      "sha256": "0ada78c5e93576f50fa84954d1c940292c2211ff9f0cfc0ba5f2d46ac232dd98"
+    },
+    {
+      "path": "star-wars-survey/StarWars.csv",
+      "sha256": "8b4ae2a4ce59d124ac98ce5810a22bca5710e1dcd644fb7cb26344811ba3f989"
+    },
+    {
+      "path": "steak-survey/steak-risk-survey.csv",
+      "sha256": "cc25080bf53209ba5034d738e857bd6106314f8e49ac7c203dbca9ff35474a1a"
+    },
+    {
+      "path": "thanksgiving-2015/thanksgiving-2015-poll-data.csv",
+      "sha256": "992cc96b60f1591a7efb2480c2a3461d7f4f77c965ce8e1d9ca8b6ef78b33527"
+    },
+    {
+      "path": "comma-survey/README.md",
+      "sha256": "7ca630bb7aa0f6457c71b7ef14a67c852e663eccd03b81c56582bd1f156dd985"
+    },
+    {
+      "path": "flying-etiquette-survey/README.md",
+      "sha256": "75539084041d08b4caeeec5ae3194bb89025b3d35a04f3116fed5f76af9cbeac"
+    },
+    {
+      "path": "food-world-cup/README.md",
+      "sha256": "e7d65d2dfe39443c6d91aa1b902bc0f26a659a7c2717c363b63ec78892cbe820"
+    },
+    {
+      "path": "star-wars-survey/README.md",
+      "sha256": "3dfe3c83190eef7e806c9eadcbd87d57bff7ff1769a214f753e810a70e1f23df"
+    },
+    {
+      "path": "steak-survey/README.md",
+      "sha256": "a79af8c57213038bddfbea4976bd47995577311963c8e9bd1e140006f9678026"
+    },
+    {
+      "path": "thanksgiving-2015/README.md",
+      "sha256": "6379c83c28e39479cd855fd44c7e81968470b4c55f411eab3cf2fc232db5e031"
+    }
+  ]
+}

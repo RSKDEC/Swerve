@@ -25,7 +25,7 @@ export function renderHelp(context: GameContext) {
               >
               <p>
                 ${m.desc}.
-                ${k === 'blend' ? 'Earn more when your answer is popular.' : k === 'swerve' ? 'Earn more when your answer is uncommon but valid.' : 'The best answer is picked by roughly 17% of players.'}
+                ${k === 'blend' ? 'Earn more when your answer is popular.' : k === 'swerve' ? 'Earn more when your answer is uncommon but valid.' : 'Aim for an answer chosen by roughly 17% of the reference group.'}
               </p>
             </div>`,
         )
@@ -45,7 +45,15 @@ export function renderHelp(context: GameContext) {
               Unrecognized answers receive zero points. No answer is sent for
               review in this demo.
             </p>`
-          : ''
+          : html`<p class="smallprint">
+              Choose one listed response or type it. You predict the dated
+              reference group shown with each prompt. Blank or unrecognized
+              answers earn zero; no answers are sent for review. Shares use
+              recorded responses, not live player votes.
+              <a href="./data-credits.html" target="_blank" rel="noopener"
+                >Data credits and methodology</a
+              >.
+            </p>`
       }
     </div>
     <div class="spacer"></div>

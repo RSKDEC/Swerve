@@ -7,10 +7,11 @@ import type {
   PreparedQuestion,
 } from '../domain/types.ts';
 
-/** Editorial content with illustrative weights, not measured player responses. */
+/** Generated only from pinned survey responses. See content/surveys and the ledger. */
 export const PREPARED_QUESTIONS: readonly PreparedQuestion[] = questions;
 export const PREPARED_DAYS: readonly PreparedDay[] = calendar;
-export const CONTENT_VERSION = 'prepared-v1';
+export const CONTENT_VERSION = 'surveys-v1';
+export const REFERENCE_LAUNCH_DAY = '2026-10-19';
 export const FIRST_PREPARED_DAY = PREPARED_DAYS[0].day;
 export const LAST_PREPARED_DAY = PREPARED_DAYS.at(-1)!.day;
 const questionsById = new Map(

@@ -1,0 +1,3849 @@
+{
+  "sources": [
+    {
+      "id": "comma-survey",
+      "title": "Oxford comma and grammar",
+      "file": "comma-survey/comma-survey.csv",
+      "year": 2014,
+      "fieldDate": null,
+      "population": "Respondents in the published FiveThirtyEight Oxford comma and grammar dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    },
+    {
+      "id": "flying-etiquette-survey",
+      "title": "Flying etiquette",
+      "file": "flying-etiquette-survey/flying-etiquette.csv",
+      "year": 2014,
+      "fieldDate": null,
+      "population": "Respondents in the published FiveThirtyEight Flying etiquette dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    },
+    {
+      "id": "food-world-cup",
+      "title": "Food World Cup",
+      "file": "food-world-cup/food-world-cup-data.csv",
+      "year": 2014,
+      "fieldDate": null,
+      "population": "Respondents in the published FiveThirtyEight Food World Cup dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    },
+    {
+      "id": "star-wars-survey",
+      "title": "Star Wars",
+      "file": "star-wars-survey/StarWars.csv",
+      "year": 2014,
+      "fieldDate": null,
+      "population": "Respondents in the published FiveThirtyEight Star Wars dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    },
+    {
+      "id": "steak-survey",
+      "title": "Steak preferences",
+      "file": "steak-survey/steak-risk-survey.csv",
+      "year": 2014,
+      "fieldDate": null,
+      "population": "Respondents in the published FiveThirtyEight Steak preferences dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    },
+    {
+      "id": "thanksgiving-2015",
+      "title": "Thanksgiving",
+      "file": "thanksgiving-2015/thanksgiving-2015-poll-data.csv",
+      "year": 2015,
+      "fieldDate": "2015-11-17",
+      "population": "Respondents in the published FiveThirtyEight Thanksgiving dataset; valid answers to this item only. Not Swerve players or a current population estimate.",
+      "weighting": "Unweighted frequency of recorded responses; not a reproduction of any weighted headline estimate."
+    }
+  ],
+  "questions": [
+    {
+      "id": "food-world-cup-01",
+      "source": "food-world-cup",
+      "column": 1,
+      "category": "Food",
+      "prompt": "How did respondents rate their knowledge of cuisines from around the world?",
+      "options": [
+        {
+          "raw": "Advanced",
+          "label": "Advanced",
+          "aliases": []
+        },
+        {
+          "raw": "Expert",
+          "label": "Expert",
+          "aliases": []
+        },
+        {
+          "raw": "Intermediate",
+          "label": "Intermediate",
+          "aliases": []
+        },
+        {
+          "raw": "Novice",
+          "label": "Novice",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "food-world-cup-02",
+      "source": "food-world-cup",
+      "column": 2,
+      "category": "Food",
+      "prompt": "How interested were respondents in cuisines from around the world?",
+      "options": [
+        {
+          "raw": "A lot",
+          "label": "A lot",
+          "aliases": []
+        },
+        {
+          "raw": "Not at allÊ",
+          "label": "Not at allÊ",
+          "aliases": []
+        },
+        {
+          "raw": "Not muchÊ",
+          "label": "Not muchÊ",
+          "aliases": []
+        },
+        {
+          "raw": "Some",
+          "label": "Some interest",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "food-world-cup-03",
+      "source": "food-world-cup",
+      "column": 3,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Algeria?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-04",
+      "source": "food-world-cup",
+      "column": 4,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Argentina?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-05",
+      "source": "food-world-cup",
+      "column": 5,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Australia?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-06",
+      "source": "food-world-cup",
+      "column": 6,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Belgium?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-07",
+      "source": "food-world-cup",
+      "column": 7,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Bosnia and Herzegovina?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-08",
+      "source": "food-world-cup",
+      "column": 8,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Brazil?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-09",
+      "source": "food-world-cup",
+      "column": 9,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Cameroon?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-10",
+      "source": "food-world-cup",
+      "column": 10,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Chile?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-11",
+      "source": "food-world-cup",
+      "column": 11,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Colombia?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-12",
+      "source": "food-world-cup",
+      "column": 12,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Costa Rica?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-13",
+      "source": "food-world-cup",
+      "column": 13,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Croatia?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-14",
+      "source": "food-world-cup",
+      "column": 14,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Ecuador?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-15",
+      "source": "food-world-cup",
+      "column": 15,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of England?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-16",
+      "source": "food-world-cup",
+      "column": 16,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of France?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-17",
+      "source": "food-world-cup",
+      "column": 17,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Germany?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-18",
+      "source": "food-world-cup",
+      "column": 18,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Ghana?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-19",
+      "source": "food-world-cup",
+      "column": 19,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Greece?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-20",
+      "source": "food-world-cup",
+      "column": 20,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Honduras?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-21",
+      "source": "food-world-cup",
+      "column": 21,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Iran?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-22",
+      "source": "food-world-cup",
+      "column": 22,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Italy?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-23",
+      "source": "food-world-cup",
+      "column": 23,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Ivory Coast?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-24",
+      "source": "food-world-cup",
+      "column": 24,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Japan?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-25",
+      "source": "food-world-cup",
+      "column": 25,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Mexico?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-26",
+      "source": "food-world-cup",
+      "column": 26,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of the Netherlands?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-27",
+      "source": "food-world-cup",
+      "column": 27,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Nigeria?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-28",
+      "source": "food-world-cup",
+      "column": 28,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Portugal?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-29",
+      "source": "food-world-cup",
+      "column": 29,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Russia?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-30",
+      "source": "food-world-cup",
+      "column": 30,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of South Korea?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-31",
+      "source": "food-world-cup",
+      "column": 31,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Spain?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-32",
+      "source": "food-world-cup",
+      "column": 32,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Switzerland?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-33",
+      "source": "food-world-cup",
+      "column": 33,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of United States?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-34",
+      "source": "food-world-cup",
+      "column": 34,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Uruguay?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-35",
+      "source": "food-world-cup",
+      "column": 35,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of China?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-36",
+      "source": "food-world-cup",
+      "column": 36,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of India?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-37",
+      "source": "food-world-cup",
+      "column": 37,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Thailand?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-38",
+      "source": "food-world-cup",
+      "column": 38,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Turkey?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-39",
+      "source": "food-world-cup",
+      "column": 39,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Cuba?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-40",
+      "source": "food-world-cup",
+      "column": 40,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Ethiopia?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-41",
+      "source": "food-world-cup",
+      "column": 41,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Vietnam?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "food-world-cup-42",
+      "source": "food-world-cup",
+      "column": 42,
+      "category": "Food",
+      "prompt": "How did respondents rate the traditional cuisine of Ireland?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "Hate it",
+          "aliases": []
+        },
+        {
+          "raw": "2",
+          "label": "Dislike it",
+          "aliases": []
+        },
+        {
+          "raw": "3",
+          "label": "OK with it",
+          "aliases": []
+        },
+        {
+          "raw": "4",
+          "label": "Like it",
+          "aliases": []
+        },
+        {
+          "raw": "5",
+          "label": "Love it",
+          "aliases": []
+        },
+        {
+          "raw": "N/A",
+          "label": "Unfamiliar",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a rating: love, like, OK, dislike, hate, or unfamiliar."
+    },
+    {
+      "id": "flying-etiquette-survey-01",
+      "source": "flying-etiquette-survey",
+      "column": 1,
+      "category": "Flying",
+      "prompt": "How often did respondents travel by plane?",
+      "options": [
+        {
+          "raw": "A few times per month",
+          "label": "A few times per month",
+          "aliases": []
+        },
+        {
+          "raw": "A few times per week",
+          "label": "A few times per week",
+          "aliases": []
+        },
+        {
+          "raw": "Every day",
+          "label": "Every day",
+          "aliases": []
+        },
+        {
+          "raw": "Never",
+          "label": "Never",
+          "aliases": []
+        },
+        {
+          "raw": "Once a month or less",
+          "label": "Once a month or less",
+          "aliases": []
+        },
+        {
+          "raw": "Once a year or less",
+          "label": "Once a year or less",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-02",
+      "source": "flying-etiquette-survey",
+      "column": 2,
+      "category": "Flying",
+      "prompt": "How often did respondents recline their seat when flying?",
+      "options": [
+        {
+          "raw": "About half the time",
+          "label": "About half the time",
+          "aliases": []
+        },
+        {
+          "raw": "Always",
+          "label": "Always",
+          "aliases": []
+        },
+        {
+          "raw": "Never",
+          "label": "Never",
+          "aliases": []
+        },
+        {
+          "raw": "Once in a while",
+          "label": "Once in a while",
+          "aliases": []
+        },
+        {
+          "raw": "Usually",
+          "label": "Usually",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-05",
+      "source": "flying-etiquette-survey",
+      "column": 5,
+      "category": "Flying",
+      "prompt": "In a row of three plane seats, who should use the two armrests?",
+      "options": [
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        },
+        {
+          "raw": "The arm rests should be shared",
+          "label": "Shared",
+          "aliases": []
+        },
+        {
+          "raw": "The people in the aisle and window seats get both arm rests",
+          "label": "Aisle and window passengers get both",
+          "aliases": []
+        },
+        {
+          "raw": "The person in the middle seat gets both arm rests",
+          "label": "Middle passenger gets both",
+          "aliases": []
+        },
+        {
+          "raw": "Whoever puts their arm on the arm rest first",
+          "label": "Whoever gets there first",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-06",
+      "source": "flying-etiquette-survey",
+      "column": 6,
+      "category": "Flying",
+      "prompt": "In a row of two plane seats, who should use the middle armrest?",
+      "options": [
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        },
+        {
+          "raw": "The arm rests should be shared",
+          "label": "Shared",
+          "aliases": []
+        },
+        {
+          "raw": "The person by the window",
+          "label": "Window passenger",
+          "aliases": []
+        },
+        {
+          "raw": "The person in aisle",
+          "label": "Aisle passenger",
+          "aliases": []
+        },
+        {
+          "raw": "Whoever puts their arm on the arm rest first",
+          "label": "Whoever gets there first",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-07",
+      "source": "flying-etiquette-survey",
+      "column": 7,
+      "category": "Flying",
+      "prompt": "Who should control the window shade on a plane?",
+      "options": [
+        {
+          "raw": "Everyone in the row should have some say",
+          "label": "Everyone in the row",
+          "aliases": []
+        },
+        {
+          "raw": "The person in the window seat should have exclusive control",
+          "label": "Window passenger only",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-08",
+      "source": "flying-etiquette-survey",
+      "column": 8,
+      "category": "Flying",
+      "prompt": "Is it rude to move to an unsold seat on a plane?",
+      "options": [
+        {
+          "raw": "No, not rude at all",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-09",
+      "source": "flying-etiquette-survey",
+      "column": 9,
+      "category": "Flying",
+      "prompt": "Is it rude to say more than a few words to the stranger next to you on a plane?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-10",
+      "source": "flying-etiquette-survey",
+      "column": 10,
+      "category": "Flying",
+      "prompt": "On a six-hour NYC–LA flight, how often is it acceptable to get up from a non-aisle seat?",
+      "options": [
+        {
+          "raw": "Four times",
+          "label": "Four times",
+          "aliases": []
+        },
+        {
+          "raw": "It is not okay to get up during flight",
+          "label": "Not at all",
+          "aliases": []
+        },
+        {
+          "raw": "More than five times times",
+          "label": "More than five times",
+          "aliases": []
+        },
+        {
+          "raw": "Once",
+          "label": "Once",
+          "aliases": []
+        },
+        {
+          "raw": "Three times",
+          "label": "Three times",
+          "aliases": []
+        },
+        {
+          "raw": "Twice",
+          "label": "Twice",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-11",
+      "source": "flying-etiquette-survey",
+      "column": 11,
+      "category": "Flying",
+      "prompt": "Does a passenger who reclines owe anything to the person behind them?",
+      "options": [
+        {
+          "raw": "No, the person on the flight has no obligation to the person behind them",
+          "label": "No obligation",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, they should not recline their chair if the person behind them asks them not to",
+          "label": "Do not recline if the person behind asks you not to",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-12",
+      "source": "flying-etiquette-survey",
+      "column": 12,
+      "category": "Flying",
+      "prompt": "Is it rude to recline your seat on a plane?",
+      "options": [
+        {
+          "raw": "No, not rude at all",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-13",
+      "source": "flying-etiquette-survey",
+      "column": 13,
+      "category": "Flying",
+      "prompt": "Would respondents eliminate reclining plane seats if they could?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-14",
+      "source": "flying-etiquette-survey",
+      "column": 14,
+      "category": "Flying",
+      "prompt": "Is it rude to ask someone to switch plane seats so you can sit closer to friends?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-15",
+      "source": "flying-etiquette-survey",
+      "column": 15,
+      "category": "Flying",
+      "prompt": "Is it rude to ask someone to switch plane seats so you can sit closer to family?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-16",
+      "source": "flying-etiquette-survey",
+      "column": 16,
+      "category": "Flying",
+      "prompt": "Is it rude to wake a passenger when you need to go to the bathroom?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-17",
+      "source": "flying-etiquette-survey",
+      "column": 17,
+      "category": "Flying",
+      "prompt": "Is it rude to wake a passenger when you want to walk around?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-18",
+      "source": "flying-etiquette-survey",
+      "column": 18,
+      "category": "Flying",
+      "prompt": "Is it rude to bring a baby on a plane?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-19",
+      "source": "flying-etiquette-survey",
+      "column": 19,
+      "category": "Flying",
+      "prompt": "Is it rude to knowingly bring unruly children on a plane?",
+      "options": [
+        {
+          "raw": "No, not at all rude",
+          "label": "Not rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, somewhat rude",
+          "label": "Somewhat rude",
+          "aliases": []
+        },
+        {
+          "raw": "Yes, very rude",
+          "label": "Very rude",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "flying-etiquette-survey-20",
+      "source": "flying-etiquette-survey",
+      "column": 20,
+      "category": "Flying",
+      "prompt": "Had respondents used electronics against flight attendant instructions at takeoff or landing?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "star-wars-survey-01",
+      "source": "star-wars-survey",
+      "column": 1,
+      "category": "Screen",
+      "prompt": "Had respondents seen any of the first six Star Wars films?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-02",
+      "source": "star-wars-survey",
+      "column": 2,
+      "category": "Screen",
+      "prompt": "Did respondents consider themselves Star Wars film fans?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-29",
+      "source": "star-wars-survey",
+      "column": 29,
+      "category": "Screen",
+      "prompt": "Who did respondents say shot first: Han or Greedo?",
+      "options": [
+        {
+          "raw": "Greedo",
+          "label": "Greedo",
+          "aliases": []
+        },
+        {
+          "raw": "Han",
+          "label": "Han",
+          "aliases": []
+        },
+        {
+          "raw": "I don't understand this question",
+          "label": "I don't understand this question",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-30",
+      "source": "star-wars-survey",
+      "column": 30,
+      "category": "Screen",
+      "prompt": "Were respondents familiar with the Star Wars Expanded Universe?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-31",
+      "source": "star-wars-survey",
+      "column": 31,
+      "category": "Screen",
+      "prompt": "Did respondents familiar with the Expanded Universe consider themselves fans of it?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-32",
+      "source": "star-wars-survey",
+      "column": 32,
+      "category": "Screen",
+      "prompt": "Did respondents consider themselves Star Trek fans?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "The question refers to the original six-film era, before the sequel trilogy."
+    },
+    {
+      "id": "star-wars-survey-09",
+      "source": "star-wars-survey",
+      "column": 9,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode I The Phantom Menace?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-10",
+      "source": "star-wars-survey",
+      "column": 10,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode II Attack of the Clones?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-11",
+      "source": "star-wars-survey",
+      "column": 11,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode III Revenge of the Sith?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-12",
+      "source": "star-wars-survey",
+      "column": 12,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode IV A New Hope?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-13",
+      "source": "star-wars-survey",
+      "column": 13,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode V The Empire Strikes Back?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-14",
+      "source": "star-wars-survey",
+      "column": 14,
+      "category": "Screen",
+      "prompt": "Where did respondents rank Episode VI Return of the Jedi?",
+      "options": [
+        {
+          "raw": "1",
+          "label": "1st place",
+          "aliases": [
+            "1"
+          ]
+        },
+        {
+          "raw": "2",
+          "label": "2nd place",
+          "aliases": [
+            "2"
+          ]
+        },
+        {
+          "raw": "3",
+          "label": "3rd place",
+          "aliases": [
+            "3"
+          ]
+        },
+        {
+          "raw": "4",
+          "label": "4th place",
+          "aliases": [
+            "4"
+          ]
+        },
+        {
+          "raw": "5",
+          "label": "5th place",
+          "aliases": [
+            "5"
+          ]
+        },
+        {
+          "raw": "6",
+          "label": "6th place",
+          "aliases": [
+            "6"
+          ]
+        }
+      ],
+      "context": "Ranked among the first six Star Wars films: 1st is favorite, 6th least favorite."
+    },
+    {
+      "id": "star-wars-survey-15",
+      "source": "star-wars-survey",
+      "column": 15,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Han Solo in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-16",
+      "source": "star-wars-survey",
+      "column": 16,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Luke Skywalker in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-17",
+      "source": "star-wars-survey",
+      "column": 17,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Princess Leia Organa in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-18",
+      "source": "star-wars-survey",
+      "column": 18,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Anakin Skywalker in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-19",
+      "source": "star-wars-survey",
+      "column": 19,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Obi Wan Kenobi in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-20",
+      "source": "star-wars-survey",
+      "column": 20,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Emperor Palpatine in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-21",
+      "source": "star-wars-survey",
+      "column": 21,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Darth Vader in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-22",
+      "source": "star-wars-survey",
+      "column": 22,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Lando Calrissian in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-23",
+      "source": "star-wars-survey",
+      "column": 23,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Boba Fett in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-24",
+      "source": "star-wars-survey",
+      "column": 24,
+      "category": "Screen",
+      "prompt": "How did respondents feel about C-3PO in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-25",
+      "source": "star-wars-survey",
+      "column": 25,
+      "category": "Screen",
+      "prompt": "How did respondents feel about R2-D2 in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-26",
+      "source": "star-wars-survey",
+      "column": 26,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Jar Jar Binks in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-27",
+      "source": "star-wars-survey",
+      "column": 27,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Padme Amidala in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "star-wars-survey-28",
+      "source": "star-wars-survey",
+      "column": 28,
+      "category": "Screen",
+      "prompt": "How did respondents feel about Yoda in Star Wars?",
+      "options": [
+        {
+          "raw": "Neither favorably nor unfavorably (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat favorably",
+          "label": "Somewhat favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unfavorably",
+          "label": "Somewhat unfavorably",
+          "aliases": []
+        },
+        {
+          "raw": "Unfamiliar (N/A)",
+          "label": "Unfamiliar",
+          "aliases": []
+        },
+        {
+          "raw": "Very favorably",
+          "label": "Very favorably",
+          "aliases": []
+        },
+        {
+          "raw": "Very unfavorably",
+          "label": "Very unfavorably",
+          "aliases": []
+        }
+      ],
+      "context": "Predict a favorability rating, including neutral or unfamiliar."
+    },
+    {
+      "id": "comma-survey-01",
+      "source": "comma-survey",
+      "column": 1,
+      "category": "Everyday",
+      "prompt": "Which sentence did respondents consider more grammatically correct?",
+      "options": [
+        {
+          "raw": "It's important for a person to be honest, kind and loyal.",
+          "label": "Without Oxford comma",
+          "aliases": []
+        },
+        {
+          "raw": "It's important for a person to be honest, kind, and loyal.",
+          "label": "With Oxford comma",
+          "aliases": []
+        }
+      ],
+      "context": "Oxford comma: “honest, kind, and loyal” versus “honest, kind and loyal”."
+    },
+    {
+      "id": "comma-survey-02",
+      "source": "comma-survey",
+      "column": 2,
+      "category": "Everyday",
+      "prompt": "Had respondents heard of the Oxford comma before this questionnaire explained it?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "comma-survey-03",
+      "source": "comma-survey",
+      "column": 3,
+      "category": "Everyday",
+      "prompt": "How much did respondents care about use of the Oxford comma?",
+      "options": [
+        {
+          "raw": "A lot",
+          "label": "A lot",
+          "aliases": []
+        },
+        {
+          "raw": "Not at all",
+          "label": "Not at all",
+          "aliases": []
+        },
+        {
+          "raw": "Not much",
+          "label": "Not much",
+          "aliases": []
+        },
+        {
+          "raw": "Some",
+          "label": "Somewhat",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "comma-survey-04",
+      "source": "comma-survey",
+      "column": 4,
+      "category": "Everyday",
+      "prompt": "How did respondents write “Some experts say it is important to drink milk, but the data …”?",
+      "options": [
+        {
+          "raw": "Some experts say it's important to drink milk, but the data are inconclusive.",
+          "label": "Data are inconclusive",
+          "aliases": []
+        },
+        {
+          "raw": "Some experts say it's important to drink milk, but the data is inconclusive.",
+          "label": "Data is inconclusive",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "comma-survey-05",
+      "source": "comma-survey",
+      "column": 5,
+      "category": "Everyday",
+      "prompt": "Had respondents ever considered whether the word “data” was singular or plural?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "comma-survey-06",
+      "source": "comma-survey",
+      "column": 6,
+      "category": "Everyday",
+      "prompt": "How much did respondents care about “data” being singular or plural?",
+      "options": [
+        {
+          "raw": "A lot",
+          "label": "A lot",
+          "aliases": []
+        },
+        {
+          "raw": "Not at all",
+          "label": "Not at all",
+          "aliases": []
+        },
+        {
+          "raw": "Not much",
+          "label": "Not much",
+          "aliases": []
+        },
+        {
+          "raw": "Some",
+          "label": "Somewhat",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "comma-survey-07",
+      "source": "comma-survey",
+      "column": 7,
+      "category": "Everyday",
+      "prompt": "How important did respondents consider proper grammar?",
+      "options": [
+        {
+          "raw": "Neither important nor unimportant (neutral)",
+          "label": "Neutral",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat important",
+          "label": "Somewhat important",
+          "aliases": []
+        },
+        {
+          "raw": "Somewhat unimportant",
+          "label": "Somewhat unimportant",
+          "aliases": []
+        },
+        {
+          "raw": "Very important",
+          "label": "Very important",
+          "aliases": []
+        },
+        {
+          "raw": "Very unimportant",
+          "label": "Very unimportant",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "steak-survey-05",
+      "source": "steak-survey",
+      "column": 5,
+      "category": "Everyday",
+      "prompt": "Had respondents ever been skydiving?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "steak-survey-08",
+      "source": "steak-survey",
+      "column": 8,
+      "category": "Everyday",
+      "prompt": "Did respondents eat steak?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "steak-survey-09",
+      "source": "steak-survey",
+      "column": 9,
+      "category": "Everyday",
+      "prompt": "How did steak-eating respondents like their steak prepared?",
+      "options": [
+        {
+          "raw": "Medium",
+          "label": "Medium",
+          "aliases": []
+        },
+        {
+          "raw": "Medium Well",
+          "label": "Medium well",
+          "aliases": []
+        },
+        {
+          "raw": "Medium rare",
+          "label": "Medium rare",
+          "aliases": []
+        },
+        {
+          "raw": "Rare",
+          "label": "Rare",
+          "aliases": []
+        },
+        {
+          "raw": "Well",
+          "label": "Well done",
+          "aliases": [
+            "well"
+          ]
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-01",
+      "source": "thanksgiving-2015",
+      "column": 1,
+      "category": "Traditions",
+      "prompt": "Did respondents celebrate Thanksgiving?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-02",
+      "source": "thanksgiving-2015",
+      "column": 2,
+      "category": "Traditions",
+      "prompt": "What was typically the main dish at respondents’ Thanksgiving dinners?",
+      "options": [
+        {
+          "raw": "Chicken",
+          "label": "Chicken",
+          "aliases": []
+        },
+        {
+          "raw": "Ham/Pork",
+          "label": "Ham/Pork",
+          "aliases": []
+        },
+        {
+          "raw": "I don't know",
+          "label": "I don't know",
+          "aliases": []
+        },
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        },
+        {
+          "raw": "Roast beef",
+          "label": "Roast beef",
+          "aliases": []
+        },
+        {
+          "raw": "Tofurkey",
+          "label": "Tofurkey",
+          "aliases": []
+        },
+        {
+          "raw": "Turducken",
+          "label": "Turducken",
+          "aliases": []
+        },
+        {
+          "raw": "Turkey",
+          "label": "Turkey",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-04",
+      "source": "thanksgiving-2015",
+      "column": 4,
+      "category": "Traditions",
+      "prompt": "How was the Thanksgiving main dish typically cooked?",
+      "options": [
+        {
+          "raw": "Baked",
+          "label": "Baked",
+          "aliases": []
+        },
+        {
+          "raw": "Fried",
+          "label": "Fried",
+          "aliases": []
+        },
+        {
+          "raw": "I don't know",
+          "label": "I don't know",
+          "aliases": []
+        },
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        },
+        {
+          "raw": "Roasted",
+          "label": "Roasted",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-06",
+      "source": "thanksgiving-2015",
+      "column": 6,
+      "category": "Traditions",
+      "prompt": "What kind of stuffing or dressing did respondents typically have?",
+      "options": [
+        {
+          "raw": "Bread-based",
+          "label": "Bread-based",
+          "aliases": []
+        },
+        {
+          "raw": "None",
+          "label": "None",
+          "aliases": []
+        },
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        },
+        {
+          "raw": "Rice-based",
+          "label": "Rice-based",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-08",
+      "source": "thanksgiving-2015",
+      "column": 8,
+      "category": "Traditions",
+      "prompt": "What type of cranberry sauce did respondents typically have?",
+      "options": [
+        {
+          "raw": "Canned",
+          "label": "Canned",
+          "aliases": []
+        },
+        {
+          "raw": "Homemade",
+          "label": "Homemade",
+          "aliases": []
+        },
+        {
+          "raw": "None",
+          "label": "None",
+          "aliases": []
+        },
+        {
+          "raw": "Other (please specify)",
+          "label": "Other",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-10",
+      "source": "thanksgiving-2015",
+      "column": 10,
+      "category": "Traditions",
+      "prompt": "Did respondents typically have gravy at Thanksgiving?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-51",
+      "source": "thanksgiving-2015",
+      "column": 51,
+      "category": "Traditions",
+      "prompt": "Did respondents typically pray before or after the Thanksgiving meal?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-52",
+      "source": "thanksgiving-2015",
+      "column": 52,
+      "category": "Traditions",
+      "prompt": "How far did respondents plan to travel for Thanksgiving in 2015?",
+      "options": [
+        {
+          "raw": "Thanksgiving is happening at my home--I won't travel at all",
+          "label": "At home — no travel",
+          "aliases": []
+        },
+        {
+          "raw": "Thanksgiving is local--it will take place in the town I live in",
+          "label": "In my town",
+          "aliases": []
+        },
+        {
+          "raw": "Thanksgiving is out of town and far away--I have to drive several hours or fly",
+          "label": "Far away — drive several hours or fly",
+          "aliases": []
+        },
+        {
+          "raw": "Thanksgiving is out of town but not too far--it's a drive of a few hours or less",
+          "label": "Out of town — drive a few hours or less",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-54",
+      "source": "thanksgiving-2015",
+      "column": 54,
+      "category": "Traditions",
+      "prompt": "What was the age cutoff at respondents’ Thanksgiving kids’ tables?",
+      "options": [
+        {
+          "raw": "10 or younger",
+          "label": "10 or younger",
+          "aliases": []
+        },
+        {
+          "raw": "11",
+          "label": "11",
+          "aliases": []
+        },
+        {
+          "raw": "12",
+          "label": "12",
+          "aliases": []
+        },
+        {
+          "raw": "13",
+          "label": "13",
+          "aliases": []
+        },
+        {
+          "raw": "14",
+          "label": "14",
+          "aliases": []
+        },
+        {
+          "raw": "15",
+          "label": "15",
+          "aliases": []
+        },
+        {
+          "raw": "16",
+          "label": "16",
+          "aliases": []
+        },
+        {
+          "raw": "17",
+          "label": "17",
+          "aliases": []
+        },
+        {
+          "raw": "18",
+          "label": "18",
+          "aliases": []
+        },
+        {
+          "raw": "19",
+          "label": "19",
+          "aliases": []
+        },
+        {
+          "raw": "20",
+          "label": "20",
+          "aliases": []
+        },
+        {
+          "raw": "21 or older",
+          "label": "21 or older",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-55",
+      "source": "thanksgiving-2015",
+      "column": 55,
+      "category": "Traditions",
+      "prompt": "Had respondents ever tried to meet hometown friends on Thanksgiving night?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-56",
+      "source": "thanksgiving-2015",
+      "column": 56,
+      "category": "Traditions",
+      "prompt": "Had respondents ever attended a Friendsgiving?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-57",
+      "source": "thanksgiving-2015",
+      "column": 57,
+      "category": "Traditions",
+      "prompt": "Did respondents plan to shop Black Friday sales on Thanksgiving Day in 2015?",
+      "options": [
+        {
+          "raw": "No",
+          "label": "No",
+          "aliases": []
+        },
+        {
+          "raw": "Yes",
+          "label": "Yes",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    },
+    {
+      "id": "thanksgiving-2015-60",
+      "source": "thanksgiving-2015",
+      "column": 60,
+      "category": "Traditions",
+      "prompt": "How did respondents describe where they lived?",
+      "options": [
+        {
+          "raw": "Rural",
+          "label": "Rural",
+          "aliases": []
+        },
+        {
+          "raw": "Suburban",
+          "label": "Suburban",
+          "aliases": []
+        },
+        {
+          "raw": "Urban",
+          "label": "Urban",
+          "aliases": []
+        }
+      ],
+      "context": "Predict one recorded response from this reference group."
+    }
+  ]
+}

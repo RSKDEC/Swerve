@@ -2,7 +2,7 @@ import { MODES } from '../domain/modes.ts';
 import { total } from '../domain/game.ts';
 import { normalize } from '../domain/scoring.ts';
 import type { GameContext } from '../domain/types.ts';
-import { safe, progress, footer } from './shared.ts';
+import { safe, progress, footer, percent } from './shared.ts';
 import { html } from './shared.ts';
 
 export function renderReveal(context: GameContext) {
@@ -12,7 +12,7 @@ export function renderReveal(context: GameContext) {
   const reactions = r.timeout
     ? 'Time is up!'
     : r.unknown
-      ? 'Creative answer — needs review'
+      ? 'Creative answer — not listed'
       : r.score >= 85
         ? 'Crowd genius.'
         : r.score >= 60
@@ -26,7 +26,7 @@ export function renderReveal(context: GameContext) {
       <h2>${reactions}</h2>
       <div class="big">${r.score}<small> / 100</small></div>
       <p>
-        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer is not in the demo’s curated answer bank.' : 'Only ' + r.pct + `% of the ${challenge.kind === 'demo' ? 'sample ' : ''}crowd gave your answer.`}
+        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer does not match a listed response. It earns zero points.' : percent(r.pct) + `% of the ${challenge.kind === 'demo' ? 'sample crowd gave' : 'reference group chose'} your answer.`}
       </p>
     </div>
     <div class="response-label">
@@ -35,7 +35,8 @@ export function renderReveal(context: GameContext) {
       >${r.group && normalize(r.group) !== normalize(r.answer) ? ' · matched to <b>' + safe(r.group) + '</b>' : ''}
     </div>
     <div class="section-title" style="margin-top:19px">
-      WHAT THE ${challenge.kind === 'demo' ? 'SAMPLE ' : ''}CROWD SAID
+      WHAT THE ${challenge.kind === 'demo' ? 'SAMPLE CROWD' : 'REFERENCE GROUP'}
+      SAID
     </div>
     ${r.distribution
       .map(
@@ -43,12 +44,13 @@ export function renderReveal(context: GameContext) {
           html`<div class="bar-row ${r.group === g.name ? 'yours' : ''}">
             <div class="bar-top">
               <span>${safe(g.name)} ${r.group === g.name ? '✦' : ''}</span
-              ><strong>${g.pct}%</strong>
+              ><strong>${percent(g.pct)}%</strong>
             </div>
             <div class="bar"><div style="width:${g.pct}%"></div></div>
           </div>`,
       )
       .join('')}
+    ${challenge.prompts[r.i].source ? html`<p class="smallprint">${safe(challenge.prompts[r.i].sub)} <a href="./data-credits.html#${safe(challenge.prompts[r.i].id)}" target="_blank" rel="noopener">Source details</a></p>` : ''}
     <div class="scoreline">
       <span>Total score so far</span
       ><strong>${total(game)} / ${(r.i + 1) * 100}</strong>

@@ -70,8 +70,9 @@ export function renderRound(
       </div>
     </fieldset>
     <div class="answer">
-      <label class="section-title" for="answer">YOUR ANSWER</label
-      ><input
+      <label class="section-title" for="answer">YOUR ANSWER</label>
+      ${q.choices ? html`<div class="answer-choices" role="group" aria-label="Recorded response choices">${q.choices.map((choice) => html`<button type="button" class="answer-choice" data-answer="${safe(choice)}" aria-pressed="${value === choice}" ${!mode ? 'disabled' : ''}>${safe(choice)}</button>`).join('')}</div>` : ''}
+      <input
         class="input"
         id="answer"
         aria-describedby="answerHint answerError"
@@ -96,7 +97,7 @@ export function renderRound(
         style="text-align:center;margin-top:11px"
       >
         Select a strategy before answering.
-        ${challenge.kind === 'demo' ? 'Unrecognized answers earn 0 points in this demo.' : 'Your answer locks when the timer ends.'}
+        ${challenge.kind === 'demo' ? 'Unrecognized answers earn 0 points in this demo.' : 'Tap a listed response or type it. Unrecognized answers earn 0 points.'}
       </p>
     </div>
   </form>`;

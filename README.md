@@ -4,7 +4,7 @@ A maintainable continuation of the original daily social prediction game prototy
 
 ## Run locally
 
-Use Node **22.18+** (Node 24 recommended).
+Use Node **22.18+** (Node 24 recommended) and **Python 3.10+** for source-data validation. Hosting only needs the generated static files.
 
 ```bash
 npm ci
@@ -14,7 +14,7 @@ npm run dev
 Open the local URL printed by Vite. This version uses modules and needs an HTTP server; opening `index.html` directly as a file is no longer supported.
 
 ```bash
-npm run check       # TypeScript, domain/service tests, production build
+npm run check       # Evidence validation, TypeScript, game/service tests, production build
 npm run test:e2e    # Browser regression tests at three viewport sizes
 npm run preview    # Serve dist after building
 ```
@@ -40,11 +40,13 @@ The site address is `https://<username>.github.io/<repository>/`. GitHub Pages i
 
 Clipboard failures now offer selectable share text instead of claiming success. Blocked browser storage shows a notice and permits in-memory play. Valid same-day progress from the original prototype migrates automatically when served from the same browser origin.
 
-## 100 new days prepared
+## 100 source-backed daily sets
 
-The app includes **100 new daily sets (500 new prompts)**, running from **20 October 2026 through 27 January 2027**, with five different prompts each day. The first new set opens at 00:00 UTC on 20 October, or 03:00 Cairo time. Today's original #001 stays unchanged; new sets are #002–#101. Each set mixes five categories, and no new prompt repeats within the schedule.
+The scheduled game now uses **109 verified questions from six published FiveThirtyEight datasets**, with recorded response counts and an audit trail for every percentage. Historical 2014–2015 reference groups are identified with each question. A small Data credits link provides required CC BY 4.0 attribution and methodology.
 
-Review the [content guide](docs/content/README.md), [100-day calendar](docs/content/100-day-calendar.md), or [CSV with all answer groups and aliases](docs/content/100-day-calendar.csv). Source JSON lives in `src/data/`; regenerate exports with `npm run content:export`. Percentages are authored demo weights, not collected player responses. After the final prepared date, the app shows a preparation message until the calendar is extended.
+There are **100 distinct daily sets / 500 round slots**, from **20 October 2026 to 27 January 2027**, numbered #002–#101. **Some questions repeat; this is not 500 unique verified questions.** The earlier invented bank has been replaced. A verified launch preview is available on 19 October. Old scores cannot attach to the new content version. After the final date, a preparation message appears until the calendar is extended.
+
+See the [content guide](docs/content/README.md), [verification ledger](docs/content/survey-ledger.json), [audit summary](docs/content/survey-audit.json), [calendar](docs/content/100-day-calendar.md), and [option-level CSV](docs/content/100-day-calendar.csv). `npm run content:import` rebuilds from pinned source evidence; `npm run content:export` refreshes review exports. `npm run content:check` rejects drift or unsupported data.
 
 ## Architecture and evidence
 
@@ -57,7 +59,7 @@ The source is organized under `src/domain`, `src/data`, `src/services`, `src/ui`
 
 ## Current scope
 
-This is still an explicitly labeled **playable demo**. Date-based selection now covers 100 new daily sets; percentages are authored fixtures. Unknown answers earn zero. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
+This remains a **local playable application**. Scheduled percentages come from recorded survey responses; the original authored fixture is retained only for pre-launch demo dates and regression testing. Unknown answers earn zero. Public prompts offer actual response choices. Local practice replay remains available. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
 
 The HTTP client is implemented and tested against mocked responses. No server, database or authentication provider is provisioned. Leave `VITE_SWERVE_API_BASE` unset to play locally. To connect a real server, implement [the contract](docs/backend-contract.md), set `VITE_SWERVE_API_BASE=/api` at build time and rebuild. Browser environment variables are public; keep secrets on the server.
 

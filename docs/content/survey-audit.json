@@ -1,0 +1,25 @@
+{
+  "version": "surveys-v1",
+  "sourceCommit": "4c1ff5e3aef1816ae04af63218015066e186c147",
+  "verifiedQuestions": 109,
+  "scheduledDays": 100,
+  "scheduledSlots": 500,
+  "distinctDailySets": 100,
+  "repeatedQuestionSlots": 391,
+  "categories": {
+    "Food": 42,
+    "Flying": 18,
+    "Screen": 26,
+    "Everyday": 10,
+    "Traditions": 13
+  },
+  "minValidAnswers": 213,
+  "sourceCount": 6,
+  "currentOrRepresentativeClaim": false,
+  "limits": [
+    "Historical response frequencies, not current public opinion.",
+    "Unweighted item-specific valid response bases, not all respondents.",
+    "Some questions repeat; 100 distinct daily sets do not mean 500 distinct questions.",
+    "No multi-select blocks, demographic subdivisions, or simulated people are imported."
+  ]
+}

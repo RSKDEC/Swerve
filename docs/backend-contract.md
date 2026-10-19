@@ -6,7 +6,7 @@
 
 All successful responses include `serverNow`, a finite Unix timestamp in milliseconds, alongside the data below. The browser estimates display time from that timestamp; the server's clock alone determines scoring eligibility.
 
-`GET /api/game/today` returns `{ serverNow, challenge, player, attempt }`, matching `GameContext` in `src/domain/types.ts`. `attempt` may be null. Public challenge data contains ID, display number, UTC day, opens/closes timestamps, duration, five prompt IDs/text/hints, `kind: "daily"` and a scoring version. It contains **no aliases, answer keys or unrevealed distributions**. Results include only distributions that may be revealed to that player.
+`GET /api/game/today` returns `{ serverNow, challenge, player, attempt }`, matching `GameContext` in `src/domain/types.ts`. `attempt` may be null. Public challenge data contains ID, display number, UTC day, opens/closes timestamps, duration, five prompt IDs/text/hints, optional `choices` labels and `source` metadata (ID/title/year/valid-answer n/HTTPS source URL), `kind: "daily"` and a scoring version. It contains **no aliases, answer keys or unrevealed distributions**. Results include only distributions that may be revealed to that player.
 
 The server establishes an anonymous guest session using a Secure, HttpOnly, SameSite cookie. Optional account login upgrades or links this identity; it must not grant another daily attempt. `Player` already distinguishes `guest` and `account`. Local demo guest IDs are browser conveniences, not authenticated accounts. Do not trust a player ID supplied by a browser.
 
@@ -45,4 +45,10 @@ Freeze distributions before opening the challenge if immediate reveals are retai
 4. Add richer answer validation and moderation before public scoring. The demo's unknown-answer zero is deliberately limited.
 5. Add rate limiting, abuse handling, observability, retention/deletion rules and integration tests before public launch. Leaderboards and friend leagues can then read authoritative results.
 
-Replay remains demo-only. Draft typing is saved locally; the server receives the final answer at submission. Browser-local drafts are merged on reload only for the same attempt, round and server deadline. Production should define what happens to unsent drafts when a device is lost; they are not guaranteed to sync between devices.
+Practice replay is available in the local client; the authoritative HTTP client still enforces once-per-day play. Do not advertise `practiceAllowed` from the server without implementing a separate noncompetitive practice flow. Draft typing is saved locally; the server receives the final answer at submission. Browser-local drafts are merged on reload only for the same attempt, round and server deadline. Production should define what happens to unsent drafts when a device is lost; they are not guaranteed to sync between devices.
+
+## Source evidence for reference scoring
+
+The current source-backed bank is documented in [content policy](content/README.md). Import immutable source counts and bases, original wording, field-date/publication-year limits, licence, adaptations and source hashes alongside each distribution. Keep `(source_id, source_commit, column/item, content_version)` provenance. Preserve missing-answer exclusions and unweighted frequency semantics; never replace them with an inferred public-population estimate. Public choice labels may be visible before submission; their counts, percentages and aliases must stay server-side until authorized reveal. Return dated reference metadata and keep attribution accessible.
+
+Use the same `100 × count / validAnswers` fraction and original score rounding as the local client. Do not score against the display-rounded percentage. Published evidence or scoring changes require a new immutable content/challenge version so saved results cannot be reinterpreted.

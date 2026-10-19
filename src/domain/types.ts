@@ -16,10 +16,19 @@ export interface DemoQuestion {
   q: string;
   sub: string;
   groups: AnswerGroup[];
+  source?: ReferenceSource;
 }
 export interface PreparedQuestion extends DemoQuestion {
   id: string;
   category: string;
+  source: ReferenceSource;
+}
+export interface ReferenceSource {
+  id: string;
+  title: string;
+  year: number;
+  n: number;
+  url: string;
 }
 export interface PreparedDay {
   number: string;
@@ -30,6 +39,8 @@ export interface Prompt {
   id: string;
   q: string;
   sub: string;
+  choices?: string[];
+  source?: ReferenceSource;
 }
 // Public metadata deliberately excludes answer groups and scoring keys.
 export interface Challenge {
@@ -42,6 +53,7 @@ export interface Challenge {
   prompts: Prompt[];
   kind: 'demo' | 'daily';
   scoringVersion: string;
+  practiceAllowed?: boolean;
 }
 export interface Player {
   id: string;

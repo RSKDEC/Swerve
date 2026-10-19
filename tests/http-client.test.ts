@@ -95,3 +95,29 @@ test('remote drafts survive refresh only when tied to the exact server round dea
   remote.saveDraft(draft);
   assert.equal((await remote.load()).attempt?.active?.answer, '');
 });
+
+test('HTTP transport validates response choices and reference metadata before rendering', async () => {
+  const f = fixture();
+  f.setNow(Date.parse('2026-10-20T12:00:00Z'));
+  const context = await f.client.load();
+  for (const invalid of [
+    { choices: 'Yes' },
+    { choices: ['Yes', null] },
+    { source: null },
+    { source: { ...context.challenge.prompts[0].source, n: -1 } },
+  ]) {
+    const challenge = structuredClone(context.challenge);
+    Object.assign(challenge.prompts[0], invalid);
+    const remote = new HttpGameClient('/api', new MemoryStorage(), async () =>
+      Response.json({ ...context, challenge, serverNow: Date.now() }),
+    );
+    await assert.rejects(remote.load(), /invalid game data/);
+  }
+  const remote = new HttpGameClient('/api', new MemoryStorage(), async () =>
+    Response.json({ ...context, serverNow: Date.now() }),
+  );
+  assert.deepEqual(
+    (await remote.load()).challenge.prompts[0].choices,
+    context.challenge.prompts[0].choices,
+  );
+});

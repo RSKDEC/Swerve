@@ -145,6 +145,16 @@ export class GameController {
       'button',
     );
     if (!button || button.disabled || this.busy) return;
+    if (button.dataset.answer !== undefined) {
+      const active = this.context.attempt?.active;
+      if (!active?.mode || this.now() >= active.deadline) {
+        this.tick();
+        return;
+      }
+      element<HTMLInputElement>('answer').value = button.dataset.answer;
+      this.saveDraft();
+      return;
+    }
     const mode = button.dataset.mode as Mode | undefined;
     if (mode) {
       const attempt = this.context.attempt!;
@@ -163,8 +173,15 @@ export class GameController {
       const input = element<HTMLInputElement>('answer');
       input.disabled = false;
       element<HTMLButtonElement>('submit').disabled = false;
+      this.app
+        .querySelectorAll<HTMLButtonElement>('[data-answer]')
+        .forEach((option) => {
+          option.disabled = false;
+        });
       this.saveDraft();
-      input.focus();
+      // Choice-based rounds should not open the mobile keyboard on strategy selection.
+      if (!this.context.challenge.prompts[attempt.active.i].choices)
+        input.focus();
       return;
     }
     switch (button.id) {
@@ -204,6 +221,14 @@ export class GameController {
     const attempt = this.context.attempt;
     if (!attempt?.active) return;
     attempt.active.answer = element<HTMLInputElement>('answer').value;
+    this.app
+      .querySelectorAll<HTMLButtonElement>('[data-answer]')
+      .forEach((option) => {
+        option.setAttribute(
+          'aria-pressed',
+          String(option.dataset.answer === attempt.active!.answer),
+        );
+      });
     this.clearError();
     try {
       this.client.saveDraft(attempt);
