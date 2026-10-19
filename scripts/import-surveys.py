@@ -183,7 +183,7 @@ def build():
         'src/data/challenge-calendar.json': json_text(days),
         'docs/content/survey-ledger.json': json_text(ledger),
         'docs/content/survey-audit.json': json_text(audit),
-        'public/data-credits.html': '\n'.join(credits),
+        'public/data-credits.html': '\n'.join(line.rstrip() for line in credits),
     }, audit
 
 
