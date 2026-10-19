@@ -58,3 +58,9 @@ The previous milestone's invented answer weights are retired from the scheduled 
 The 100-day calendar remains, using 100 distinct mixes and 500 round slots; questions repeat. This intentionally retracts the earlier implication of 500 unique source-backed questions. Future expansion must pass the same evidence gate. No fabricated people or answer shares fill missing coverage.
 
 Play screens show dated reference groups and actual choices, while a small credits link carries attribution and detailed methodology. Versioned IDs prevent old illustrative scores from attaching to new questions. The timer, 2/2/1 strategies, original formulas, saved progress, results, sharing and confirmed practice replay remain. The original demo regression still scores 437/500. Evidence importer tests and full-game checks cover every scheduled set; browser checks cover the new choices/credits and existing regression flows.
+
+## 7 — Gather toward a full year without repeating questions
+
+This first collection batch adds 201 reviewed questions: 121 Young People Survey items (CC0), 61 official weighted travel distributions and 19 official community count distributions (OGL). The total is 310, enough for 62 full unique days. The one-year target remains 1,825, so 1,515 more are required. The source catalogue records promising but unaudited/blocked collections separately.
+
+The previous repeating calendar is retired. A permanent registry locks each question's identity, assigned concept, original-wording fingerprint and scoring digest once; regeneration preserves reservations and appends only fresh items. The first launch set remains intact. Spreadsheet readers preserve merged cells, validate response header blocks and distinguish weighted shares from raw person counts. Original numeric-only scale points are not assigned invented meanings. The original timer, strategies, persistence, reveals, sharing and explicit practice replay remain covered by regressions.

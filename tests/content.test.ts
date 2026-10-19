@@ -8,6 +8,8 @@ import {
   questionById,
   CONTENT_VERSION,
 } from '../src/data/challenge-bank.ts';
+import audit from '../docs/content/survey-audit.json' with { type: 'json' };
+import registry from '../content/publication-registry.json' with { type: 'json' };
 import ledger from '../docs/content/survey-ledger.json' with { type: 'json' };
 import { demoChallenges } from '../src/services/demo-challenges.ts';
 import { match, normalize, points } from '../src/domain/scoring.ts';
@@ -15,24 +17,33 @@ import { total } from '../src/domain/game.ts';
 import type { Mode } from '../src/domain/types.ts';
 import { fixture } from './fixtures.ts';
 
-test('100 consecutive distinct daily sets reuse only verified questions, with five categories per day', () => {
-  assert.equal(PREPARED_DAYS.length, 100);
-  assert.equal(PREPARED_QUESTIONS.length, 109);
-  assert.equal(FIRST_PREPARED_DAY, '2026-10-20');
-  assert.equal(LAST_PREPARED_DAY, '2027-01-27');
-  assert.equal(new Set(PREPARED_QUESTIONS.map((q) => q.id)).size, 109);
+test('the calendar uses every reserved question once, with globally unique concepts and source wording', () => {
+  assert.equal(PREPARED_DAYS.length, Math.floor(PREPARED_QUESTIONS.length / 5));
+  assert.equal(PREPARED_QUESTIONS.length, audit.verifiedQuestions);
+  assert.equal(audit.repeatedQuestionSlots, 0);
+  assert.equal(audit.remainingToYearGoal, 1825 - PREPARED_QUESTIONS.length);
+  assert.equal(FIRST_PREPARED_DAY, '2026-10-19');
+  assert.equal(LAST_PREPARED_DAY, audit.lastScheduledDay);
+  const scheduled = PREPARED_DAYS.flatMap((d) => d.questionIds);
+  assert.equal(scheduled.length, audit.scheduledSlots);
+  assert.equal(new Set(scheduled).size, scheduled.length);
+  assert.equal(
+    new Set(PREPARED_QUESTIONS.map((q) => q.id)).size,
+    PREPARED_QUESTIONS.length,
+  );
+  assert.equal(
+    new Set(PREPARED_QUESTIONS.map((q) => q.conceptKey)).size,
+    PREPARED_QUESTIONS.length,
+  );
+  assert.equal(
+    new Set(PREPARED_QUESTIONS.map((q) => q.wordingFingerprint)).size,
+    PREPARED_QUESTIONS.length,
+  );
   assert.equal(
     new Set(PREPARED_QUESTIONS.map((q) => normalize(q.q))).size,
-    109,
+    PREPARED_QUESTIONS.length,
   );
-  assert.equal(
-    new Set(PREPARED_DAYS.map((d) => d.questionIds.join(','))).size,
-    100,
-  );
-  const scheduled = PREPARED_DAYS.flatMap((d) => d.questionIds);
-  assert.equal(scheduled.length, 500);
-  assert.equal(new Set(scheduled).size, 109); // Honest reuse, never 500 fabricated questions.
-  const categories = new Map(PREPARED_QUESTIONS.map((q) => [q.id, q.category]));
+  assert.equal(registry.days.length, PREPARED_DAYS.length);
   for (const [i, day] of PREPARED_DAYS.entries()) {
     assert.equal(
       day.day,
@@ -40,30 +51,34 @@ test('100 consecutive distinct daily sets reuse only verified questions, with fi
         .toISOString()
         .slice(0, 10),
     );
-    assert.equal(day.number, String(i + 2).padStart(3, '0'));
+    assert.equal(day.number, String(i + 1).padStart(3, '0'));
     assert.equal(day.questionIds.length, 5);
-    assert.equal(
-      new Set(day.questionIds.map((id) => categories.get(id))).size,
-      5,
+    assert.deepEqual(
+      registry.days[i].items.map((item) => item.questionId),
+      day.questionIds,
     );
     day.questionIds.forEach((id) => assert.ok(questionById(id).source));
   }
 });
 
-test('every percentage reconciles with raw-count evidence; no option is dropped or rescaled', () => {
+test('each share matches its declared count or weighted source basis, with no dropped or rescaled options', () => {
   assert.equal(ledger.length, PREPARED_QUESTIONS.length);
   for (const q of PREPARED_QUESTIONS) {
     const evidence = ledger.find((e) => e.questionId === q.id)!;
-    assert.ok(q.q.length > 15 && q.q.length <= 180, q.id);
+    assert.ok(q.q.length > 15 && q.q.length <= 200, q.id);
     assert.ok(q.groups.length >= 2);
-    assert.equal(
-      evidence.validAnswers + evidence.missingAnswers,
-      evidence.respondentCount,
-    );
-    assert.equal(
-      evidence.options.reduce((sum, o) => sum + o.count, 0),
-      q.source.n,
-    );
+    if (evidence.respondentCount !== null && evidence.missingAnswers !== null) {
+      assert.equal(
+        evidence.validAnswers + evidence.missingAnswers,
+        evidence.respondentCount,
+      );
+    }
+    if (q.source.basis !== 'published-weighted') {
+      assert.equal(
+        evidence.options.reduce((sum, o) => sum + (o.count ?? 0), 0),
+        q.source.n,
+      );
+    } else assert.ok(evidence.options.every((o) => o.count === null));
     assert.equal(q.groups.length, evidence.options.length);
     assert.ok(
       Math.abs(q.groups.reduce((sum, g) => sum + g.pct, 0) - 100) < 1e-9,
@@ -71,8 +86,10 @@ test('every percentage reconciles with raw-count evidence; no option is dropped 
     const owner = new Map<string, string>();
     for (const group of q.groups) {
       const option = evidence.options.find((o) => o.label === group.name)!;
-      assert.equal(group.pct, (100 * option.count) / evidence.validAnswers);
-      assert.ok(group.pct > 0 && group.pct <= 100);
+      assert.equal(group.pct, option.pct);
+      if (option.count !== null)
+        assert.equal(group.pct, (100 * option.count) / evidence.validAnswers);
+      assert.ok(group.pct >= 0 && group.pct <= 100);
       for (const answer of [group.name, ...group.aliases]) {
         const normalized = normalize(answer);
         assert.ok(normalized && answer.length <= 70, `${q.id}: ${answer}`);
@@ -101,23 +118,25 @@ test('launch and schedule boundaries never expose fabricated content as real ref
   assert.equal(first.number, '002');
   assert.equal(first.scoringVersion, `prototype-v1:${CONTENT_VERSION}`);
   assert.equal(first.kind, 'daily');
-  assert.equal(first.id, 'reference-surveys-v1-2026-10-20');
+  assert.equal(first.id, `reference-${CONTENT_VERSION}-2026-10-20`);
   assert.ok(
     first.prompts.every(
       (p) => !('groups' in p) && p.choices?.length && p.source?.n,
     ),
   );
+  const last = PREPARED_DAYS.at(-1)!;
   assert.equal(
-    demoChallenges.current(Date.parse('2027-01-27T23:59:59.999Z')).number,
-    '101',
+    demoChallenges.current(Date.parse(`${last.day}T23:59:59.999Z`)).number,
+    last.number,
   );
   assert.throws(
-    () => demoChallenges.current(Date.parse('2027-01-28T00:00:00Z')),
+    () =>
+      demoChallenges.current(Date.parse(`${last.day}T00:00:00Z`) + 86400000),
     /being prepared/,
   );
 });
 
-test('all 100 sets retain strategy rules, evidence-based scoring, complete results and saved state', async () => {
+test('every scheduled set retains strategy rules, evidence-based scoring, complete results and saved state', async () => {
   const modes: Mode[] = ['blend', 'swerve', 'sweet', 'swerve', 'blend'];
   for (const day of PREPARED_DAYS) {
     const f = fixture();
@@ -182,4 +201,12 @@ test('active rounds stay pinned across midnight, and fabricated v2 saves cannot 
     JSON.stringify({ ...attempt, challengeId: oldId }),
   );
   assert.equal((await f.makeClient().load()).attempt, null);
+});
+
+test('an offered choice with a genuine zero frequency is valid, while an unknown answer is not', () => {
+  const q = questionById('young-people-2013-061');
+  const group = match(q, '1')!;
+  assert.equal(group.pct, 0);
+  assert.equal(points('swerve', group.pct), 100);
+  assert.equal(match(q, 'zzzz unlisted answer zzzz'), null);
 });

@@ -3,7 +3,6 @@ import {
   CONTENT_VERSION,
   FIRST_PREPARED_DAY,
   REFERENCE_LAUNCH_DAY,
-  PREPARED_DAYS,
   preparedDay,
   questionById,
 } from '../data/challenge-bank.ts';
@@ -14,10 +13,7 @@ export const demoChallenges: ChallengeRepository = {
     const day = new Date(now).toISOString().slice(0, 10);
     const opensAt = `${day}T00:00:00.000Z`;
     const reference = day >= REFERENCE_LAUNCH_DAY;
-    // Launch preview uses the first verified set; never fall back to invented weights.
-    const prepared =
-      preparedDay(day) ??
-      (reference && day < FIRST_PREPARED_DAY ? PREPARED_DAYS[0] : null);
+    const prepared = preparedDay(day);
     if (day >= FIRST_PREPARED_DAY && !prepared) {
       throw new Error(
         'The next Swerve challenge is being prepared. Please check back soon.',
@@ -42,7 +38,7 @@ export const demoChallenges: ChallengeRepository = {
         }));
     return {
       id: reference ? `reference-${CONTENT_VERSION}-${day}` : `demo-${day}`,
-      number: day < FIRST_PREPARED_DAY ? '001' : prepared!.number,
+      number: prepared?.number ?? '001',
       day,
       opensAt,
       closesAt: new Date(Date.parse(opensAt) + 86_400_000).toISOString(),

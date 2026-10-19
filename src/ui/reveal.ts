@@ -26,7 +26,7 @@ export function renderReveal(context: GameContext) {
       <h2>${reactions}</h2>
       <div class="big">${r.score}<small> / 100</small></div>
       <p>
-        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer does not match a listed response. It earns zero points.' : percent(r.pct) + `% of the ${challenge.kind === 'demo' ? 'sample crowd gave' : 'reference group chose'} your answer.`}
+        ${r.timeout ? 'The timer ran out.' : r.unknown ? 'This answer does not match a listed response. It earns zero points.' : challenge.kind === 'demo' ? percent(r.pct) + '% of the sample crowd gave your answer.' : 'Your answer’s reference share: ' + percent(r.pct) + '%.'}
       </p>
     </div>
     <div class="response-label">

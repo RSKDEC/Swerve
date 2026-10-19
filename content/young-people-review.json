@@ -1,0 +1,903 @@
+[
+  {
+    "column": 0,
+    "original": "I enjoy listening to music.",
+    "status": "approved",
+    "questionId": "young-people-2013-001"
+  },
+  {
+    "column": 1,
+    "original": "I prefer.",
+    "status": "approved",
+    "questionId": "young-people-2013-002"
+  },
+  {
+    "column": 2,
+    "original": "Dance, Disco, Funk",
+    "status": "approved",
+    "questionId": "young-people-2013-003"
+  },
+  {
+    "column": 3,
+    "original": "Folk music",
+    "status": "approved",
+    "questionId": "young-people-2013-004"
+  },
+  {
+    "column": 4,
+    "original": "Country",
+    "status": "approved",
+    "questionId": "young-people-2013-005"
+  },
+  {
+    "column": 5,
+    "original": "Classical",
+    "status": "approved",
+    "questionId": "young-people-2013-006"
+  },
+  {
+    "column": 6,
+    "original": "Musicals",
+    "status": "approved",
+    "questionId": "young-people-2013-007"
+  },
+  {
+    "column": 7,
+    "original": "Pop",
+    "status": "approved",
+    "questionId": "young-people-2013-008"
+  },
+  {
+    "column": 8,
+    "original": "Rock",
+    "status": "approved",
+    "questionId": "young-people-2013-009"
+  },
+  {
+    "column": 9,
+    "original": "Metal, Hard rock",
+    "status": "approved",
+    "questionId": "young-people-2013-010"
+  },
+  {
+    "column": 10,
+    "original": "Punk",
+    "status": "approved",
+    "questionId": "young-people-2013-011"
+  },
+  {
+    "column": 11,
+    "original": "Hip hop, Rap",
+    "status": "approved",
+    "questionId": "young-people-2013-012"
+  },
+  {
+    "column": 12,
+    "original": "Reggae, Ska",
+    "status": "approved",
+    "questionId": "young-people-2013-013"
+  },
+  {
+    "column": 13,
+    "original": "Swing, Jazz",
+    "status": "approved",
+    "questionId": "young-people-2013-014"
+  },
+  {
+    "column": 14,
+    "original": "Rock n Roll",
+    "status": "approved",
+    "questionId": "young-people-2013-015"
+  },
+  {
+    "column": 15,
+    "original": "Alternative music",
+    "status": "approved",
+    "questionId": "young-people-2013-016"
+  },
+  {
+    "column": 16,
+    "original": "Latin",
+    "status": "approved",
+    "questionId": "young-people-2013-017"
+  },
+  {
+    "column": 17,
+    "original": "Techno, Trance",
+    "status": "approved",
+    "questionId": "young-people-2013-018"
+  },
+  {
+    "column": 18,
+    "original": "Opera",
+    "status": "approved",
+    "questionId": "young-people-2013-019"
+  },
+  {
+    "column": 19,
+    "original": "I really enjoy watching movies.",
+    "status": "approved",
+    "questionId": "young-people-2013-020"
+  },
+  {
+    "column": 20,
+    "original": "Horror movies",
+    "status": "approved",
+    "questionId": "young-people-2013-021"
+  },
+  {
+    "column": 21,
+    "original": "Thriller movies",
+    "status": "approved",
+    "questionId": "young-people-2013-022"
+  },
+  {
+    "column": 22,
+    "original": "Comedies",
+    "status": "approved",
+    "questionId": "young-people-2013-023"
+  },
+  {
+    "column": 23,
+    "original": "Romantic movies",
+    "status": "approved",
+    "questionId": "young-people-2013-024"
+  },
+  {
+    "column": 24,
+    "original": "Sci-fi movies",
+    "status": "approved",
+    "questionId": "young-people-2013-025"
+  },
+  {
+    "column": 25,
+    "original": "War movies",
+    "status": "approved",
+    "questionId": "young-people-2013-026"
+  },
+  {
+    "column": 26,
+    "original": "Tales",
+    "status": "approved",
+    "questionId": "young-people-2013-027"
+  },
+  {
+    "column": 27,
+    "original": "Cartoons",
+    "status": "approved",
+    "questionId": "young-people-2013-028"
+  },
+  {
+    "column": 28,
+    "original": "Documentaries",
+    "status": "approved",
+    "questionId": "young-people-2013-029"
+  },
+  {
+    "column": 29,
+    "original": "Western movies",
+    "status": "approved",
+    "questionId": "young-people-2013-030"
+  },
+  {
+    "column": 30,
+    "original": "Action movies",
+    "status": "approved",
+    "questionId": "young-people-2013-031"
+  },
+  {
+    "column": 31,
+    "original": "History",
+    "status": "approved",
+    "questionId": "young-people-2013-032"
+  },
+  {
+    "column": 32,
+    "original": "Psychology",
+    "status": "approved",
+    "questionId": "young-people-2013-033"
+  },
+  {
+    "column": 33,
+    "original": "Politics",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 34,
+    "original": "Mathematics",
+    "status": "approved",
+    "questionId": "young-people-2013-035"
+  },
+  {
+    "column": 35,
+    "original": "Physics",
+    "status": "approved",
+    "questionId": "young-people-2013-036"
+  },
+  {
+    "column": 36,
+    "original": "Internet",
+    "status": "approved",
+    "questionId": "young-people-2013-037"
+  },
+  {
+    "column": 37,
+    "original": "PC Software, Hardware",
+    "status": "approved",
+    "questionId": "young-people-2013-038"
+  },
+  {
+    "column": 38,
+    "original": "Economy, Management",
+    "status": "approved",
+    "questionId": "young-people-2013-039"
+  },
+  {
+    "column": 39,
+    "original": "Biology",
+    "status": "approved",
+    "questionId": "young-people-2013-040"
+  },
+  {
+    "column": 40,
+    "original": "Chemistry",
+    "status": "approved",
+    "questionId": "young-people-2013-041"
+  },
+  {
+    "column": 41,
+    "original": "Poetry reading",
+    "status": "approved",
+    "questionId": "young-people-2013-042"
+  },
+  {
+    "column": 42,
+    "original": "Geography",
+    "status": "approved",
+    "questionId": "young-people-2013-043"
+  },
+  {
+    "column": 43,
+    "original": "Foreign languages",
+    "status": "approved",
+    "questionId": "young-people-2013-044"
+  },
+  {
+    "column": 44,
+    "original": "Medicine",
+    "status": "approved",
+    "questionId": "young-people-2013-045"
+  },
+  {
+    "column": 45,
+    "original": "Law",
+    "status": "approved",
+    "questionId": "young-people-2013-046"
+  },
+  {
+    "column": 46,
+    "original": "Cars",
+    "status": "approved",
+    "questionId": "young-people-2013-047"
+  },
+  {
+    "column": 47,
+    "original": "Art",
+    "status": "approved",
+    "questionId": "young-people-2013-048"
+  },
+  {
+    "column": 48,
+    "original": "Religion",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 49,
+    "original": "Outdoor activities",
+    "status": "approved",
+    "questionId": "young-people-2013-050"
+  },
+  {
+    "column": 50,
+    "original": "Dancing",
+    "status": "approved",
+    "questionId": "young-people-2013-051"
+  },
+  {
+    "column": 51,
+    "original": "Playing musical instruments",
+    "status": "approved",
+    "questionId": "young-people-2013-052"
+  },
+  {
+    "column": 52,
+    "original": "Poetry writing",
+    "status": "approved",
+    "questionId": "young-people-2013-053"
+  },
+  {
+    "column": 53,
+    "original": "Sport and leisure activities",
+    "status": "approved",
+    "questionId": "young-people-2013-054"
+  },
+  {
+    "column": 54,
+    "original": "Sport at competitive level",
+    "status": "approved",
+    "questionId": "young-people-2013-055"
+  },
+  {
+    "column": 55,
+    "original": "Gardening",
+    "status": "approved",
+    "questionId": "young-people-2013-056"
+  },
+  {
+    "column": 56,
+    "original": "Celebrity lifestyle",
+    "status": "approved",
+    "questionId": "young-people-2013-057"
+  },
+  {
+    "column": 57,
+    "original": "Shopping",
+    "status": "approved",
+    "questionId": "young-people-2013-058"
+  },
+  {
+    "column": 58,
+    "original": "Science and technology",
+    "status": "approved",
+    "questionId": "young-people-2013-059"
+  },
+  {
+    "column": 59,
+    "original": "Theatre",
+    "status": "approved",
+    "questionId": "young-people-2013-060"
+  },
+  {
+    "column": 60,
+    "original": "Socializing",
+    "status": "approved",
+    "reason": "Author questionnaire explicitly offers the full 1–5 scale. The offered value 1 has a verified zero response count; retained as zero, not imputed or dropped.",
+    "questionId": "young-people-2013-061"
+  },
+  {
+    "column": 61,
+    "original": "Adrenaline sports",
+    "status": "approved",
+    "questionId": "young-people-2013-062"
+  },
+  {
+    "column": 62,
+    "original": "Pets",
+    "status": "approved",
+    "questionId": "young-people-2013-063"
+  },
+  {
+    "column": 63,
+    "original": "Flying",
+    "status": "approved",
+    "questionId": "young-people-2013-064"
+  },
+  {
+    "column": 64,
+    "original": "Thunder, lightning",
+    "status": "approved",
+    "questionId": "young-people-2013-065"
+  },
+  {
+    "column": 65,
+    "original": "Darkness",
+    "status": "approved",
+    "questionId": "young-people-2013-066"
+  },
+  {
+    "column": 66,
+    "original": "Heights",
+    "status": "approved",
+    "questionId": "young-people-2013-067"
+  },
+  {
+    "column": 67,
+    "original": "Spiders",
+    "status": "approved",
+    "questionId": "young-people-2013-068"
+  },
+  {
+    "column": 68,
+    "original": "Snakes",
+    "status": "approved",
+    "questionId": "young-people-2013-069"
+  },
+  {
+    "column": 69,
+    "original": "Rats, mice",
+    "status": "approved",
+    "questionId": "young-people-2013-070"
+  },
+  {
+    "column": 70,
+    "original": "Ageing",
+    "status": "approved",
+    "questionId": "young-people-2013-071"
+  },
+  {
+    "column": 71,
+    "original": "Dangerous dogs",
+    "status": "approved",
+    "questionId": "young-people-2013-072"
+  },
+  {
+    "column": 72,
+    "original": "Public speaking",
+    "status": "approved",
+    "questionId": "young-people-2013-073"
+  },
+  {
+    "column": 73,
+    "original": "Smoking habits",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 74,
+    "original": "Drinking",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 75,
+    "original": "I live a very healthy lifestyle.",
+    "status": "approved",
+    "questionId": "young-people-2013-076"
+  },
+  {
+    "column": 76,
+    "original": "I take notice of what goes on around me.",
+    "status": "approved",
+    "questionId": "young-people-2013-077"
+  },
+  {
+    "column": 77,
+    "original": "I try to do tasks as soon as possible and not leave them until last minute.",
+    "status": "approved",
+    "questionId": "young-people-2013-078"
+  },
+  {
+    "column": 78,
+    "original": "I always make a list so I don't forget anything.",
+    "status": "approved",
+    "questionId": "young-people-2013-079"
+  },
+  {
+    "column": 79,
+    "original": "I often study or work even in my spare time.",
+    "status": "approved",
+    "questionId": "young-people-2013-080"
+  },
+  {
+    "column": 80,
+    "original": "I look at things from all different angles before I go ahead.",
+    "status": "approved",
+    "questionId": "young-people-2013-081"
+  },
+  {
+    "column": 81,
+    "original": "I believe that bad people will suffer one day and good people will be rewarded.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 82,
+    "original": "I am reliable at work and always complete all tasks given to me.",
+    "status": "approved",
+    "questionId": "young-people-2013-083"
+  },
+  {
+    "column": 83,
+    "original": "I always keep my promises.",
+    "status": "approved",
+    "questionId": "young-people-2013-084"
+  },
+  {
+    "column": 84,
+    "original": "I can fall for someone very quickly and then completely lose interest.",
+    "status": "approved",
+    "questionId": "young-people-2013-085"
+  },
+  {
+    "column": 85,
+    "original": "I would rather have lots of friends than lots of money.",
+    "status": "approved",
+    "questionId": "young-people-2013-086"
+  },
+  {
+    "column": 86,
+    "original": "I always try to be the funniest one.",
+    "status": "approved",
+    "questionId": "young-people-2013-087"
+  },
+  {
+    "column": 87,
+    "original": "I can be two faced sometimes.",
+    "status": "approved",
+    "questionId": "young-people-2013-088"
+  },
+  {
+    "column": 88,
+    "original": "I damaged things in the past when angry.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 89,
+    "original": "I take my time to make decisions.",
+    "status": "approved",
+    "questionId": "young-people-2013-090"
+  },
+  {
+    "column": 90,
+    "original": "I always try to vote in elections.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 91,
+    "original": "I often think about and regret the decisions I make.",
+    "status": "approved",
+    "questionId": "young-people-2013-092"
+  },
+  {
+    "column": 92,
+    "original": "I can tell if people listen to me or not when I talk to them.",
+    "status": "approved",
+    "questionId": "young-people-2013-093"
+  },
+  {
+    "column": 93,
+    "original": "I am a hypochondriac.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 94,
+    "original": "I am emphatetic person.",
+    "status": "approved",
+    "questionId": "young-people-2013-095"
+  },
+  {
+    "column": 95,
+    "original": "I eat because I have to. I don't enjoy food and eat as fast as I can.",
+    "status": "approved",
+    "questionId": "young-people-2013-096"
+  },
+  {
+    "column": 96,
+    "original": "I try to give as much as I can to other people at Christmas.",
+    "status": "approved",
+    "questionId": "young-people-2013-097"
+  },
+  {
+    "column": 97,
+    "original": "I don't like seeing animals suffering.",
+    "status": "approved",
+    "questionId": "young-people-2013-098"
+  },
+  {
+    "column": 98,
+    "original": "I look after things I have borrowed from others.",
+    "status": "approved",
+    "questionId": "young-people-2013-099"
+  },
+  {
+    "column": 99,
+    "original": "I feel lonely in life.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 100,
+    "original": "I used to cheat at school.",
+    "status": "approved",
+    "questionId": "young-people-2013-101"
+  },
+  {
+    "column": 101,
+    "original": "I worry about my health.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 102,
+    "original": "I wish I could change the past because of the things I have done.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 103,
+    "original": "I believe in God.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 104,
+    "original": "I always have good dreams.",
+    "status": "approved",
+    "questionId": "young-people-2013-105"
+  },
+  {
+    "column": 105,
+    "original": "I always give to charity.",
+    "status": "approved",
+    "questionId": "young-people-2013-106"
+  },
+  {
+    "column": 106,
+    "original": "I have lots of friends.",
+    "status": "approved",
+    "questionId": "young-people-2013-107"
+  },
+  {
+    "column": 107,
+    "original": "Timekeeping.",
+    "status": "approved",
+    "questionId": "young-people-2013-108"
+  },
+  {
+    "column": 108,
+    "original": "Do you lie to others?",
+    "status": "approved",
+    "questionId": "young-people-2013-109"
+  },
+  {
+    "column": 109,
+    "original": "I am very patient.",
+    "status": "approved",
+    "questionId": "young-people-2013-110"
+  },
+  {
+    "column": 110,
+    "original": "I can quickly adapt to a new environment.",
+    "status": "approved",
+    "questionId": "young-people-2013-111"
+  },
+  {
+    "column": 111,
+    "original": "My moods change quickly.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 112,
+    "original": "I am well mannered and I look after my appearance.",
+    "status": "approved",
+    "questionId": "young-people-2013-113"
+  },
+  {
+    "column": 113,
+    "original": "I enjoy meeting new people.",
+    "status": "approved",
+    "questionId": "young-people-2013-114"
+  },
+  {
+    "column": 114,
+    "original": "I always let other people know about my achievements.",
+    "status": "approved",
+    "questionId": "young-people-2013-115"
+  },
+  {
+    "column": 115,
+    "original": "I think carefully before answering any important letters.",
+    "status": "approved",
+    "questionId": "young-people-2013-116"
+  },
+  {
+    "column": 116,
+    "original": "I enjoy childrens' company.",
+    "status": "approved",
+    "questionId": "young-people-2013-117"
+  },
+  {
+    "column": 117,
+    "original": "I am not afraid to give my opinion if I feel strongly about something.",
+    "status": "approved",
+    "questionId": "young-people-2013-118"
+  },
+  {
+    "column": 118,
+    "original": "I can get angry very easily.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 119,
+    "original": "I always make sure I connect with the right people.",
+    "status": "approved",
+    "questionId": "young-people-2013-120"
+  },
+  {
+    "column": 120,
+    "original": "I have to be well prepared before public speaking.",
+    "status": "approved",
+    "questionId": "young-people-2013-121"
+  },
+  {
+    "column": 121,
+    "original": "I will find a fault in myself if people don't like me.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 122,
+    "original": "I cry when I feel down or things don't go the right way.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 123,
+    "original": "I am 100% happy with my life.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 124,
+    "original": "I am always full of life and energy.",
+    "status": "approved",
+    "questionId": "young-people-2013-125"
+  },
+  {
+    "column": 125,
+    "original": "I prefer big dangerous dogs to smaller, calmer dogs.",
+    "status": "approved",
+    "questionId": "young-people-2013-126"
+  },
+  {
+    "column": 126,
+    "original": "I believe all my personality traits are positive.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 127,
+    "original": "If I find something the doesn't belong to me I will hand it in.",
+    "status": "approved",
+    "questionId": "young-people-2013-128"
+  },
+  {
+    "column": 128,
+    "original": "I find it very difficult to get up in the morning.",
+    "status": "approved",
+    "questionId": "young-people-2013-129"
+  },
+  {
+    "column": 129,
+    "original": "I have many different hobbies and interests.",
+    "status": "approved",
+    "questionId": "young-people-2013-130"
+  },
+  {
+    "column": 130,
+    "original": "I always listen to my parents' advice.",
+    "status": "approved",
+    "questionId": "young-people-2013-131"
+  },
+  {
+    "column": 131,
+    "original": "I enjoy taking part in surveys.",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 132,
+    "original": "How much time do you spend online?",
+    "status": "approved",
+    "questionId": "young-people-2013-133"
+  },
+  {
+    "column": 133,
+    "original": "I save all the money I can.",
+    "status": "approved",
+    "questionId": "young-people-2013-134"
+  },
+  {
+    "column": 134,
+    "original": "I enjoy going to large shopping centres.",
+    "status": "approved",
+    "questionId": "young-people-2013-135"
+  },
+  {
+    "column": 135,
+    "original": "I prefer branded clothing to non branded.",
+    "status": "approved",
+    "questionId": "young-people-2013-136"
+  },
+  {
+    "column": 136,
+    "original": "I spend a lot of money on  partying and socializing.",
+    "status": "approved",
+    "questionId": "young-people-2013-137"
+  },
+  {
+    "column": 137,
+    "original": "I spend a lot of money on my appearance.",
+    "status": "approved",
+    "questionId": "young-people-2013-138"
+  },
+  {
+    "column": 138,
+    "original": "I spend a lot of money on gadgets.",
+    "status": "approved",
+    "questionId": "young-people-2013-139"
+  },
+  {
+    "column": 139,
+    "original": "I will hapilly pay more money for good, quality or healthy food.",
+    "status": "approved",
+    "questionId": "young-people-2013-140"
+  },
+  {
+    "column": 140,
+    "original": "Age",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 141,
+    "original": "Height",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 142,
+    "original": "Weight",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 143,
+    "original": "How many siblings do you have?",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 144,
+    "original": "Gender",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 145,
+    "original": "I am",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 146,
+    "original": "Highest education achieved",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 147,
+    "original": "I am the only child",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 148,
+    "original": "I spent most of my childhood in a",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  },
+  {
+    "column": 149,
+    "original": "I lived most of my childhood in a",
+    "status": "excluded",
+    "reason": "Demographic, clinical, political/religious, distressing, or too self-referential for this batch."
+  }
+]

@@ -40,13 +40,15 @@ The site address is `https://<username>.github.io/<repository>/`. GitHub Pages i
 
 Clipboard failures now offer selectable share text instead of claiming success. Blocked browser storage shows a notice and permits in-memory play. Valid same-day progress from the original prototype migrates automatically when served from the same browser origin.
 
-## 100 source-backed daily sets
+## One-year question bank: in progress
 
-The scheduled game now uses **109 verified questions from six published FiveThirtyEight datasets**, with recorded response counts and an audit trail for every percentage. Historical 2014–2015 reference groups are identified with each question. A small Data credits link provides required CC BY 4.0 attribution and methodology.
+The goal is **1,825 verified questions for 365 nonrepeating days**. The first expansion has **310 approved questions**, 201 more than the previous version: 121 from Miroslav Sabo's Young People Survey, 61 travel questions and 19 community questions from UK government publications. These join the original 109 source-backed items.
 
-There are **100 distinct daily sets / 500 round slots**, from **20 October 2026 to 27 January 2027**, numbered #002–#101. **Some questions repeat; this is not 500 unique verified questions.** The earlier invented bank has been replaced. A verified launch preview is available on 19 October. Old scores cannot attach to the new content version. After the final date, a preparation message appears until the calendar is extended.
+The calendar now contains **62 complete days with zero reused questions**. It runs from **19 October through 19 December 2026**. **1,515 more approved questions are still needed for a year.** The old 100-day repeating schedule has been retired. A permanent reservation registry preserves question/concept identities and scoring digests; adding sources extends the calendar rather than looping old content.
 
-See the [content guide](docs/content/README.md), [verification ledger](docs/content/survey-ledger.json), [audit summary](docs/content/survey-audit.json), [calendar](docs/content/100-day-calendar.md), and [option-level CSV](docs/content/100-day-calendar.csv). `npm run content:import` rebuilds from pinned source evidence; `npm run content:export` refreshes review exports. `npm run content:check` rejects drift or unsupported data.
+See the [content guide](docs/content/README.md), [all-question inventory](docs/content/question-inventory.csv), [verification ledger](docs/content/survey-ledger.json), [progress audit](docs/content/survey-audit.json), and [current calendar](docs/content/challenge-calendar.md). `content/source-catalog.json` separates verified additions from held, blocked and rights-review sources. Candidate collection sizes never count as prepared questions.
+
+All percentages are either recorded-response frequencies or official weighted shares, with bases, original wording, file hashes and spreadsheet coordinates. No person counts are inferred from weighted estimates. Historical populations and years appear with prompts; a small Data credits link carries each source's CC BY, CC0 or Open Government Licence attribution. Numeric intermediate scale points retain their original labels.
 
 ## Architecture and evidence
 
@@ -59,7 +61,7 @@ The source is organized under `src/domain`, `src/data`, `src/services`, `src/ui`
 
 ## Current scope
 
-This remains a **local playable application**. Scheduled percentages come from recorded survey responses; the original authored fixture is retained only for pre-launch demo dates and regression testing. Unknown answers earn zero. Public prompts offer actual response choices. Local practice replay remains available. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
+This remains a **local playable application**. Scheduled percentages come from recorded survey responses or official weighted survey tables; the original authored fixture is retained only for pre-launch demo dates and regression testing. Unknown answers earn zero. Public prompts offer actual response choices. Local practice replay remains available. Scores and local guest IDs can be edited by the browser and are not suitable for a public competition. Local guest identity is not an account, and there is no live leaderboard, moderation queue or cross-device sync.
 
 The HTTP client is implemented and tested against mocked responses. No server, database or authentication provider is provisioned. Leave `VITE_SWERVE_API_BASE` unset to play locally. To connect a real server, implement [the contract](docs/backend-contract.md), set `VITE_SWERVE_API_BASE=/api` at build time and rebuild. Browser environment variables are public; keep secrets on the server.
 

@@ -22,6 +22,8 @@ export interface PreparedQuestion extends DemoQuestion {
   id: string;
   category: string;
   source: ReferenceSource;
+  conceptKey: string;
+  wordingFingerprint: string;
 }
 export interface ReferenceSource {
   id: string;
@@ -29,6 +31,7 @@ export interface ReferenceSource {
   year: number;
   n: number;
   url: string;
+  basis?: string;
 }
 export interface PreparedDay {
   number: string;

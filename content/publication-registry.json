@@ -1,0 +1,2238 @@
+{
+  "version": 1,
+  "firstDay": "2026-10-19",
+  "days": [
+    {
+      "day": "2026-10-19",
+      "number": "001",
+      "items": [
+        {
+          "questionId": "food-world-cup-01",
+          "conceptKey": "food-world-cup:1",
+          "wordingFingerprint": "generally speaking how would you rate your level of knowledgee of cuisines from different parts of the world",
+          "contentSha256": "cb259881d209dfdf5e5f532c45d2535bdd302f91d245d474e11b156b179fc1c6"
+        },
+        {
+          "questionId": "flying-etiquette-survey-01",
+          "conceptKey": "flying-etiquette-survey:1",
+          "wordingFingerprint": "how often do you travel by plane",
+          "contentSha256": "e3c50646ad392a1e5e962789dcbf2a133c3ac4d1ac205d35cb0d73dd120362ad"
+        },
+        {
+          "questionId": "star-wars-survey-01",
+          "conceptKey": "star-wars-survey:1",
+          "wordingFingerprint": "have you seen any of the 6 films in the star wars franchise response",
+          "contentSha256": "0e129a25a067ef4831408b164a777e831dc7110e3e7c7afa5035274208a5e564"
+        },
+        {
+          "questionId": "comma-survey-01",
+          "conceptKey": "comma-survey:1",
+          "wordingFingerprint": "in your opinion which sentence is more gramatically correct",
+          "contentSha256": "3707048cb64d6beba280311d563013528b1bea198c3490ca13caa749710b443f"
+        },
+        {
+          "questionId": "thanksgiving-2015-01",
+          "conceptKey": "thanksgiving-2015:1",
+          "wordingFingerprint": "do you celebrate thanksgiving",
+          "contentSha256": "692a9e1b8ffbdf7fbc8a7f9a66c07eea8c96b35f180ebb699688fbbbcfe93725"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-20",
+      "number": "002",
+      "items": [
+        {
+          "questionId": "ntas0601a-r18",
+          "conceptKey": "ntas:to-what-extent-are-you-in-favour-of-having-speed-limits-of-20-miles-per-hour-in-residential-streets",
+          "wordingFingerprint": "to what extent are you in favour of having speed limits of 20 miles per hour in residential streets",
+          "contentSha256": "9d53acc719f82a12b8542dcb3818ef2ba698785e57044271a4d1ca0aee9d0337"
+        },
+        {
+          "questionId": "food-world-cup-29",
+          "conceptKey": "food-world-cup:29",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of russia",
+          "contentSha256": "f99e17f1b59f28656544fab6f3e7210fa8b9150a866a22d0c4fd11f535e917c2"
+        },
+        {
+          "questionId": "young-people-2013-027",
+          "conceptKey": "young-people:tales",
+          "wordingFingerprint": "tales",
+          "contentSha256": "2546a0282c3e9169a76b2ba181f516d17abbe4ff2c38491cc418a491bb70795b"
+        },
+        {
+          "questionId": "young-people-2013-080",
+          "conceptKey": "young-people:i-often-study-or-work-even-in-my-spare-time",
+          "wordingFingerprint": "i often study or work even in my spare time",
+          "contentSha256": "b827c69c5f08dd49d05215bb07d1eff9ef9fb6b989f8781c8971f1ca1ee24e12"
+        },
+        {
+          "questionId": "young-people-2013-060",
+          "conceptKey": "young-people:theatre",
+          "wordingFingerprint": "theatre",
+          "contentSha256": "bf6869a4735026f632bf14aa5586354e467de57da9b4fbd0c5066aade93378bd"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-21",
+      "number": "003",
+      "items": [
+        {
+          "questionId": "ntas0601d-r23",
+          "conceptKey": "ntas:how-satisfied-if-at-all-are-you-with-the-availability-of-real-time-information-when-travelling-by-bus",
+          "wordingFingerprint": "how satisfied if at all are you with the availability of real time information when travelling by bus",
+          "contentSha256": "1f2f7e6adff5cfee25e1e394ede0644c8588c84d3dedd451f5bc0c33c11dc8eb"
+        },
+        {
+          "questionId": "food-world-cup-25",
+          "conceptKey": "food-world-cup:25",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of mexico",
+          "contentSha256": "d17c6dc4e450707ac304bf8a6043390ef0cc9ea35096c991237bcd6b2254459f"
+        },
+        {
+          "questionId": "young-people-2013-029",
+          "conceptKey": "young-people:documentaries",
+          "wordingFingerprint": "documentaries",
+          "contentSha256": "e0ec592ec0873b0241953fb937fd57e2c82b4908e18d7aef441e865d6788aeb6"
+        },
+        {
+          "questionId": "young-people-2013-106",
+          "conceptKey": "young-people:i-always-give-to-charity",
+          "wordingFingerprint": "i always give to charity",
+          "contentSha256": "23f635318ac361c75ffc1065054e56889bc8228f2eacfc9dff45e35bdad16bb2"
+        },
+        {
+          "questionId": "young-people-2013-081",
+          "conceptKey": "young-people:i-look-at-things-from-all-different-angles-before-i-go-ahead",
+          "wordingFingerprint": "i look at things from all different angles before i go ahead",
+          "contentSha256": "1b439fd3ec3886eea5a1bd28f9dae0b74f5db63f172be504aaadc9589c0ee580"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-22",
+      "number": "004",
+      "items": [
+        {
+          "questionId": "ntas0201b-r14",
+          "conceptKey": "ntas:i-am-in-favour-of-low-emission-zones",
+          "wordingFingerprint": "i am in favour of low emission zones",
+          "contentSha256": "e7ad9b92ac90995e8b0b700d7f37d512d8d6a6c974603f23697a43797c9e38ed"
+        },
+        {
+          "questionId": "food-world-cup-11",
+          "conceptKey": "food-world-cup:11",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of colombia",
+          "contentSha256": "7e6fb02f50755b8c9a7e5e0421871b946fdc9f48c2fb402429284ca1b757203a"
+        },
+        {
+          "questionId": "young-people-2013-021",
+          "conceptKey": "young-people:horror-movies",
+          "wordingFingerprint": "horror movies",
+          "contentSha256": "cab7e9cc9ea1532397e0c0b167b9eff6415835d4619bbea54831fb578b58714e"
+        },
+        {
+          "questionId": "young-people-2013-068",
+          "conceptKey": "young-people:spiders",
+          "wordingFingerprint": "spiders",
+          "contentSha256": "8f181ee6b9827fc12ed3e3f45138292f10d614f9581cb78d28e717e4b76bd928"
+        },
+        {
+          "questionId": "young-people-2013-035",
+          "conceptKey": "young-people:mathematics",
+          "wordingFingerprint": "mathematics",
+          "contentSha256": "d3696607f386689b8e2a2aa63788c21e42567a76a1704a7a6a91221cf856b0dd"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-23",
+      "number": "005",
+      "items": [
+        {
+          "questionId": "ntas0601d-r31",
+          "conceptKey": "ntas:i-find-my-time-on-the-bus-productive",
+          "wordingFingerprint": "i find my time on the bus productive",
+          "contentSha256": "aeb5585f802fac6f028cb7adbca7d44dbdc5754ccf237b8b4e4b1fde29b0ad6c"
+        },
+        {
+          "questionId": "food-world-cup-02",
+          "conceptKey": "food-world-cup:2",
+          "wordingFingerprint": "how much if at all are you interested in cuisines from different parts of the world",
+          "contentSha256": "e52634f2d599a383c7591aa209abd42ca61793a18db2a8c4af973cacc9cb1219"
+        },
+        {
+          "questionId": "young-people-2013-022",
+          "conceptKey": "young-people:thriller-movies",
+          "wordingFingerprint": "thriller movies",
+          "contentSha256": "6621ef705031514bed0ab7b1331f09cc0f7503e6e6b016828ee291211a7a7c07"
+        },
+        {
+          "questionId": "young-people-2013-110",
+          "conceptKey": "young-people:i-am-very-patient",
+          "wordingFingerprint": "i am very patient",
+          "contentSha256": "2e1bffde2c327e8f9b177288e746af2c608c8f2ec1e67235d09b279cbdaf8e21"
+        },
+        {
+          "questionId": "young-people-2013-042",
+          "conceptKey": "young-people:poetry-reading",
+          "wordingFingerprint": "poetry reading",
+          "contentSha256": "064e0c5948690aaf776974e84e785da41e77828c5e10c7132273d9b29a2be57d"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-24",
+      "number": "006",
+      "items": [
+        {
+          "questionId": "ntas0201e-r18",
+          "conceptKey": "ntas:many-of-the-journeys-of-less-than-two-miles-that-i-now-make-by-car-i-could-just-as-easily-walk",
+          "wordingFingerprint": "many of the journeys of less than two miles that i now make by car i could just as easily walk",
+          "contentSha256": "c153e4f65edcc3460aa993b7ae7e6ce81e14c3512aa23b3358dbf527aa98acad"
+        },
+        {
+          "questionId": "food-world-cup-26",
+          "conceptKey": "food-world-cup:26",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of the netherlands",
+          "contentSha256": "e134f1f418177a74e044f8130261987410c947daac4b357cd9c9070851d6211f"
+        },
+        {
+          "questionId": "young-people-2013-026",
+          "conceptKey": "young-people:war-movies",
+          "wordingFingerprint": "war movies",
+          "contentSha256": "276a83d08dfadd8abe6eac2801fd10841ab8342e302efa2639a941d77bc71b08"
+        },
+        {
+          "questionId": "young-people-2013-097",
+          "conceptKey": "young-people:i-try-to-give-as-much-as-i-can-to-other-people-at-christmas",
+          "wordingFingerprint": "i try to give as much as i can to other people at christmas",
+          "contentSha256": "e252346700836723251de243c751e45abe0212e306769183172bf647907ae0ea"
+        },
+        {
+          "questionId": "young-people-2013-121",
+          "conceptKey": "young-people:i-have-to-be-well-prepared-before-public-speaking",
+          "wordingFingerprint": "i have to be well prepared before public speaking",
+          "contentSha256": "026b94856421177f399fc144c5e458bff6f48267ac24ec985444af4737b298f9"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-25",
+      "number": "007",
+      "items": [
+        {
+          "questionId": "ntas0601b-r18",
+          "conceptKey": "ntas:travelling-by-bus",
+          "wordingFingerprint": "how often do you travel in the week by the following modes travelling by bus",
+          "contentSha256": "6d77ec6f1834eeb386d65decb9e269d6c71a2ad6b2410ce17fb7d18c227d3177"
+        },
+        {
+          "questionId": "food-world-cup-32",
+          "conceptKey": "food-world-cup:32",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of switzerland",
+          "contentSha256": "61a7a6d84fa62a22a8922822ca39f992c96400c594b857fbfb7e10b7c8fbff3e"
+        },
+        {
+          "questionId": "young-people-2013-031",
+          "conceptKey": "young-people:action-movies",
+          "wordingFingerprint": "action movies",
+          "contentSha256": "383ab9e669c5e99988fce350051ffd11e622c6d8b278ed571ec29ae01e66a48a"
+        },
+        {
+          "questionId": "young-people-2013-131",
+          "conceptKey": "young-people:i-always-listen-to-my-parents-advice",
+          "wordingFingerprint": "i always listen to my parents advice",
+          "contentSha256": "0069e9c54bf1cb8b918cf7f17a2f9d34c33ecab3abb30b1a65edf6e668a2c686"
+        },
+        {
+          "questionId": "young-people-2013-113",
+          "conceptKey": "young-people:i-am-well-mannered-and-i-look-after-my-appearance",
+          "wordingFingerprint": "i am well mannered and i look after my appearance",
+          "contentSha256": "03b7c16c870f3c0f27dcb058d721005876ff2f1044ba694caddfdc8315bdc632"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-26",
+      "number": "008",
+      "items": [
+        {
+          "questionId": "ntas0201a-r18",
+          "conceptKey": "ntas:people-who-drive-vehicles-that-are-better-for-the-environment-should-pay-less-tax-than-those-who-drive-more-polluting-vehicles",
+          "wordingFingerprint": "people who drive vehicles that are better for the environment should pay less tax than those who drive more polluting vehicles",
+          "contentSha256": "62daedc36c025706ac31fbd7363ead4e91b0aecdd62c93d4341d87846fdecdb0"
+        },
+        {
+          "questionId": "food-world-cup-12",
+          "conceptKey": "food-world-cup:12",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of costa rica",
+          "contentSha256": "00a41729751630adc5ee78534d55cf719cfe0f3fda079408db06cd109e6d201e"
+        },
+        {
+          "questionId": "young-people-2013-024",
+          "conceptKey": "young-people:romantic-movies",
+          "wordingFingerprint": "romantic movies",
+          "contentSha256": "29abd1e3d2b57bead2b3203ba1bb9d2f3e449c17005e4e44d864fcfff4340060"
+        },
+        {
+          "questionId": "young-people-2013-116",
+          "conceptKey": "young-people:i-think-carefully-before-answering-any-important-letters",
+          "wordingFingerprint": "i think carefully before answering any important letters",
+          "contentSha256": "faaa5fc9a72f78e9b280c98287d504f09dc8bb87e08bba1d60dcd327b5339a60"
+        },
+        {
+          "questionId": "young-people-2013-036",
+          "conceptKey": "young-people:physics",
+          "wordingFingerprint": "physics",
+          "contentSha256": "97e8354e8718af270ec2180b60f593c699e8380c61bf4ed7bc0dfb5ef90b6017"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-27",
+      "number": "009",
+      "items": [
+        {
+          "questionId": "ntas0601d-r30",
+          "conceptKey": "ntas:when-travelling-in-a-group-of-two-or-more-it-is-cheaper-to-use-private-modes-of-transport-e-g-private-car-rather-than-a-bus",
+          "wordingFingerprint": "when travelling in a group of two or more it is cheaper to use private modes of transport e g private car rather than a bus",
+          "contentSha256": "e19efc2268653eed0e78cc636748b18b79eb97fb4053ea02562322f4fdabba13"
+        },
+        {
+          "questionId": "food-world-cup-34",
+          "conceptKey": "food-world-cup:34",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of uruguay",
+          "contentSha256": "2245139d7a7832e66c6ebf4b0369bfba873df73a90fecdeffdb43a44b04ad9d2"
+        },
+        {
+          "questionId": "young-people-2013-025",
+          "conceptKey": "young-people:sci-fi-movies",
+          "wordingFingerprint": "sci fi movies",
+          "contentSha256": "e901aa660e04e7da101705f2d075fc7ac3346ac3e6ab65139d64c94a172b8100"
+        },
+        {
+          "questionId": "young-people-2013-108",
+          "conceptKey": "young-people:timekeeping",
+          "wordingFingerprint": "timekeeping",
+          "contentSha256": "2650b4fa689308047b888ed13655cca2bb45c9213161c666df0c1300a0eca2ab"
+        },
+        {
+          "questionId": "young-people-2013-118",
+          "conceptKey": "young-people:i-am-not-afraid-to-give-my-opinion-if-i-feel-strongly-about-something",
+          "wordingFingerprint": "i am not afraid to give my opinion if i feel strongly about something",
+          "contentSha256": "0284baa750562b0ffae5bc02d2bc5b3aa4b062b464d679410846fcf5a21eeeca"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-28",
+      "number": "010",
+      "items": [
+        {
+          "questionId": "ntas0201b-r13",
+          "conceptKey": "ntas:low-emission-zones-help-to-improve-public-health",
+          "wordingFingerprint": "low emission zones help to improve public health",
+          "contentSha256": "e72879801bc6b7ed927210c26bfdd18135f94219b2b18af64990c159d1a4c8d2"
+        },
+        {
+          "questionId": "food-world-cup-18",
+          "conceptKey": "food-world-cup:18",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of ghana",
+          "contentSha256": "d9c60d98ac6576ce73685cd9338d0d7604f1480bdcc79ff7c8f72baa0f1011f3"
+        },
+        {
+          "questionId": "young-people-2013-030",
+          "conceptKey": "young-people:western-movies",
+          "wordingFingerprint": "western movies",
+          "contentSha256": "40e2bcf650f78426b894f9cfaca0944be1f0792e2392ff5ee9176ef4d3478d5c"
+        },
+        {
+          "questionId": "young-people-2013-133",
+          "conceptKey": "young-people:how-much-time-do-you-spend-online",
+          "wordingFingerprint": "how much time do you spend online",
+          "contentSha256": "3780d78a27714f8d218047f1bb0264737e307cc885ab77003c75da3ecd8b2b39"
+        },
+        {
+          "questionId": "young-people-2013-062",
+          "conceptKey": "young-people:adrenaline-sports",
+          "wordingFingerprint": "adrenaline sports",
+          "contentSha256": "ed386c56a189a2b12af1139adcea60743133f0ed368c6db1f060b5a841391128"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-29",
+      "number": "011",
+      "items": [
+        {
+          "questionId": "ntas0601d-r12",
+          "conceptKey": "ntas:would-a-standardised-fare-between-1-to-2-encourage-you-to-use-buses-in-the-future",
+          "wordingFingerprint": "would a standardised fare between 1 to 2 encourage you to use buses in the future",
+          "contentSha256": "ef01d14ba7c47a86492eb4d162fcc2831bf033c2b33bebde0cddba71ec8416e0"
+        },
+        {
+          "questionId": "food-world-cup-07",
+          "conceptKey": "food-world-cup:7",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of bosnia and herzegovina",
+          "contentSha256": "fabebda9ca6996e0f1f0ddea9abbf25083d770bbab713a3779ba7780b071e1b3"
+        },
+        {
+          "questionId": "young-people-2013-028",
+          "conceptKey": "young-people:cartoons",
+          "wordingFingerprint": "cartoons",
+          "contentSha256": "7ed8c992845fd10990924356296b1e6cdd482c82a3d9c9de657e1fa077ae5dcf"
+        },
+        {
+          "questionId": "young-people-2013-065",
+          "conceptKey": "young-people:thunder-lightning",
+          "wordingFingerprint": "thunder lightning",
+          "contentSha256": "6703b0a04fffd36c4a751db2e46f031c17356eea513acb76481debaa5cd2c47a"
+        },
+        {
+          "questionId": "young-people-2013-107",
+          "conceptKey": "young-people:i-have-lots-of-friends",
+          "wordingFingerprint": "i have lots of friends",
+          "contentSha256": "23b75ef3b058a6eb4eaa59d43bec00d6011a4a962fe0bd229d0f29469616a5c0"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-30",
+      "number": "012",
+      "items": [
+        {
+          "questionId": "ntas0501c-r15",
+          "conceptKey": "ntas:speed-cameras-save-lives",
+          "wordingFingerprint": "speed cameras save lives",
+          "contentSha256": "57d36a443cf7f4a3c57ca4b081ecd8c7a8af9896956f53a9c78322ae89bb3830"
+        },
+        {
+          "questionId": "food-world-cup-08",
+          "conceptKey": "food-world-cup:8",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of brazil",
+          "contentSha256": "9eea04f9f65c6627fede931693fa8750113cb70ad22c47521ee2885c3d2e6a43"
+        },
+        {
+          "questionId": "young-people-2013-023",
+          "conceptKey": "young-people:comedies",
+          "wordingFingerprint": "comedies",
+          "contentSha256": "08c6f92da44c7c511e1f22c6d531d93bb33b7c76d7b51098f654ed1e3d37cca4"
+        },
+        {
+          "questionId": "young-people-2013-048",
+          "conceptKey": "young-people:art",
+          "wordingFingerprint": "art",
+          "contentSha256": "b4591fe6cc8ebe28a8a3548357c5b09262eae8a95919c4503065c8a845462998"
+        },
+        {
+          "questionId": "young-people-2013-073",
+          "conceptKey": "young-people:public-speaking",
+          "wordingFingerprint": "public speaking",
+          "contentSha256": "de343fa7afe25d70f497e337e8448776e8d009df54931444d024f717f8d95509"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-31",
+      "number": "013",
+      "items": [
+        {
+          "questionId": "ntas0201e-r19",
+          "conceptKey": "ntas:many-of-the-journeys-of-less-than-two-miles-that-i-now-make-by-car-i-could-just-as-easily-make-by-bus",
+          "wordingFingerprint": "many of the journeys of less than two miles that i now make by car i could just as easily make by bus",
+          "contentSha256": "22e4fa5d299f78a46d5a0be8025366e4a797a3f9c0e1e064017d1e9d802bc6fd"
+        },
+        {
+          "questionId": "food-world-cup-27",
+          "conceptKey": "food-world-cup:27",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of nigeria",
+          "contentSha256": "b5aa49e585dc2244f45ed6b9a4350e1c282c311b773658e1f7841156a2965637"
+        },
+        {
+          "questionId": "star-wars-survey-09",
+          "conceptKey": "star-wars-survey:9",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode i the phantom menace",
+          "contentSha256": "11af7747b7b1a17287daabfa2a92d4329f3237010c039ba2785a985f33cbc9fb"
+        },
+        {
+          "questionId": "young-people-2013-086",
+          "conceptKey": "young-people:i-would-rather-have-lots-of-friends-than-lots-of-money",
+          "wordingFingerprint": "i would rather have lots of friends than lots of money",
+          "contentSha256": "554dc800a3e0c09a8c576871b3a352db6c47a135bae267997c769820c71a7660"
+        },
+        {
+          "questionId": "young-people-2013-058",
+          "conceptKey": "young-people:shopping",
+          "wordingFingerprint": "shopping",
+          "contentSha256": "d48d6c56719a561fe4d52c3ecc4158d07bae7ce715fb423dd3d6d471d86e4d5d"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-01",
+      "number": "014",
+      "items": [
+        {
+          "questionId": "ntas0601a-r19",
+          "conceptKey": "ntas:to-what-extent-are-you-in-favour-of-having-speed-bumps-to-slow-down-traffic-in-residential-streets",
+          "wordingFingerprint": "to what extent are you in favour of having speed bumps to slow down traffic in residential streets",
+          "contentSha256": "b35b541309ebc3c0315ddfdec6eec18bc8bed42fe1acde34e57580b48596dc9f"
+        },
+        {
+          "questionId": "food-world-cup-22",
+          "conceptKey": "food-world-cup:22",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of italy",
+          "contentSha256": "c35ec45fb84510bfeb3aeb3cbde72e1e8e3916e37b8fbc1eec54086f05aca025"
+        },
+        {
+          "questionId": "star-wars-survey-23",
+          "conceptKey": "star-wars-survey:23",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her boba fett",
+          "contentSha256": "2caf2cc39c06a2be1e783802f67a79c7ec6c58889a5b1370006863748e387259"
+        },
+        {
+          "questionId": "young-people-2013-140",
+          "conceptKey": "young-people:i-will-hapilly-pay-more-money-for-good-quality-or-healthy-food",
+          "wordingFingerprint": "i will hapilly pay more money for good quality or healthy food",
+          "contentSha256": "7603a84475a9b056f726513c04cc6bd546d0d6da374f00d570e808b5be00b597"
+        },
+        {
+          "questionId": "young-people-2013-117",
+          "conceptKey": "young-people:i-enjoy-childrens-company",
+          "wordingFingerprint": "i enjoy childrens company",
+          "contentSha256": "2c4eda36d523489cd07b0f69ffe3ebc3647770ab06cf2a3887868273f0449d81"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-02",
+      "number": "015",
+      "items": [
+        {
+          "questionId": "ntas0501b-r19",
+          "conceptKey": "ntas:the-law-on-using-mobile-phones-whilst-driving-is-not-properly-enforced",
+          "wordingFingerprint": "the law on using mobile phones whilst driving is not properly enforced",
+          "contentSha256": "30e3a4570191137c68c0160d63dd40b49556250e611533bc83532a92f35a9041"
+        },
+        {
+          "questionId": "food-world-cup-36",
+          "conceptKey": "food-world-cup:36",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of india",
+          "contentSha256": "9925e762bde66016f9b2f5964a0e34280365a9b0e7367212b75928ea29df0b68"
+        },
+        {
+          "questionId": "star-wars-survey-16",
+          "conceptKey": "star-wars-survey:16",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her luke skywalker",
+          "contentSha256": "7cec976a342b7752d769c880241199fb2728a707032ce216f9b52f55032b3781"
+        },
+        {
+          "questionId": "young-people-2013-032",
+          "conceptKey": "young-people:history",
+          "wordingFingerprint": "history",
+          "contentSha256": "a191c414cfa79fe7812da3e3f0fe98ef0e5a352b7541a0941383853b68b693a1"
+        },
+        {
+          "questionId": "young-people-2013-069",
+          "conceptKey": "young-people:snakes",
+          "wordingFingerprint": "snakes",
+          "contentSha256": "bccebd93ffd2639fdf1716f7e92e882e7aa93338e9797271deddb5b94d350a19"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-03",
+      "number": "016",
+      "items": [
+        {
+          "questionId": "ntas0201g-r12",
+          "conceptKey": "ntas:i-am-concerned-about-damage-to-my-personal-health-from-exhaust-fumes",
+          "wordingFingerprint": "i am concerned about damage to my personal health from exhaust fumes",
+          "contentSha256": "409da7a9b404acca9994b7783787c870974bc8309934fcaac1850e567c7041e7"
+        },
+        {
+          "questionId": "food-world-cup-16",
+          "conceptKey": "food-world-cup:16",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of france",
+          "contentSha256": "0c7d04f7380bd0a68b2087c7828fe73dce8ce3c2d2d48a898c1b9d27bac53de4"
+        },
+        {
+          "questionId": "star-wars-survey-12",
+          "conceptKey": "star-wars-survey:12",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode iv a new hope",
+          "contentSha256": "5af3e46a562cca89dcfdcf7ef98551d58c867d7c520637d5a884cab4d01182ba"
+        },
+        {
+          "questionId": "young-people-2013-125",
+          "conceptKey": "young-people:i-am-always-full-of-life-and-energy",
+          "wordingFingerprint": "i am always full of life and energy",
+          "contentSha256": "dc1d448be759e6c6bbe3f1a4754b493d90b548f7606b20da6f64b720504e4762"
+        },
+        {
+          "questionId": "young-people-2013-052",
+          "conceptKey": "young-people:playing-musical-instruments",
+          "wordingFingerprint": "playing musical instruments",
+          "contentSha256": "98b3f5ffa79307c76b7d34be6efb3bd897aef8facbc9af89f9e7739ad78fce3e"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-04",
+      "number": "017",
+      "items": [
+        {
+          "questionId": "ntas0601b-r19",
+          "conceptKey": "ntas:how-often-travel-in-week-cycling",
+          "wordingFingerprint": "how often do you travel in the week by the following modes how often travel in week cycling",
+          "contentSha256": "36c577376e7263849c2c212ca0918ff66faf55a29cb5305d3cdcea88f6e8d3f0"
+        },
+        {
+          "questionId": "food-world-cup-37",
+          "conceptKey": "food-world-cup:37",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of thailand",
+          "contentSha256": "1a7a6110104b1a245505e9b01bf7fbe1a2e3bc678b8eb04baf1bad44059df3d3"
+        },
+        {
+          "questionId": "young-people-2013-109",
+          "conceptKey": "young-people:do-you-lie-to-others",
+          "wordingFingerprint": "do you lie to others",
+          "contentSha256": "505f616b0797f83b1f8b06a5716ee7a66f150b008d5eba814d0b631bced6c030"
+        },
+        {
+          "questionId": "star-wars-survey-15",
+          "conceptKey": "star-wars-survey:15",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her han solo",
+          "contentSha256": "8f014897447083f7665f9bdf31a271f59b4486c868da46ea393632b91430bf10"
+        },
+        {
+          "questionId": "young-people-2013-039",
+          "conceptKey": "young-people:economy-management",
+          "wordingFingerprint": "economy management",
+          "contentSha256": "f8df56c980ae4927c2ceec3f4b8f5d469992b560b499eb379d3b8c8dffa8c264"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-05",
+      "number": "018",
+      "items": [
+        {
+          "questionId": "ntas0501c-r12",
+          "conceptKey": "ntas:it-is-not-safe-to-travel-even-slightly-over-the-speed-limit-on-motorways",
+          "wordingFingerprint": "it is not safe to travel even slightly over the speed limit on motorways",
+          "contentSha256": "264a98edddb36e01c6f0c086893cb894775a6fdb7f20d8cc8dae237d71c3cd7a"
+        },
+        {
+          "questionId": "food-world-cup-41",
+          "conceptKey": "food-world-cup:41",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of vietnam",
+          "contentSha256": "86c1569dc908add8ef76a9b82a188af0a875c0130ce4011955edcdfcacda5c80"
+        },
+        {
+          "questionId": "young-people-2013-093",
+          "conceptKey": "young-people:i-can-tell-if-people-listen-to-me-or-not-when-i-talk-to-them",
+          "wordingFingerprint": "i can tell if people listen to me or not when i talk to them",
+          "contentSha256": "906757e629e664fb1decd10a0494fb68b0cc18a8abd673ed761ba9361eada397"
+        },
+        {
+          "questionId": "young-people-2013-066",
+          "conceptKey": "young-people:darkness",
+          "wordingFingerprint": "darkness",
+          "contentSha256": "76a4f998fc21658673f186ded2e1355a3d29e46408b08954a080a129657bb5d7"
+        },
+        {
+          "questionId": "star-wars-survey-20",
+          "conceptKey": "star-wars-survey:20",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her emperor palpatine",
+          "contentSha256": "f8e2e894c766576a2836b52c7cb02cd7f803ddf06728237b009e9f77759875b0"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-06",
+      "number": "019",
+      "items": [
+        {
+          "questionId": "ntas0201a-r12",
+          "conceptKey": "ntas:next-time-you-buy-a-car-how-likely-would-you-be-to-buy-an-ultra-low-emission-car-either-a-plug-in-hybrid-or-a-battery-electric-car",
+          "wordingFingerprint": "next time you buy a car how likely would you be to buy an ultra low emission car either a plug in hybrid or a battery electric car",
+          "contentSha256": "017f804b6bb5ff218fe90a8c60966dd4b21fa68448d3d1d757cd22e82bb52d82"
+        },
+        {
+          "questionId": "food-world-cup-13",
+          "conceptKey": "food-world-cup:13",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of croatia",
+          "contentSha256": "98a68fea28b0a2100a4431eee833d0f6d7656faaefc63839bee4b19574b4c187"
+        },
+        {
+          "questionId": "young-people-2013-040",
+          "conceptKey": "young-people:biology",
+          "wordingFingerprint": "biology",
+          "contentSha256": "7bf2481489208cfebac00da51869cf3a94512f5a08bb7bc9fb28e5e477062b86"
+        },
+        {
+          "questionId": "young-people-2013-077",
+          "conceptKey": "young-people:i-take-notice-of-what-goes-on-around-me",
+          "wordingFingerprint": "i take notice of what goes on around me",
+          "contentSha256": "eb697ffab9fdef7a9528696c7b0da47973cc1e0b18353728a57aa8d969b78481"
+        },
+        {
+          "questionId": "young-people-2013-139",
+          "conceptKey": "young-people:i-spend-a-lot-of-money-on-gadgets",
+          "wordingFingerprint": "i spend a lot of money on gadgets",
+          "contentSha256": "4c224f92a3a74a189326c630676f0a4e2d3bbb529a67295eaa3f02a582b4df6c"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-07",
+      "number": "020",
+      "items": [
+        {
+          "questionId": "ntas0601f-r13",
+          "conceptKey": "ntas:which-of-the-following-statements-best-reflect-your-opinion-on-the-parking-of-motor-vehicles",
+          "wordingFingerprint": "which of the following statements best reflect your opinion on the parking of motor vehicles",
+          "contentSha256": "d33cbeb46171e584af18f25b70bb5bad879be5f2f0679667be8e8f152af6c15a"
+        },
+        {
+          "questionId": "food-world-cup-03",
+          "conceptKey": "food-world-cup:3",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of algeria",
+          "contentSha256": "fddf699b6cdf4f3f944b34ddb3960d6d04f79536d3771d633a06e84ee0c49fd9"
+        },
+        {
+          "questionId": "community-life-b6a",
+          "conceptKey": "community-life:b6a",
+          "wordingFingerprint": "to what extent do you agree or disagree that this local area is a place where people from different backgrounds get on well together",
+          "contentSha256": "4806a7c7137322d9d098133ef91471d9de0dddc788d689747ebbfb466ad79fe0"
+        },
+        {
+          "questionId": "star-wars-survey-24",
+          "conceptKey": "star-wars-survey:24",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her c 3p0",
+          "contentSha256": "30a839fd90cfcd22d9c6dce6f091b61a8970f611492b8b70e4575007336385b2"
+        },
+        {
+          "questionId": "young-people-2013-018",
+          "conceptKey": "young-people:techno-trance",
+          "wordingFingerprint": "techno trance",
+          "contentSha256": "dbc747cfa53bc4820f12d560a06b64b9a86a64f6bff0c9b9da0234fa6d4c3c69"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-08",
+      "number": "021",
+      "items": [
+        {
+          "questionId": "ntas0501e-r12",
+          "conceptKey": "ntas:it-is-not-important-to-wear-a-seat-belt-for-journeys-under-15-minutes-either-as-a-passenger-or-when-driving",
+          "wordingFingerprint": "it is not important to wear a seat belt for journeys under 15 minutes either as a passenger or when driving",
+          "contentSha256": "e6da97b08815fa384d43222fe9a71acae58c3d31a5d684e019bb72679bc20f32"
+        },
+        {
+          "questionId": "food-world-cup-33",
+          "conceptKey": "food-world-cup:33",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of united states",
+          "contentSha256": "b905442e4c1452257989ce4e50b6432af99078522b3f46306005992a761d57b6"
+        },
+        {
+          "questionId": "young-people-2013-033",
+          "conceptKey": "young-people:psychology",
+          "wordingFingerprint": "psychology",
+          "contentSha256": "41dc875f8f03c15e6a225d002e4e505521a53c82b9bde525d3f4cfee44f5930f"
+        },
+        {
+          "questionId": "young-people-2013-101",
+          "conceptKey": "young-people:i-used-to-cheat-at-school",
+          "wordingFingerprint": "i used to cheat at school",
+          "contentSha256": "89056062899292e0f8c6054525e04e0ce2136cfcbcecf832a970e92f07ba4b6a"
+        },
+        {
+          "questionId": "young-people-2013-135",
+          "conceptKey": "young-people:i-enjoy-going-to-large-shopping-centres",
+          "wordingFingerprint": "i enjoy going to large shopping centres",
+          "contentSha256": "2124d515ba2bbf772339cbfc7dc464eace322a32b9d6f696fd98a3db2072cd99"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-09",
+      "number": "022",
+      "items": [
+        {
+          "questionId": "ntas0601d-r29",
+          "conceptKey": "ntas:if-available-i-would-use-an-app-to-look-at-bus-routes-fares-or-live-bus-times",
+          "wordingFingerprint": "if available i would use an app to look at bus routes fares or live bus times",
+          "contentSha256": "dd5e106995c3fd17de6e620c71433530c69c981b56381a320fa31356e9f1d6e7"
+        },
+        {
+          "questionId": "food-world-cup-38",
+          "conceptKey": "food-world-cup:38",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of turkey",
+          "contentSha256": "e23ce1047cae72aa0fb50f3d4fbb540323e0bcd4ca8455cb0f0f362c66a53664"
+        },
+        {
+          "questionId": "community-life-x5a",
+          "conceptKey": "community-life:x5a",
+          "wordingFingerprint": "generally speaking would you like to be more involved in the decisions your council makes that affect your local area",
+          "contentSha256": "b8c63bed229039401f6948a935e89ae8765c638b9c0c0e19141344d6443f69ed"
+        },
+        {
+          "questionId": "star-wars-survey-22",
+          "conceptKey": "star-wars-survey:22",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her lando calrissian",
+          "contentSha256": "8026c9712f30187a7254a9154bc58d16e8c92dee6198a7f0fb0b4c240f1d8611"
+        },
+        {
+          "questionId": "young-people-2013-005",
+          "conceptKey": "young-people:country",
+          "wordingFingerprint": "country",
+          "contentSha256": "51c2389e320a65b92d63f60e8a925e37b22a6992669b9184edb9af0af869aa61"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-10",
+      "number": "023",
+      "items": [
+        {
+          "questionId": "ntas0201e-r20",
+          "conceptKey": "ntas:many-of-the-journeys-of-less-than-two-miles-that-i-now-make-by-car-i-could-just-as-easily-cycle-if-i-had-a-bike",
+          "wordingFingerprint": "many of the journeys of less than two miles that i now make by car i could just as easily cycle if i had a bike",
+          "contentSha256": "bf21181fd14e486a25141c713f2c5902abd4247a887306654a03f33b71086ec1"
+        },
+        {
+          "questionId": "food-world-cup-30",
+          "conceptKey": "food-world-cup:30",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of south korea",
+          "contentSha256": "a7239c5c97162d6b0c1f438b2ae0963255b25d3f27cf3496d43b4cf59b344145"
+        },
+        {
+          "questionId": "young-people-2013-053",
+          "conceptKey": "young-people:poetry-writing",
+          "wordingFingerprint": "poetry writing",
+          "contentSha256": "96029958ff3a11b60801108c419b87713e90d2a933f4850aa4dac319a146636c"
+        },
+        {
+          "questionId": "young-people-2013-001",
+          "conceptKey": "young-people:i-enjoy-listening-to-music",
+          "wordingFingerprint": "i enjoy listening to music",
+          "contentSha256": "890043d49e88971137a63341f0927d45cad27eeb4c5f134bacda447baa00a80f"
+        },
+        {
+          "questionId": "young-people-2013-071",
+          "conceptKey": "young-people:ageing",
+          "wordingFingerprint": "ageing",
+          "contentSha256": "350915b7ff5b872a43f028a71c70447b40ef4b0b4aad0a7b2eea548afd5241d7"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-11",
+      "number": "024",
+      "items": [
+        {
+          "questionId": "ntas0501b-r12",
+          "conceptKey": "ntas:how-would-you-rate-your-understanding-of-the-laws-on-using-a-mobile-phone-whilst-driving",
+          "wordingFingerprint": "how would you rate your understanding of the laws on using a mobile phone whilst driving",
+          "contentSha256": "9a75e545cbea62aef0c010a228b48a1a6becd2f864df1f631fe16baddcdc388e"
+        },
+        {
+          "questionId": "food-world-cup-10",
+          "conceptKey": "food-world-cup:10",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of chile",
+          "contentSha256": "e9f47c462e8e9df4efe538751fd5437ec121d4c478d0112d5ef6456ad224fa0b"
+        },
+        {
+          "questionId": "flying-etiquette-survey-05",
+          "conceptKey": "flying-etiquette-survey:5",
+          "wordingFingerprint": "in a row of three seats who should get to use the two arm rests",
+          "contentSha256": "2c69fcaffbb90127ce4db97cefb268fa4c51448b6a3418355f16c1a80e997385"
+        },
+        {
+          "questionId": "community-life-b2a",
+          "conceptKey": "community-life:b2a",
+          "wordingFingerprint": "do you think that over the past two years your area has",
+          "contentSha256": "04368841512693873842f0dd886757398a6a850552d24e60c24a57dc397f09eb"
+        },
+        {
+          "questionId": "star-wars-survey-14",
+          "conceptKey": "star-wars-survey:14",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode vi return of the jedi",
+          "contentSha256": "a182a69dd4b143eba517ad046c7fcdd9eac49b0e35734050d3522b7753dd7809"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-12",
+      "number": "025",
+      "items": [
+        {
+          "questionId": "ntas0601e-r12",
+          "conceptKey": "ntas:do-you-travel-by-motorcycle-regularly-by-regularly-we-mean-at-least-once-a-month",
+          "wordingFingerprint": "do you travel by motorcycle regularly by regularly we mean at least once a month",
+          "contentSha256": "2921ce9f6485dabf8d50d1bbff1b6ee84945206b04b0cb673f161b010108930a"
+        },
+        {
+          "questionId": "food-world-cup-23",
+          "conceptKey": "food-world-cup:23",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of ivory coast",
+          "contentSha256": "9d3f5bf193f55fff01d39dc597861b9ff3eec422e1b5143758214a216fb52714"
+        },
+        {
+          "questionId": "young-people-2013-011",
+          "conceptKey": "young-people:punk",
+          "wordingFingerprint": "punk",
+          "contentSha256": "17a246cb11ffa16abb7a0af7d7936f8afa5b2da517b2d08b6fd3ff2180c7827f"
+        },
+        {
+          "questionId": "young-people-2013-059",
+          "conceptKey": "young-people:science-and-technology",
+          "wordingFingerprint": "science and technology",
+          "contentSha256": "66b493d4c17ab391b797d53788ee760819b0c45dc8a93e6386f84203922571c5"
+        },
+        {
+          "questionId": "young-people-2013-087",
+          "conceptKey": "young-people:i-always-try-to-be-the-funniest-one",
+          "wordingFingerprint": "i always try to be the funniest one",
+          "contentSha256": "e7edadfc9abade48a078723921ef4ceefe58bfad4e0449faeeb64a629aae97ea"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-13",
+      "number": "026",
+      "items": [
+        {
+          "questionId": "ntas0201b-r12",
+          "conceptKey": "ntas:low-emission-zones-are-mostly-there-to-make-money",
+          "wordingFingerprint": "low emission zones are mostly there to make money",
+          "contentSha256": "b5b6de069aa9daf34f1fc30ceb3e7419783ff9e08a33c650a884089f000bb695"
+        },
+        {
+          "questionId": "food-world-cup-40",
+          "conceptKey": "food-world-cup:40",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of ethiopia",
+          "contentSha256": "483c26686adf99a08b8d4d31b000e944e29d958f0396baf9aecc2b7afe6f1d86"
+        },
+        {
+          "questionId": "young-people-2013-129",
+          "conceptKey": "young-people:i-find-it-very-difficult-to-get-up-in-the-morning",
+          "wordingFingerprint": "i find it very difficult to get up in the morning",
+          "contentSha256": "c2d58d0b84c3c2e0b1a9b5545f027fbd1af1d60530a064093efd9ea6393bff26"
+        },
+        {
+          "questionId": "flying-etiquette-survey-16",
+          "conceptKey": "flying-etiquette-survey:16",
+          "wordingFingerprint": "is it rude to wake a passenger up if you are trying to go to the bathroom",
+          "contentSha256": "40afb5d4f22f8df34e9a15fe5590cfdff3f9d1b85f96c757639b4a0bf1bb9d6d"
+        },
+        {
+          "questionId": "community-life-b7a",
+          "conceptKey": "community-life:b7a",
+          "wordingFingerprint": "how satisfied or dissatisfied are you with the green and natural spaces in your local area",
+          "contentSha256": "fe77495ddb257251251238105d26e4060d225f6cc5c0ce3449f16cdbd30fc230"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-14",
+      "number": "027",
+      "items": [
+        {
+          "questionId": "ntas0701a-r12",
+          "conceptKey": "ntas:in-general-when-travelling-on-public-transport-how-often-if-at-all-do-you-think-you-can-tell-if-someone-is-disabled",
+          "wordingFingerprint": "in general when travelling on public transport how often if at all do you think you can tell if someone is disabled",
+          "contentSha256": "91a1242f57063a8f5454b50e5866660ec4df65457053a1b9043c1ee103f5c63b"
+        },
+        {
+          "questionId": "star-wars-survey-27",
+          "conceptKey": "star-wars-survey:27",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her padme amidala",
+          "contentSha256": "cb28e2dadb47bc4be7e84f65e79d0f02b988e8cce6bc10bdfffa4ddf2fb1ee5f"
+        },
+        {
+          "questionId": "food-world-cup-04",
+          "conceptKey": "food-world-cup:4",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of argentina",
+          "contentSha256": "0880ed488b4f0bf03d69f02692ffa439dfda678b5b0add6121f3042fb75d9b57"
+        },
+        {
+          "questionId": "young-people-2013-008",
+          "conceptKey": "young-people:pop",
+          "wordingFingerprint": "pop",
+          "contentSha256": "0321bfe1585f3e606ec7a63679edc9a4c3a592e52500db372a23f4c99a03f908"
+        },
+        {
+          "questionId": "young-people-2013-041",
+          "conceptKey": "young-people:chemistry",
+          "wordingFingerprint": "chemistry",
+          "contentSha256": "231bba07197637b41ae534d3a183a226215de90be04766cd89cd911460f645e0"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-15",
+      "number": "028",
+      "items": [
+        {
+          "questionId": "ntas0101a-r19",
+          "conceptKey": "ntas:no-one-should-be-allowed-to-cycle-in-pedestrian-areas",
+          "wordingFingerprint": "no one should be allowed to cycle in pedestrian areas",
+          "contentSha256": "e91a4c20bee9a2c20ffc4f2182cf77da03626c3913cfa201e4ca1d66255cbb94"
+        },
+        {
+          "questionId": "young-people-2013-098",
+          "conceptKey": "young-people:i-don-t-like-seeing-animals-suffering",
+          "wordingFingerprint": "i don t like seeing animals suffering",
+          "contentSha256": "4fce5f7497ce679078afa13f610608f0f0252acaa3deacedcd80373843f0cc16"
+        },
+        {
+          "questionId": "young-people-2013-096",
+          "conceptKey": "young-people:i-eat-because-i-have-to-i-don-t-enjoy-food-and-eat-as-fast-as-i-can",
+          "wordingFingerprint": "i eat because i have to i don t enjoy food and eat as fast as i can",
+          "contentSha256": "f56426b4f8365245b4989924c48170b142e9f0ce3ee374b52941fb71743f3496"
+        },
+        {
+          "questionId": "flying-etiquette-survey-07",
+          "conceptKey": "flying-etiquette-survey:7",
+          "wordingFingerprint": "who should have control over the window shade",
+          "contentSha256": "e73bab09eecdfe4438d9651d56d0fda4d673ed9c1687a16b3009b635babf0842"
+        },
+        {
+          "questionId": "community-life-b11a",
+          "conceptKey": "community-life:b11a",
+          "wordingFingerprint": "how much do you agree or disagree with the following statements in five years time i would like to still be living in my local area",
+          "contentSha256": "7090aef1897b127ce23b061eebeacfbc7c36c19dbf3ee33b139483c2b9ea1c4c"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-16",
+      "number": "029",
+      "items": [
+        {
+          "questionId": "ntas0501b-r26",
+          "conceptKey": "ntas:how-safe-if-at-all-do-you-think-it-is-to-use-a-mobile-phone-whilst-stationary-in-traffic-as-the-driver",
+          "wordingFingerprint": "how safe if at all do you think it is to use a mobile phone whilst stationary in traffic as the driver",
+          "contentSha256": "d08f97a8f3acf90d33d03310ab35ccf5c269be25dab10f522ac64e574d13c1ae"
+        },
+        {
+          "questionId": "star-wars-survey-31",
+          "conceptKey": "star-wars-survey:31",
+          "wordingFingerprint": "do you consider yourself to be a fan of the expanded universe response",
+          "contentSha256": "ac3638aeca143d990a0b7fd1eeb2272d8299ae0a6407aea263a139120760b1a2"
+        },
+        {
+          "questionId": "food-world-cup-42",
+          "conceptKey": "food-world-cup:42",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of ireland",
+          "contentSha256": "4e7c83548ac9079a20218aee24e015d30d576405491b8f8103ca43d435fa935e"
+        },
+        {
+          "questionId": "young-people-2013-004",
+          "conceptKey": "young-people:folk-music",
+          "wordingFingerprint": "folk music",
+          "contentSha256": "14ab1ecf0d05611689a61976901b0e87349c463fb3883ee8707bb31d992c1e53"
+        },
+        {
+          "questionId": "young-people-2013-046",
+          "conceptKey": "young-people:law",
+          "wordingFingerprint": "law",
+          "contentSha256": "300a862f2e1e5854c02ed35114759bc44bcfda17f3672063e5ab01311cdb1082"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-17",
+      "number": "030",
+      "items": [
+        {
+          "questionId": "ntas0601a-r25",
+          "conceptKey": "ntas:thinking-about-the-last-five-years-which-of-the-following-statements-best-reflect-your-opinion-of-the-condition-of-roads-in-your-local-area",
+          "wordingFingerprint": "thinking about the last five years which of the following statements best reflect your opinion of the condition of roads in your local area",
+          "contentSha256": "65b77380237a9f417afb2c4cc64ecd0ede55d5467915939168b2e6fd4f84c4c4"
+        },
+        {
+          "questionId": "young-people-2013-020",
+          "conceptKey": "young-people:i-really-enjoy-watching-movies",
+          "wordingFingerprint": "i really enjoy watching movies",
+          "contentSha256": "03480201e34cc3b66e0f2ee272711b5407eed3a18eb72f5261fab4179ac61cd9"
+        },
+        {
+          "questionId": "young-people-2013-067",
+          "conceptKey": "young-people:heights",
+          "wordingFingerprint": "heights",
+          "contentSha256": "dd693f9b28996f641f9a38d7b94556c1f5528fecdf89d4632ae3901f63802050"
+        },
+        {
+          "questionId": "flying-etiquette-survey-20",
+          "conceptKey": "flying-etiquette-survey:20",
+          "wordingFingerprint": "have you ever used personal electronics during take off or landing in violation of a flight attendant s direction",
+          "contentSha256": "b55b16d8795fee87c3d785d462fec4989634a5ce1069c4321ea3a2d448d54fec"
+        },
+        {
+          "questionId": "community-life-b17a",
+          "conceptKey": "community-life:b17a",
+          "wordingFingerprint": "to what extent do you agree or disagree that if i wanted company or to socialise there are people i can call on",
+          "contentSha256": "89a7cfca4754bce90066a7710aecbab6b2c4f058fa14276b81acc3cae8eaea3c"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-18",
+      "number": "031",
+      "items": [
+        {
+          "questionId": "ntas0201e-r12",
+          "conceptKey": "ntas:i-am-willing-to-reduce-the-amount-i-travel-by-car-to-help-reduce-the-impact-of-climate-change",
+          "wordingFingerprint": "i am willing to reduce the amount i travel by car to help reduce the impact of climate change",
+          "contentSha256": "46f70e612ceeab2de07e1f638d93225d6d4191a464706d84f3680dd254124971"
+        },
+        {
+          "questionId": "star-wars-survey-10",
+          "conceptKey": "star-wars-survey:10",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode ii attack of the clones",
+          "contentSha256": "1befa83e919597f38c8a6e92e06bb5c213bc3f2815e4c4bfc37bea8d53a458e7"
+        },
+        {
+          "questionId": "food-world-cup-31",
+          "conceptKey": "food-world-cup:31",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of spain",
+          "contentSha256": "acab7d6b671b2d1964b6564370dd50fdf77a8b55f82edd24e4e435c050ba3f78"
+        },
+        {
+          "questionId": "young-people-2013-012",
+          "conceptKey": "young-people:hip-hop-rap",
+          "wordingFingerprint": "hip hop rap",
+          "contentSha256": "4aca7642e3a789d2805d5d467a7becb2554b6ea9f85f5c50e7efb1e8b6b67129"
+        },
+        {
+          "questionId": "young-people-2013-092",
+          "conceptKey": "young-people:i-often-think-about-and-regret-the-decisions-i-make",
+          "wordingFingerprint": "i often think about and regret the decisions i make",
+          "contentSha256": "20af7b695cee57061a2b95e8c444e28d16c8f9b811da06af7bf0a2fbdd7a9c24"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-19",
+      "number": "032",
+      "items": [
+        {
+          "questionId": "ntas0301a-r18",
+          "conceptKey": "ntas:people-should-be-able-to-travel-by-plane-as-much-as-they-like-even-if-new-terminals-or-runways-are-needed-to-meet-the-demand",
+          "wordingFingerprint": "people should be able to travel by plane as much as they like even if new terminals or runways are needed to meet the demand",
+          "contentSha256": "f0dd32925b0efc95f5982c00dcf7bf4a7c40cf484e302563134039fc9c71fa2a"
+        },
+        {
+          "questionId": "young-people-2013-057",
+          "conceptKey": "young-people:celebrity-lifestyle",
+          "wordingFingerprint": "celebrity lifestyle",
+          "contentSha256": "89994c494b674cc95e471a402b88e226098bbdbf088d7cf20a785d3343172e48"
+        },
+        {
+          "questionId": "young-people-2013-128",
+          "conceptKey": "young-people:if-i-find-something-the-doesn-t-belong-to-me-i-will-hand-it-in",
+          "wordingFingerprint": "if i find something the doesn t belong to me i will hand it in",
+          "contentSha256": "c2b2bd9f2093f1be915a28fcaeb3abfc0d56cc236f2674f677c667671316eb4e"
+        },
+        {
+          "questionId": "flying-etiquette-survey-12",
+          "conceptKey": "flying-etiquette-survey:12",
+          "wordingFingerprint": "is itrude to recline your seat on a plane",
+          "contentSha256": "8a101d34a0baff476e18f4ca6f46b4785de66cefc131467ebcf13b98d4f35622"
+        },
+        {
+          "questionId": "community-life-b20a",
+          "conceptKey": "community-life:b20a",
+          "wordingFingerprint": "how often do you watch read or listen to local news",
+          "contentSha256": "866861347b3bdc305451201f9f588c466ed10da0dded7237f914b203ff21e7b7"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "number": "033",
+      "items": [
+        {
+          "questionId": "ntas0101a-r12",
+          "conceptKey": "ntas:it-is-too-dangerous-for-me-to-cycle-on-the-roads",
+          "wordingFingerprint": "it is too dangerous for me to cycle on the roads",
+          "contentSha256": "47c50d5b6f2a7e56cf56ecdfe2401bca3825ce09b95272a87b17a65419ef0461"
+        },
+        {
+          "questionId": "star-wars-survey-13",
+          "conceptKey": "star-wars-survey:13",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode v the empire strikes back",
+          "contentSha256": "77e355e6f57be787cfb40ba7a2fe7ffc4a84a80caa7ae797489cef043b726f28"
+        },
+        {
+          "questionId": "food-world-cup-05",
+          "conceptKey": "food-world-cup:5",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine ofe australia",
+          "contentSha256": "20b79f7403e38a2bed1ebab83cb18240df01c79d6bc8cb9330194d3d49ce589f"
+        },
+        {
+          "questionId": "young-people-2013-015",
+          "conceptKey": "young-people:rock-n-roll",
+          "wordingFingerprint": "rock n roll",
+          "contentSha256": "0b673cc5ffddf5c9d065428e3f573f96ffe7b0496e258378aa7ea0ba377f00e4"
+        },
+        {
+          "questionId": "young-people-2013-054",
+          "conceptKey": "young-people:sport-and-leisure-activities",
+          "wordingFingerprint": "sport and leisure activities",
+          "contentSha256": "03ea05db6d9ce1bf5cace090dac81aeb204a780ce6e25f3144148a7cdb17ce03"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-21",
+      "number": "034",
+      "items": [
+        {
+          "questionId": "ntas0701c-r12",
+          "conceptKey": "ntas:i-would-give-up-my-seat-for-someone-i-think-has-an-illness-or-condition-that-makes-it-more-difficult-to-use-public-transport",
+          "wordingFingerprint": "i would give up my seat for someone i think has an illness or condition that makes it more difficult to use public transport",
+          "contentSha256": "12223e9c99b3556199dd46fbfaf852f8b934442e989e50d358e96ae33e904d9c"
+        },
+        {
+          "questionId": "young-people-2013-084",
+          "conceptKey": "young-people:i-always-keep-my-promises",
+          "wordingFingerprint": "i always keep my promises",
+          "contentSha256": "41b0abd64892872204c4f9ad91348c628b9ba57b1fb5c6fd71293d7aaa166af7"
+        },
+        {
+          "questionId": "young-people-2013-079",
+          "conceptKey": "young-people:i-always-make-a-list-so-i-don-t-forget-anything",
+          "wordingFingerprint": "i always make a list so i don t forget anything",
+          "contentSha256": "936d2eeff87e07e9a2ab2f62e839b9aeec0ae96a05144796c8dce949c53d1647"
+        },
+        {
+          "questionId": "thanksgiving-2015-51",
+          "conceptKey": "thanksgiving-2015:51",
+          "wordingFingerprint": "do you typically pray before or after the thanksgiving meal",
+          "contentSha256": "b3b109f61f02f724450c6b01a7ef831a116601c8f584a071c560b13dcd566f66"
+        },
+        {
+          "questionId": "flying-etiquette-survey-18",
+          "conceptKey": "flying-etiquette-survey:18",
+          "wordingFingerprint": "in general is itrude to bring a baby on a plane",
+          "contentSha256": "b923473179378b5620d83ce2916468414dfcf4bfbefc0e11506eed99db32ab6d"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-22",
+      "number": "035",
+      "items": [
+        {
+          "questionId": "ntas0501a-r12",
+          "conceptKey": "ntas:if-someone-has-drunk-any-alcohol-they-should-not-drive",
+          "wordingFingerprint": "if someone has drunk any alcohol they should not drive",
+          "contentSha256": "17479d7e059e0b91e9da149d0fc22dadcb3cbc1895828e7633ab8a8c49f201e7"
+        },
+        {
+          "questionId": "star-wars-survey-26",
+          "conceptKey": "star-wars-survey:26",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her jar jar binks",
+          "contentSha256": "e6d9f968d44e6ac833cedb914b8a10ed11bf62735be0ce2f896ae99266f64b11"
+        },
+        {
+          "questionId": "community-life-b4a",
+          "conceptKey": "community-life:b4a",
+          "wordingFingerprint": "thinking about the people who live in this neighbourhood to what extent do you believe they can be trusted",
+          "contentSha256": "08e9b079dee56dcb504deadb65b1cd8432ae79fe502c4ffcde9225e5f2d8fd95"
+        },
+        {
+          "questionId": "food-world-cup-39",
+          "conceptKey": "food-world-cup:39",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of cuba",
+          "contentSha256": "68b562bc6523fd3d3567ba2f67561bdb72b20ba779bd094a72cc688607ed14a7"
+        },
+        {
+          "questionId": "young-people-2013-002",
+          "conceptKey": "young-people:i-prefer",
+          "wordingFingerprint": "i prefer",
+          "contentSha256": "445069f0fa5b406a45f2a161cc0f4324550c2117b6eecda7509d89b62f7563ab"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-23",
+      "number": "036",
+      "items": [
+        {
+          "questionId": "ntas0201g-r18",
+          "conceptKey": "ntas:how-concerned-if-at-all-are-you-about-air-quality-in-your-immediate-area",
+          "wordingFingerprint": "how concerned if at all are you about air quality in your immediate area",
+          "contentSha256": "4f4768156bc92bb47288709eaf0f5c88f91dbfc1ff4e49f40a97da0f81c7b1fe"
+        },
+        {
+          "questionId": "young-people-2013-050",
+          "conceptKey": "young-people:outdoor-activities",
+          "wordingFingerprint": "outdoor activities",
+          "contentSha256": "254be7cf075a981528424d7cfff9c8b51827c62b8d40f19f301b13e4e552d04b"
+        },
+        {
+          "questionId": "young-people-2013-120",
+          "conceptKey": "young-people:i-always-make-sure-i-connect-with-the-right-people",
+          "wordingFingerprint": "i always make sure i connect with the right people",
+          "contentSha256": "dc36a694315dfee787d6dd332af0558a75f0838c8ef1508c1044d50ad5936733"
+        },
+        {
+          "questionId": "young-people-2013-134",
+          "conceptKey": "young-people:i-save-all-the-money-i-can",
+          "wordingFingerprint": "i save all the money i can",
+          "contentSha256": "8d20486e5efdcac3dbaa02656890ff655712438ae685e9e8520dac05dafb189a"
+        },
+        {
+          "questionId": "thanksgiving-2015-56",
+          "conceptKey": "thanksgiving-2015:56",
+          "wordingFingerprint": "have you ever attended a friendsgiving",
+          "contentSha256": "59746c26bad2cfe26e758aa83af6b86bca1426eec276306a5d8537cd55fc989a"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-24",
+      "number": "037",
+      "items": [
+        {
+          "questionId": "ntas0601b-r12",
+          "conceptKey": "ntas:i-use-my-regular-travel-for-health-and-fitness-as-well-as-getting-to-places",
+          "wordingFingerprint": "i use my regular travel for health and fitness as well as getting to places",
+          "contentSha256": "2c8f5c00c63ab793a2dcf044e375924049dfda43af12e3befe36d5b09e99b51c"
+        },
+        {
+          "questionId": "flying-etiquette-survey-09",
+          "conceptKey": "flying-etiquette-survey:9",
+          "wordingFingerprint": "generally speaking is it rude to say more than a few words tothe stranger sitting next to you on a plane",
+          "contentSha256": "ca8934d2d7c694a945f7bee51cfbb918e54636dcf1af4b20a26f8e260148bee0"
+        },
+        {
+          "questionId": "star-wars-survey-29",
+          "conceptKey": "star-wars-survey:29",
+          "wordingFingerprint": "which character shot first response",
+          "contentSha256": "4c331d6b0d61da3068c3899d38f18c052abc3b2eae268f1d99a57f4376ccc1e3"
+        },
+        {
+          "questionId": "community-life-b10a",
+          "conceptKey": "community-life:b10a",
+          "wordingFingerprint": "how much do you agree or disagree with the following statements i am proud to live in my local area",
+          "contentSha256": "6fe146e734206ec21de6423283e58897e9b533856fcd3f23b3cbb5d922ed93ee"
+        },
+        {
+          "questionId": "food-world-cup-28",
+          "conceptKey": "food-world-cup:28",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of portugal",
+          "contentSha256": "8948d0b416cd055264cecc66da090239b26cddf83c25853f3903bff8b9a0d793"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-25",
+      "number": "038",
+      "items": [
+        {
+          "questionId": "ntas0301a-r12",
+          "conceptKey": "ntas:i-am-willing-to-reduce-the-amount-i-travel-by-plane-to-help-reduce-the-impact-of-climate-change",
+          "wordingFingerprint": "i am willing to reduce the amount i travel by plane to help reduce the impact of climate change",
+          "contentSha256": "5cbe720e4807bde1c95e2129da47dff787f211aa37cc89f06fa4dcc9120e1467"
+        },
+        {
+          "questionId": "young-people-2013-009",
+          "conceptKey": "young-people:rock",
+          "wordingFingerprint": "rock",
+          "contentSha256": "ae4ccef7334548787dee18823bddbc53b752a0822a3aebcea0f7d7de92d348ad"
+        },
+        {
+          "questionId": "young-people-2013-056",
+          "conceptKey": "young-people:gardening",
+          "wordingFingerprint": "gardening",
+          "contentSha256": "6a10367ae8d9c2ba1eb3806fc51692528a0c40f4c9b03abf92a0c4d36f45bb85"
+        },
+        {
+          "questionId": "young-people-2013-083",
+          "conceptKey": "young-people:i-am-reliable-at-work-and-always-complete-all-tasks-given-to-me",
+          "wordingFingerprint": "i am reliable at work and always complete all tasks given to me",
+          "contentSha256": "4554d7424d31b4c91b4e8c574900da1d4919f384c40f5f40995e5476d606decd"
+        },
+        {
+          "questionId": "thanksgiving-2015-04",
+          "conceptKey": "thanksgiving-2015:4",
+          "wordingFingerprint": "how is the main dish typically cooked",
+          "contentSha256": "eebe30496cb621b80615e0ce21e00bb026c45ea53e3316c5761f8207244c3527"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-26",
+      "number": "039",
+      "items": [
+        {
+          "questionId": "ntas0101a-r15",
+          "conceptKey": "ntas:it-is-important-drivers-leave-enough-space-for-cyclists",
+          "wordingFingerprint": "it is important drivers leave enough space for cyclists",
+          "contentSha256": "3ddcc10d080246315520b384bd829424fa256ce0f95063909bf7192d403384f3"
+        },
+        {
+          "questionId": "young-people-2013-136",
+          "conceptKey": "young-people:i-prefer-branded-clothing-to-non-branded",
+          "wordingFingerprint": "i prefer branded clothing to non branded",
+          "contentSha256": "5593700ba5145e66854bb2a558248cfd2db28e956a1b0495fb621dc17bcb6554"
+        },
+        {
+          "questionId": "flying-etiquette-survey-02",
+          "conceptKey": "flying-etiquette-survey:2",
+          "wordingFingerprint": "do you ever recline your seat when you fly",
+          "contentSha256": "c0c8174e04653df74b7466bb9305ebf911daed84e9058ef438dd2893bab86b80"
+        },
+        {
+          "questionId": "star-wars-survey-11",
+          "conceptKey": "star-wars-survey:11",
+          "wordingFingerprint": "please rank the star wars films in order of preference with 1 being your favorite film in the franchise and 6 being your least favorite film star wars episode iii revenge of the sith",
+          "contentSha256": "653d8f79dafbbf502a451a5c10d1c1e038570c00f376a5b6cb9de6216515f4f7"
+        },
+        {
+          "questionId": "community-life-b12a",
+          "conceptKey": "community-life:b12a",
+          "wordingFingerprint": "how much do you agree or disagree with the following statements i would recommend my local area to others as a good place to live",
+          "contentSha256": "adc56538b182a37a845ba8b238aa1d584725e4b40736b4d83f1d29c416f52fbc"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-27",
+      "number": "040",
+      "items": [
+        {
+          "questionId": "ntas0501b-r17",
+          "conceptKey": "ntas:all-mobiles-while-driving-including-hands-free-is-dangerous",
+          "wordingFingerprint": "all mobiles while driving including hands free is dangerous",
+          "contentSha256": "09e8633aa6c51933243423dfc59f1bd5bdad21411d11c5c68b84771e376fef00"
+        },
+        {
+          "questionId": "food-world-cup-21",
+          "conceptKey": "food-world-cup:21",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of iran",
+          "contentSha256": "b2848974823adc88a3f1d0b30e6fbbaf720cd6f2bc46214a407831f217b53429"
+        },
+        {
+          "questionId": "young-people-2013-006",
+          "conceptKey": "young-people:classical",
+          "wordingFingerprint": "classical",
+          "contentSha256": "e54b6d2e61cb44f1faa4b2a642f1127a91b80b0ddbdbcfa2b03c443f78f8ae42"
+        },
+        {
+          "questionId": "young-people-2013-045",
+          "conceptKey": "young-people:medicine",
+          "wordingFingerprint": "medicine",
+          "contentSha256": "f89d227395932c79d0f3b60f616eb1771290639542a4c1be44bf76f99ee82cf4"
+        },
+        {
+          "questionId": "young-people-2013-130",
+          "conceptKey": "young-people:i-have-many-different-hobbies-and-interests",
+          "wordingFingerprint": "i have many different hobbies and interests",
+          "contentSha256": "511a166f7de99b8bc9118f1e7d2ba491ffafa67137ee6171ee70f88b9e9f35cc"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-28",
+      "number": "041",
+      "items": [
+        {
+          "questionId": "ntas0201d-r13",
+          "conceptKey": "ntas:what-is-your-view-on-climate-change",
+          "wordingFingerprint": "what is your view on climate change",
+          "contentSha256": "9b7eccdf919256f81daaf60ef2d5329a7df01e6e74e5baddbf09449713dcab25"
+        },
+        {
+          "questionId": "young-people-2013-070",
+          "conceptKey": "young-people:rats-mice",
+          "wordingFingerprint": "rats mice",
+          "contentSha256": "26fd7d7030e0be436e6a06f486493dd656fc4a25bdbdcb00212c2c781efe2d85"
+        },
+        {
+          "questionId": "thanksgiving-2015-55",
+          "conceptKey": "thanksgiving-2015:55",
+          "wordingFingerprint": "have you ever tried to meet up with hometown friends on thanksgiving night",
+          "contentSha256": "c8e61ffc75cef4c3bfe8a26aee1a8d354dcf372d33b1e6238bc5c0b3679db08b"
+        },
+        {
+          "questionId": "flying-etiquette-survey-11",
+          "conceptKey": "flying-etiquette-survey:11",
+          "wordingFingerprint": "under normal circumstances does a person who reclines their seat during a flight have any obligation to the person sitting behind them",
+          "contentSha256": "1c63a777092b6cd5c199bb854af6e6653a9f90a233d718d724dd55610a0190ff"
+        },
+        {
+          "questionId": "star-wars-survey-17",
+          "conceptKey": "star-wars-survey:17",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her princess leia organa",
+          "contentSha256": "3a5a92b87e88ca396ea1e9bb4ee27d5e8b40a131b917cdd801956b8d3bf054a2"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-29",
+      "number": "042",
+      "items": [
+        {
+          "questionId": "ntas0701b-r12",
+          "conceptKey": "ntas:to-what-extent-do-you-agree-or-disagree-that-there-should-be-special-provision-made-on-public-transport-to-accommodate-disabled-people",
+          "wordingFingerprint": "to what extent do you agree or disagree that there should be special provision made on public transport to accommodate disabled people",
+          "contentSha256": "fc7f0401a11e00f10b7588004d0a5aabd461155ade455b81a839c4bfaae18301"
+        },
+        {
+          "questionId": "community-life-b5a",
+          "conceptKey": "community-life:b5a",
+          "wordingFingerprint": "to what extent do you agree or disagree that you personally can influence decisions affecting your local area",
+          "contentSha256": "99e260cf5a3c94fa838af114a2ba73c657cf2ac1ef41f7a71e19166a5b27272c"
+        },
+        {
+          "questionId": "food-world-cup-09",
+          "conceptKey": "food-world-cup:9",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of cameroon",
+          "contentSha256": "4aab714f8c530755cf1277ebeacb81c3bd0b27a60220f9f0bae202442bca986f"
+        },
+        {
+          "questionId": "comma-survey-07",
+          "conceptKey": "comma-survey:7",
+          "wordingFingerprint": "in your opinion how important or unimportant is proper use of grammar",
+          "contentSha256": "b6f285b1000cd09c792da0afba37406d895d3ebc9df6a558a2ad66eb08baa30a"
+        },
+        {
+          "questionId": "young-people-2013-003",
+          "conceptKey": "young-people:dance-disco-funk",
+          "wordingFingerprint": "dance disco funk",
+          "contentSha256": "dd4bd97e62b7780442e92e65ee700ca4621282ef58685a083251255aa4b7740d"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-30",
+      "number": "043",
+      "items": [
+        {
+          "questionId": "ntas0601b-r24",
+          "conceptKey": "ntas:how-likely-or-unlikely-are-you-to-use-more-than-one-form-of-transport-on-your-journey-if-you-knew-this-was-quicker-than-using-a-single-form-of-transport",
+          "wordingFingerprint": "how likely or unlikely are you to use more than one form of transport on your journey if you knew this was quicker than using a single form of transport",
+          "contentSha256": "67c619233061a1c15a5cc43266c2b255841b0dbe2ce6f25b849c793ae53b63e6"
+        },
+        {
+          "questionId": "young-people-2013-043",
+          "conceptKey": "young-people:geography",
+          "wordingFingerprint": "geography",
+          "contentSha256": "5a520c8a057afbcf322a2709b92d19381733dd662282ff5f06e59705cfa18394"
+        },
+        {
+          "questionId": "young-people-2013-126",
+          "conceptKey": "young-people:i-prefer-big-dangerous-dogs-to-smaller-calmer-dogs",
+          "wordingFingerprint": "i prefer big dangerous dogs to smaller calmer dogs",
+          "contentSha256": "328817ff3e3b1292e1894f6bfd3da7b44e6090a4f637f1a510d647a6dfda3c0a"
+        },
+        {
+          "questionId": "young-people-2013-105",
+          "conceptKey": "young-people:i-always-have-good-dreams",
+          "wordingFingerprint": "i always have good dreams",
+          "contentSha256": "aca26e7dc579bc0188205fde71460a18d0b67db4885a261f297b02b6f59c4521"
+        },
+        {
+          "questionId": "thanksgiving-2015-10",
+          "conceptKey": "thanksgiving-2015:10",
+          "wordingFingerprint": "do you typically have gravy",
+          "contentSha256": "ccaaefdd2186a53e56a592c72dd999c6dcdef045972e57d309b70b54549fa762"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-01",
+      "number": "044",
+      "items": [
+        {
+          "questionId": "ntas0301b-r17",
+          "conceptKey": "ntas:have-you-heard-of-carbon-offsetting",
+          "wordingFingerprint": "have you heard of carbon offsetting",
+          "contentSha256": "9844307841a5d4a61c4d45b0b91e6477e2b373772de3c57af3ccf2bbcbdc2e41"
+        },
+        {
+          "questionId": "flying-etiquette-survey-17",
+          "conceptKey": "flying-etiquette-survey:17",
+          "wordingFingerprint": "is itrude to wake a passenger up if you are trying to walk around",
+          "contentSha256": "fe369cda928ff30ccb1d47c84ff9da9e518bebc4044af9f63ddc0b3adf655721"
+        },
+        {
+          "questionId": "star-wars-survey-19",
+          "conceptKey": "star-wars-survey:19",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her obi wan kenobi",
+          "contentSha256": "37b6ddd5e88f4ef37ffd679e21575f9360d07e868553799e31aceacbab9efa89"
+        },
+        {
+          "questionId": "community-life-x4a",
+          "conceptKey": "community-life:x4a",
+          "wordingFingerprint": "how important is it for you personally to feel that you can influence decisions in your local area",
+          "contentSha256": "5f5b785b9343688ceef056e497c69cc8e6890910c2e93a48fb9fbaf4a79012cf"
+        },
+        {
+          "questionId": "food-world-cup-06",
+          "conceptKey": "food-world-cup:6",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of belgium",
+          "contentSha256": "99740e6a1fa07292123dad6bfdc50092ec27bc508fb57690a70d44bedc7c873a"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-02",
+      "number": "045",
+      "items": [
+        {
+          "questionId": "ntas0101d-r17",
+          "conceptKey": "ntas:thinking-back-to-this-time-last-year-would-you-say-you-are-walking",
+          "wordingFingerprint": "thinking back to this time last year would you say you are walking",
+          "contentSha256": "1216785e9473dda4d8f26a7f19f83ee200f422b224d4069cfddba7213e87bd74"
+        },
+        {
+          "questionId": "comma-survey-02",
+          "conceptKey": "comma-survey:2",
+          "wordingFingerprint": "prior to reading about it above had you heard of the serial or oxford comma",
+          "contentSha256": "063135ba9299808474ec6e8834843237f9838521cef535d9051a20c5bd9f9326"
+        },
+        {
+          "questionId": "young-people-2013-017",
+          "conceptKey": "young-people:latin",
+          "wordingFingerprint": "latin",
+          "contentSha256": "ee58b0ac487c6595a22c8099c53bbaa77672386b1cdd1adc72d817da3062460a"
+        },
+        {
+          "questionId": "young-people-2013-088",
+          "conceptKey": "young-people:i-can-be-two-faced-sometimes",
+          "wordingFingerprint": "i can be two faced sometimes",
+          "contentSha256": "07c33051fb6ef34b4cc4d9b2dce7f9560e742a1960e8a816e6ab6472dc45bd0a"
+        },
+        {
+          "questionId": "young-people-2013-063",
+          "conceptKey": "young-people:pets",
+          "wordingFingerprint": "pets",
+          "contentSha256": "904b41120f5ee58fee609e653a340806e8f1f29c475c996af12638cde70b59c3"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-03",
+      "number": "046",
+      "items": [
+        {
+          "questionId": "ntas0701b-r16",
+          "conceptKey": "ntas:the-law-on-parking-vehicles-on-street-disabled-spaces-is-not-properly-enforced-in-my-immediate-area-by-this-we-mean-15-20-minutes-walking-distance-from-your-home",
+          "wordingFingerprint": "the law on parking vehicles on street disabled spaces is not properly enforced in my immediate area by this we mean 15 20 minutes walking distance from your home",
+          "contentSha256": "a0eabf42353643618eac84190efd1dfcdb2ff1197fde1ba21ba1c499f7ddfc88"
+        },
+        {
+          "questionId": "young-people-2013-138",
+          "conceptKey": "young-people:i-spend-a-lot-of-money-on-my-appearance",
+          "wordingFingerprint": "i spend a lot of money on my appearance",
+          "contentSha256": "f66453be1a4d327c62736c2b01ea9702f1d6b11cf405aa7f255d7372b8ac0bb1"
+        },
+        {
+          "questionId": "thanksgiving-2015-02",
+          "conceptKey": "thanksgiving-2015:2",
+          "wordingFingerprint": "what is typically the main dish at your thanksgiving dinner",
+          "contentSha256": "b3adf0a4c78b12173869b956e4d891787b55a036d44f3ab6ef37920a84058a46"
+        },
+        {
+          "questionId": "flying-etiquette-survey-13",
+          "conceptKey": "flying-etiquette-survey:13",
+          "wordingFingerprint": "given the opportunity would you eliminate the possibility of reclining seats on planes entirely",
+          "contentSha256": "7f7159d7fce54a668e32284dd3c32ea4ae35ae07b78903ece6eedbdd43dc778b"
+        },
+        {
+          "questionId": "star-wars-survey-32",
+          "conceptKey": "star-wars-survey:32",
+          "wordingFingerprint": "do you consider yourself to be a fan of the star trek franchise response",
+          "contentSha256": "801c4b23313439a2658fa0b03424e037358971a15f4e135a69df8bba607c040a"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-04",
+      "number": "047",
+      "items": [
+        {
+          "questionId": "ntas0201f-r12",
+          "conceptKey": "ntas:how-concerned-if-at-all-are-you-about-damage-to-the-countryside-from-building-roads",
+          "wordingFingerprint": "how concerned if at all are you about damage to the countryside from building roads",
+          "contentSha256": "d6ad25161f22ed72997592d0b84b295e28f51f8eb609e7b8eb2d85977061f85a"
+        },
+        {
+          "questionId": "community-life-b3a",
+          "conceptKey": "community-life:b3a",
+          "wordingFingerprint": "to what extent would you agree or disagree that people in your neighbourhood pull together to improve the neighbourhood",
+          "contentSha256": "b14ac0138162f7b2f2eb3ea822c07ada6458c3e9e66ef401312a4cf38e5493a1"
+        },
+        {
+          "questionId": "food-world-cup-14",
+          "conceptKey": "food-world-cup:14",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of ecuador",
+          "contentSha256": "04d817c632fbbaef2b0284a1d289641b526865b656d16f3d6709971bd2f8ac39"
+        },
+        {
+          "questionId": "comma-survey-03",
+          "conceptKey": "comma-survey:3",
+          "wordingFingerprint": "how much if at all do you care about the use or lack thereof of the serial or oxford comma in grammar",
+          "contentSha256": "c67095daa719ecd0caf1c5b758fc7da7c48852e94c69b421a2e176e75223d62c"
+        },
+        {
+          "questionId": "young-people-2013-010",
+          "conceptKey": "young-people:metal-hard-rock",
+          "wordingFingerprint": "metal hard rock",
+          "contentSha256": "a7c8d7e23b717b001e386f11b3a8077c0a873d1c5a6a2605f0774467b0f76565"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-05",
+      "number": "048",
+      "items": [
+        {
+          "questionId": "ntas0501c-r17",
+          "conceptKey": "ntas:average-speed-cameras-are-preferable-to-fixed-speed-cameras",
+          "wordingFingerprint": "average speed cameras are preferable to fixed speed cameras",
+          "contentSha256": "b231ebec28617763fee979354123f82c0a756b12956522df7cfd323b89d211a2"
+        },
+        {
+          "questionId": "young-people-2013-115",
+          "conceptKey": "young-people:i-always-let-other-people-know-about-my-achievements",
+          "wordingFingerprint": "i always let other people know about my achievements",
+          "contentSha256": "9d1de6bb9e118d2fce01975786887f1266e4a4009442214843d48f62a82d75eb"
+        },
+        {
+          "questionId": "young-people-2013-137",
+          "conceptKey": "young-people:i-spend-a-lot-of-money-on-partying-and-socializing",
+          "wordingFingerprint": "i spend a lot of money on partying and socializing",
+          "contentSha256": "4c450f8ef1888be26fdde8b6dbb63b78e08962989917f6fedf3d8dc44eb0dcdb"
+        },
+        {
+          "questionId": "young-people-2013-047",
+          "conceptKey": "young-people:cars",
+          "wordingFingerprint": "cars",
+          "contentSha256": "3fc6ddae00d8fbed04cb7d6160d36a49b28dfdb7d025fb53d03a24b1218c1b9b"
+        },
+        {
+          "questionId": "thanksgiving-2015-06",
+          "conceptKey": "thanksgiving-2015:6",
+          "wordingFingerprint": "what kind of stuffing dressing do you typically have",
+          "contentSha256": "91efa0b8e9717b2381c8336d6b0f567301727a874b2aebdcc7cee58ea308e4bd"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-06",
+      "number": "049",
+      "items": [
+        {
+          "questionId": "ntas0601a-r17",
+          "conceptKey": "ntas:to-what-extent-are-you-in-favour-of-closing-residential-streets-to-through-traffic",
+          "wordingFingerprint": "to what extent are you in favour of closing residential streets to through traffic",
+          "contentSha256": "7fe29fcb22d80ed6240477792d8c4a8cc98a3e0a6bdfc21a5179149949127f07"
+        },
+        {
+          "questionId": "flying-etiquette-survey-15",
+          "conceptKey": "flying-etiquette-survey:15",
+          "wordingFingerprint": "is itrude to ask someone to switch seats with you in order to be closer to family",
+          "contentSha256": "f8ce47530aebe5145ab996e85c3226d22724a49af0b20f26931a2553144baf25"
+        },
+        {
+          "questionId": "star-wars-survey-21",
+          "conceptKey": "star-wars-survey:21",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her darth vader",
+          "contentSha256": "4eda3f64c6cc9f5876053a9557046902a6d11db30b9c24f8846a19f3c94eb1be"
+        },
+        {
+          "questionId": "community-life-b15a",
+          "conceptKey": "community-life:b15a",
+          "wordingFingerprint": "overall how satisfied or dissatisfied are you with your local area as a place to live",
+          "contentSha256": "be553a224e1996a8955c5482ea327b0679025f9d2988dacf5aaeba68ace4918a"
+        },
+        {
+          "questionId": "food-world-cup-35",
+          "conceptKey": "food-world-cup:35",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of china",
+          "contentSha256": "d53cb877350b3f1cc16b9185f1065c1f819f46bc1dca06fa28d0b8a03e49ad36"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-07",
+      "number": "050",
+      "items": [
+        {
+          "questionId": "ntas0301b-r12",
+          "conceptKey": "ntas:the-price-of-a-plane-ticket-should-reflect-the-environmental-damage-that-flying-causes-even-if-this-makes-air-travel-much-more-expensive",
+          "wordingFingerprint": "the price of a plane ticket should reflect the environmental damage that flying causes even if this makes air travel much more expensive",
+          "contentSha256": "195750e107a01bb8c99be9e6e50a3ff0b4961b356e361fcd88bce6581265a1de"
+        },
+        {
+          "questionId": "steak-survey-09",
+          "conceptKey": "steak-survey:9",
+          "wordingFingerprint": "how do you like your steak prepared response",
+          "contentSha256": "f7c8ba7c81d606ffb164ed77cef46dc69b72be7120f29337d2be1c4ee6dfe0d8"
+        },
+        {
+          "questionId": "young-people-2013-019",
+          "conceptKey": "young-people:opera",
+          "wordingFingerprint": "opera",
+          "contentSha256": "84cb39633dc583e85dc23e326fb9a992541355a8a91811f166139489c2b79e83"
+        },
+        {
+          "questionId": "young-people-2013-085",
+          "conceptKey": "young-people:i-can-fall-for-someone-very-quickly-and-then-completely-lose-interest",
+          "wordingFingerprint": "i can fall for someone very quickly and then completely lose interest",
+          "contentSha256": "a9915ebec85a424eff190b4353cf53bcc2f520cb5aa187590f61b2f5a49e41a5"
+        },
+        {
+          "questionId": "young-people-2013-078",
+          "conceptKey": "young-people:i-try-to-do-tasks-as-soon-as-possible-and-not-leave-them-until-last-minute",
+          "wordingFingerprint": "i try to do tasks as soon as possible and not leave them until last minute",
+          "contentSha256": "198b06fbc40875c2960c4cb871ee7ba14666389bd9465b21a2a0a475156d991a"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-08",
+      "number": "051",
+      "items": [
+        {
+          "questionId": "ntas0701c-r14",
+          "conceptKey": "ntas:i-would-give-up-my-seat-for-somebody-with-an-assistance-card-or-badge-indicating-they-have-a-non-visible-impairment",
+          "wordingFingerprint": "i would give up my seat for somebody with an assistance card or badge indicating they have a non visible impairment",
+          "contentSha256": "deab23922f39e909e61f536c0179abcc24f8bf0cef2aa30a8cf000a297a88816"
+        },
+        {
+          "questionId": "young-people-2013-037",
+          "conceptKey": "young-people:internet",
+          "wordingFingerprint": "internet",
+          "contentSha256": "39b0d6370e7ff15a9fb24cb704408aada4266142789bd2e08feb55a93519c637"
+        },
+        {
+          "questionId": "thanksgiving-2015-57",
+          "conceptKey": "thanksgiving-2015:57",
+          "wordingFingerprint": "will you shop any black friday sales on thanksgiving day",
+          "contentSha256": "882d8417bd775b9028835598e32931e5bcfe4d0abd8446a382cb4e69fcde36d1"
+        },
+        {
+          "questionId": "flying-etiquette-survey-06",
+          "conceptKey": "flying-etiquette-survey:6",
+          "wordingFingerprint": "in a row of two seats who should get to use the middle arm rest",
+          "contentSha256": "42afdc52aee06aee18f3e9c91209fbeb2f9692777a8ec0e1a4885b8ae8e9d597"
+        },
+        {
+          "questionId": "star-wars-survey-30",
+          "conceptKey": "star-wars-survey:30",
+          "wordingFingerprint": "are you familiar with the expanded universe response",
+          "contentSha256": "ac16421e24798ca545261d8ca30ac1ee99c8cfaa7c6a6efe17e25f60c5360b6b"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-09",
+      "number": "052",
+      "items": [
+        {
+          "questionId": "ntas0201c-r12",
+          "conceptKey": "ntas:how-concerned-if-at-all-are-you-about-noise-pollution-that-is-any-unwanted-or-distracting-noise-in-your-immediate-area",
+          "wordingFingerprint": "how concerned if at all are you about noise pollution that is any unwanted or distracting noise in your immediate area",
+          "contentSha256": "5067465ad11dd493dc30f59451d6abdff7f4311d6f01ff24f73b33eff438a811"
+        },
+        {
+          "questionId": "community-life-b16a",
+          "conceptKey": "community-life:b16a",
+          "wordingFingerprint": "to what extent do you agree or disagree that if i needed help there are people who would be there for me",
+          "contentSha256": "1ff12be83cd6f02a462a2aa9cfb26bde09947e475b533ba27241aa96d40e690f"
+        },
+        {
+          "questionId": "food-world-cup-24",
+          "conceptKey": "food-world-cup:24",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of japan",
+          "contentSha256": "a46bd75714b69f2dfff76a22919a61e82f08f77275562803827583a35e6c04f4"
+        },
+        {
+          "questionId": "comma-survey-05",
+          "conceptKey": "comma-survey:5",
+          "wordingFingerprint": "when faced with using the word data have you ever spent time considering if the word was a singular or plural noun",
+          "contentSha256": "2dd7d154eb9500b5e53776083730051472c4acd59795e131d85a19d960ec0886"
+        },
+        {
+          "questionId": "young-people-2013-014",
+          "conceptKey": "young-people:swing-jazz",
+          "wordingFingerprint": "swing jazz",
+          "contentSha256": "7da937421bf06fded63b2d2fed7010d5cc10fa59a82febc84fa2dccfc193a02c"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-10",
+      "number": "053",
+      "items": [
+        {
+          "questionId": "ntas0101c-r12",
+          "conceptKey": "ntas:next-time-you-buy-a-bicycle-how-likely-if-at-all-would-you-be-to-buy-an-electric-bicycle",
+          "wordingFingerprint": "next time you buy a bicycle how likely if at all would you be to buy an electric bicycle",
+          "contentSha256": "34600d4b55bbdc0ebddb507e3e312661937bf99569824136d9694b0296b2f9b7"
+        },
+        {
+          "questionId": "young-people-2013-114",
+          "conceptKey": "young-people:i-enjoy-meeting-new-people",
+          "wordingFingerprint": "i enjoy meeting new people",
+          "contentSha256": "21d84e0c7b976bdf0c560a268067e832bc27b9bdd4de60fbf5cc5979c6b9f6e2"
+        },
+        {
+          "questionId": "young-people-2013-072",
+          "conceptKey": "young-people:dangerous-dogs",
+          "wordingFingerprint": "dangerous dogs",
+          "contentSha256": "6f441099e8369617a8db4fa8083e6499abedddba5901b72c2771feb241097764"
+        },
+        {
+          "questionId": "young-people-2013-038",
+          "conceptKey": "young-people:pc-software-hardware",
+          "wordingFingerprint": "pc software hardware",
+          "contentSha256": "f5f7f0f9f33e6325d107ad8aa2be8a6f2570e1c740f4064a25180cd07738fa6c"
+        },
+        {
+          "questionId": "thanksgiving-2015-52",
+          "conceptKey": "thanksgiving-2015:52",
+          "wordingFingerprint": "how far will you travel for thanksgiving",
+          "contentSha256": "f6af79262b80336a6614d05a88a0d9e0c9a3e9cda06cf6e3b7cb5a2935103e9b"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-11",
+      "number": "054",
+      "items": [
+        {
+          "questionId": "ntas0501d-r22",
+          "conceptKey": "ntas:which-of-the-following-statements-best-reflects-your-opinion-on-policing-priorities",
+          "wordingFingerprint": "which of the following statements best reflects your opinion on policing priorities",
+          "contentSha256": "01b1f6aa4155c0ef941035f1ca6dea76645752883814f764975bf66498ded5e8"
+        },
+        {
+          "questionId": "star-wars-survey-02",
+          "conceptKey": "star-wars-survey:2",
+          "wordingFingerprint": "do you consider yourself to be a fan of the star wars film franchise response",
+          "contentSha256": "b7f5898db2f384ba54f84583c0df33f8b93ff01845bdced9a527a7c22907a07c"
+        },
+        {
+          "questionId": "flying-etiquette-survey-10",
+          "conceptKey": "flying-etiquette-survey:10",
+          "wordingFingerprint": "on a 6 hour flight from nyc to la how many times is it acceptable to get up if you re not in an aisle seat",
+          "contentSha256": "55c52e104ddf34974fb18ef7a4ce7e8453f926dfd1200922b8454ee9806186cf"
+        },
+        {
+          "questionId": "community-life-b1a",
+          "conceptKey": "community-life:b1a",
+          "wordingFingerprint": "how strongly do you feel you belong to your immediate neighbourhood",
+          "contentSha256": "f1b76218496f896e6a10fb224a00f84dbbea94c038bdc323232e9ce64e0d77d6"
+        },
+        {
+          "questionId": "food-world-cup-15",
+          "conceptKey": "food-world-cup:15",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of england",
+          "contentSha256": "d6306529e1f72f8c2e4d2dc542df015f5c9ea21a6828e63f0ff3c202d7e903f6"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-12",
+      "number": "055",
+      "items": [
+        {
+          "questionId": "ntas0601a-r12",
+          "conceptKey": "ntas:to-what-extent-do-you-agree-or-disagree-that-vehicles-making-deliveries-cause-congestion-in-your-local-area",
+          "wordingFingerprint": "to what extent do you agree or disagree that vehicles making deliveries cause congestion in your local area",
+          "contentSha256": "90b45de6503125f0cc5d866cb371ce1e789701edc063f0f93104f7d4a1b3ca1d"
+        },
+        {
+          "questionId": "steak-survey-08",
+          "conceptKey": "steak-survey:8",
+          "wordingFingerprint": "do you eat steak response",
+          "contentSha256": "eefc24d2ee7220e9cdc61a84a6b79299e4b0ad52db05aeb47a5ca8c270bf064a"
+        },
+        {
+          "questionId": "young-people-2013-013",
+          "conceptKey": "young-people:reggae-ska",
+          "wordingFingerprint": "reggae ska",
+          "contentSha256": "852384c7d39b0b9678cb566265eb889d3366ec9bdb1e8a3b27c10f40de063980"
+        },
+        {
+          "questionId": "young-people-2013-111",
+          "conceptKey": "young-people:i-can-quickly-adapt-to-a-new-environment",
+          "wordingFingerprint": "i can quickly adapt to a new environment",
+          "contentSha256": "cfd4f4cd6fbdb2cbbebf0cb69d19369a264b889c11f9fb6bb44ad972e583b402"
+        },
+        {
+          "questionId": "young-people-2013-099",
+          "conceptKey": "young-people:i-look-after-things-i-have-borrowed-from-others",
+          "wordingFingerprint": "i look after things i have borrowed from others",
+          "contentSha256": "cc7e0f405c012122dcb9414b772123a541cce97a7d00eb5deb626690c11ba449"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-13",
+      "number": "056",
+      "items": [
+        {
+          "questionId": "ntas0401a-r12",
+          "conceptKey": "ntas:do-you-yourself-drive-a-car-at-all-these-days",
+          "wordingFingerprint": "do you yourself drive a car at all these days",
+          "contentSha256": "512e61cd507cfe4b50f7a95a918a69f2853b66992d06f432d10598d51b87e6c8"
+        },
+        {
+          "questionId": "young-people-2013-051",
+          "conceptKey": "young-people:dancing",
+          "wordingFingerprint": "dancing",
+          "contentSha256": "ccd953ea498cb55fb3114d64a8b65e37ca3d5fa410fd93d53199da0fe4b9deee"
+        },
+        {
+          "questionId": "thanksgiving-2015-08",
+          "conceptKey": "thanksgiving-2015:8",
+          "wordingFingerprint": "what type of cranberry saucedo you typically have",
+          "contentSha256": "af74092b09c0b75fb8e496e01885eef41e350fa427c0509e10f807c28578434a"
+        },
+        {
+          "questionId": "flying-etiquette-survey-14",
+          "conceptKey": "flying-etiquette-survey:14",
+          "wordingFingerprint": "is it rude to ask someone to switch seats with you in order to be closer to friends",
+          "contentSha256": "06bff82512d3f2881cf1ba926702a90d387b901877e6048a6eafcd78ccca8842"
+        },
+        {
+          "questionId": "community-life-c6a",
+          "conceptKey": "community-life:c6a",
+          "wordingFingerprint": "frequency of chatting to neighbours more than to just say hello",
+          "contentSha256": "59462e360e075310530db588b663f09b7565e8ca7cc2c4f8c74ebea3ec5f00b6"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-14",
+      "number": "057",
+      "items": [
+        {
+          "questionId": "ntas0301b-r23",
+          "conceptKey": "ntas:how-much-if-anything-would-you-say-you-know-about-voluntary-carbon-offsetting-schemes-for-air-travel",
+          "wordingFingerprint": "how much if anything would you say you know about voluntary carbon offsetting schemes for air travel",
+          "contentSha256": "61b81f76a1244ee845c392c98af8193a2ddf343b0eb31ea97991bac4f40fe0d7"
+        },
+        {
+          "questionId": "star-wars-survey-18",
+          "conceptKey": "star-wars-survey:18",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her anakin skywalker",
+          "contentSha256": "e697ce7f961ab3d6e3836aa509a020a51412ace149377f6af6d6649fc9a258f7"
+        },
+        {
+          "questionId": "food-world-cup-19",
+          "conceptKey": "food-world-cup:19",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of greece",
+          "contentSha256": "0fc36aaf03a5d0860a161ff862de809b4f97a6b5497ecfdaa6f14006c559fb29"
+        },
+        {
+          "questionId": "comma-survey-06",
+          "conceptKey": "comma-survey:6",
+          "wordingFingerprint": "how much if at all do you care about the debate over the use of the word data as a singluar or plural noun",
+          "contentSha256": "fbee0292cca871074624eadf9d5b84ecba7e757a9b32dce1645ba206a41d0368"
+        },
+        {
+          "questionId": "young-people-2013-090",
+          "conceptKey": "young-people:i-take-my-time-to-make-decisions",
+          "wordingFingerprint": "i take my time to make decisions",
+          "contentSha256": "d101cca9f2794e90a33b09010e6c55082441c38c3ed0aefb3fcefd273c632631"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-15",
+      "number": "058",
+      "items": [
+        {
+          "questionId": "ntas0501c-r16",
+          "conceptKey": "ntas:speed-cameras-are-mostly-there-to-make-money",
+          "wordingFingerprint": "speed cameras are mostly there to make money",
+          "contentSha256": "c32211500916d2db18b756bb6c7f1e5e9ed1bf51801e38fcb17252375e78f2d3"
+        },
+        {
+          "questionId": "young-people-2013-064",
+          "conceptKey": "young-people:flying",
+          "wordingFingerprint": "flying",
+          "contentSha256": "63f7654489bb680418ec090d2f2d5c3146818dd9c9048788382f4b7ec1bf7e98"
+        },
+        {
+          "questionId": "young-people-2013-016",
+          "conceptKey": "young-people:alternative-music",
+          "wordingFingerprint": "alternative music",
+          "contentSha256": "f8ff8a629d4eef6532c8d8741c39a215c57e9f4ee8dabb889ee751bd35a22bbe"
+        },
+        {
+          "questionId": "young-people-2013-055",
+          "conceptKey": "young-people:sport-at-competitive-level",
+          "wordingFingerprint": "sport at competitive level",
+          "contentSha256": "7804fce8dd8037247d9f275e0712c7b52677a06601c184bdcd43464102f55e69"
+        },
+        {
+          "questionId": "thanksgiving-2015-60",
+          "conceptKey": "thanksgiving-2015:60",
+          "wordingFingerprint": "how would you describe where you live",
+          "contentSha256": "64fcd93c65f5305dce58e52996478b5cbb9ea872270ba67c890311f7541821a0"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-16",
+      "number": "059",
+      "items": [
+        {
+          "questionId": "ntas0601b-r17",
+          "conceptKey": "ntas:by-personally-driving-a-car-van-or-lorry",
+          "wordingFingerprint": "how often do you travel in the week by the following modes by personally driving a car van or lorry",
+          "contentSha256": "c2d4d974b52068560c32e73ea34408065fea297ddea4bbcb3cbe801ad098288d"
+        },
+        {
+          "questionId": "community-life-b18a",
+          "conceptKey": "community-life:b18a",
+          "wordingFingerprint": "is there anyone who you can really count on to listen to you when you need to talk",
+          "contentSha256": "3da65b2b814f53330c0852eac493c2c3e59bead256b50036d0fa396b03434bf1"
+        },
+        {
+          "questionId": "star-wars-survey-25",
+          "conceptKey": "star-wars-survey:25",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her r2 d2",
+          "contentSha256": "fa7c56544b4b9bed36e996db1a2857cb5acc8b9c149bc62bc1885dd48a392fe6"
+        },
+        {
+          "questionId": "flying-etiquette-survey-19",
+          "conceptKey": "flying-etiquette-survey:19",
+          "wordingFingerprint": "in general is it rude to knowingly bring unruly children on a plane",
+          "contentSha256": "22b87b95faf1bc3dc5e5df6de97153587e9965a26f913c3d8384631e4fbe60d2"
+        },
+        {
+          "questionId": "food-world-cup-20",
+          "conceptKey": "food-world-cup:20",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of honduras",
+          "contentSha256": "467a49d793a9f996e6348b722fbc9c49be077f62d07e146897893f4d7a2da039"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-17",
+      "number": "060",
+      "items": [
+        {
+          "questionId": "ntas0101d-r12",
+          "conceptKey": "ntas:in-an-average-week-how-often-do-you-travel-more-than-10-minutes-by-walking",
+          "wordingFingerprint": "in an average week how often do you travel more than 10 minutes by walking",
+          "contentSha256": "08a184dcd052a1d5d58836f80be53bb0fca84152110d8f7c6a8a4b03cff12916"
+        },
+        {
+          "questionId": "steak-survey-05",
+          "conceptKey": "steak-survey:5",
+          "wordingFingerprint": "have you ever been skydiving response",
+          "contentSha256": "a027179010e017b74dbec68697a6fc8d6efa7ba4a3c7806aecbfb623d59e93bf"
+        },
+        {
+          "questionId": "young-people-2013-095",
+          "conceptKey": "young-people:i-am-emphatetic-person",
+          "wordingFingerprint": "i am emphatetic person",
+          "contentSha256": "55f6a252200420920cd921ed2dd33c3d7eac0921e8cb0e68a97176ace33b0c6f"
+        },
+        {
+          "questionId": "young-people-2013-007",
+          "conceptKey": "young-people:musicals",
+          "wordingFingerprint": "musicals",
+          "contentSha256": "d8adf229b85f935eb41fae28f5d15330acf8c9089db7c95e789748a555eb5ad5"
+        },
+        {
+          "questionId": "young-people-2013-076",
+          "conceptKey": "young-people:i-live-a-very-healthy-lifestyle",
+          "wordingFingerprint": "i live a very healthy lifestyle",
+          "contentSha256": "1e74c83cb1f246d93eb0be0c7b756e30328e067ffb6ef29885da288fd0a2c536"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-18",
+      "number": "061",
+      "items": [
+        {
+          "questionId": "ntas0701b-r21",
+          "conceptKey": "ntas:to-what-extent-if-at-all-would-you-support-more-accessible-public-transport-for-those-with-illnesses-or-conditions-that-find-public-transport-more-difficult-even-it-that-raises-fares",
+          "wordingFingerprint": "to what extent if at all would you support more accessible public transport for those with illnesses or conditions that find public transport more difficult even it that raises fares",
+          "contentSha256": "108cff5dcbc0beac8e2e9ceff57839c0c0b3c49008791ed7b0e8b18220cc281c"
+        },
+        {
+          "questionId": "thanksgiving-2015-54",
+          "conceptKey": "thanksgiving-2015:54",
+          "wordingFingerprint": "what s the age cutoff at your kids table at thanksgiving",
+          "contentSha256": "7ae75c69308f4b641f3e6da5beba610637ff5f8274883ec9d9176016f89b1dbc"
+        },
+        {
+          "questionId": "flying-etiquette-survey-08",
+          "conceptKey": "flying-etiquette-survey:8",
+          "wordingFingerprint": "is itrude to move to an unsold seat on a plane",
+          "contentSha256": "c4d10747de8df76d6f5f779afd8ea437fd37ad0be917f4461f8da363e34bc579"
+        },
+        {
+          "questionId": "comma-survey-04",
+          "conceptKey": "comma-survey:4",
+          "wordingFingerprint": "how would you write the following sentence",
+          "contentSha256": "29378314a559b28a43d4e74be1020a37d3aa2b4864546b0571517cb1f2fcf678"
+        },
+        {
+          "questionId": "community-life-b19a",
+          "conceptKey": "community-life:b19a",
+          "wordingFingerprint": "attractiveness of local area",
+          "contentSha256": "407355de575b5c741126e63941d21ab3a1438a3f8cc0ede866267050241221a8"
+        }
+      ]
+    },
+    {
+      "day": "2026-12-19",
+      "number": "062",
+      "items": [
+        {
+          "questionId": "young-people-2013-061",
+          "conceptKey": "young-people:socializing",
+          "wordingFingerprint": "socializing",
+          "contentSha256": "1fb3939ef4f83d6616927e00c76d57fe7af625ca9e8bed22c3111fbefad1c875"
+        },
+        {
+          "questionId": "food-world-cup-17",
+          "conceptKey": "food-world-cup:17",
+          "wordingFingerprint": "please rate how much you like the traditional cuisine of germany",
+          "contentSha256": "f1c482ec4cd4c944cc47d8d6f82585e93c08b487b700d396746c88ded14bf03e"
+        },
+        {
+          "questionId": "ntas0201e-r27",
+          "conceptKey": "ntas:there-is-no-point-in-reducing-my-car-use-to-help-the-environment-unless-others-do-the-same",
+          "wordingFingerprint": "there is no point in reducing my car use to help the environment unless others do the same",
+          "contentSha256": "2bc70f6724d2fcb768a8f9e4411b7f54e72552dd1380a9022739e901a385625a"
+        },
+        {
+          "questionId": "star-wars-survey-28",
+          "conceptKey": "star-wars-survey:28",
+          "wordingFingerprint": "please state whether you view the following characters favorably unfavorably or are unfamiliar with him her yoda",
+          "contentSha256": "e30b7d757098e1dbf3523b2446a7f5beeb4c6299f37f8f97b7232f2c01c0fdb8"
+        },
+        {
+          "questionId": "young-people-2013-044",
+          "conceptKey": "young-people:foreign-languages",
+          "wordingFingerprint": "foreign languages",
+          "contentSha256": "c2ec74530888ed65f5123f80bdd8c34c0d1049124f1b530bbf54cdaace6975e6"
+        }
+      ]
+    }
+  ]
+}

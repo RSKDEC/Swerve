@@ -12,8 +12,8 @@ const directory = fileURLToPath(new URL('../docs/content/', import.meta.url));
 mkdirSync(directory, { recursive: true });
 const questions = new Map(PREPARED_QUESTIONS.map((q) => [q.id, q]));
 const evidence = new Map(ledger.map((e) => [e.questionId, e]));
-const escape = (value: string | number) =>
-  `"${String(value).replaceAll('"', '""')}"`;
+const escape = (value: string | number | null) =>
+  `"${String(value ?? '').replaceAll('"', '""')}"`;
 const columns = [
   'date_utc',
   'challenge',
@@ -22,6 +22,8 @@ const columns = [
   'category',
   'prompt',
   'source_url',
+  'basis',
+  'concept_key',
   'year',
   'valid_answers',
   'missing_answers',
@@ -33,13 +35,13 @@ const columns = [
 ];
 const csv = [columns.map(escape).join(',')];
 const markdown = [
-  '# 100-day Swerve content calendar',
+  '# Swerve unique-question calendar',
   '',
-  `**${FIRST_PREPARED_DAY} through ${LAST_PREPARED_DAY}, inclusive.** 100 distinct daily sets / 500 round slots, using ${PREPARED_QUESTIONS.length} verified questions. Questions repeat.`,
+  `**${FIRST_PREPARED_DAY} through ${LAST_PREPARED_DAY}, inclusive.** ${PREPARED_DAYS.length} daily sets / ${PREPARED_DAYS.length * 5} round slots from ${PREPARED_QUESTIONS.length} verified questions. No question repeats. One-year target: 1,825.`,
   '',
-  'Historical FiveThirtyEight response data (2014–2015), CC BY 4.0. Unweighted valid-answer frequencies, not current public opinion or Swerve player votes. Launch preview on 19 October uses the first verified set. Prepared sets remain #002–#101.',
+  'Historical reference data from FiveThirtyEight, Miroslav Sabo, and UK government surveys. Each item identifies count-based or official weighted shares. See Data credits for CC BY 4.0, CC0 and OGL attribution. Not current Swerve player votes. A permanent reservation registry prevents reuse.',
   '',
-  'Source counts, denominators, original wording and transformations are in [the verification ledger](survey-ledger.json). The [CSV](100-day-calendar.csv) has one row per answer option per scheduled round. These files contain answer spoilers.',
+  'Source counts, denominators, original wording and transformations are in [the verification ledger](survey-ledger.json). The [CSV](challenge-calendar.csv) has one row per answer option per scheduled round. These files contain answer spoilers.',
   '',
 ];
 for (const day of PREPARED_DAYS) {
@@ -61,6 +63,8 @@ for (const day of PREPARED_DAYS) {
           q.category,
           q.q,
           q.source.url,
+          q.source.basis ?? 'responses',
+          q.conceptKey,
           q.source.year,
           q.source.n,
           e.missingAnswers,
@@ -77,9 +81,46 @@ for (const day of PREPARED_DAYS) {
   });
   markdown.push('');
 }
+const inventory = [
+  [
+    'question_id',
+    'concept_key',
+    'category',
+    'prompt',
+    'year',
+    'base',
+    'basis',
+    'source_url',
+    'choices_and_shares',
+  ]
+    .map(escape)
+    .join(','),
+];
+for (const q of PREPARED_QUESTIONS)
+  inventory.push(
+    [
+      q.id,
+      q.conceptKey,
+      q.category,
+      q.q,
+      q.source.year,
+      q.source.n,
+      q.source.basis ?? 'responses',
+      q.source.url,
+      JSON.stringify(q.groups.map(({ name, pct }) => ({ name, pct }))),
+    ]
+      .map(escape)
+      .join(','),
+  );
 for (const [name, text] of [
+  ['question-inventory.csv', `${inventory.join('\n')}\n`],
+  ['challenge-calendar.csv', `${csv.join('\n')}\n`],
+  ['challenge-calendar.md', `${markdown.join('\n').trimEnd()}\n`],
   ['100-day-calendar.csv', `${csv.join('\n')}\n`],
-  ['100-day-calendar.md', `${markdown.join('\n').trimEnd()}\n`],
+  [
+    '100-day-calendar.md',
+    '# Calendar moved\n\nSee [the current nonrepeating calendar](challenge-calendar.md). The historical filename no longer describes coverage.\n',
+  ],
 ]) {
   const path = `${directory}${name}`;
   if (process.argv.includes('--check')) {
@@ -88,5 +129,5 @@ for (const [name, text] of [
   } else writeFileSync(path, text);
 }
 console.log(
-  `Exported ${PREPARED_DAYS.length} days / ${PREPARED_QUESTIONS.length} verified questions (with repeats) to docs/content/.`,
+  `Exported ${PREPARED_DAYS.length} days / ${PREPARED_QUESTIONS.length} verified questions (zero repeats) to docs/content/.`,
 );

@@ -1,0 +1,949 @@
+[
+  {
+    "source": "ntas",
+    "item": 0,
+    "question": "To what extent do you agree or disagree that vehicles making deliveries cause congestion in your local area?",
+    "status": "approved",
+    "questionId": "ntas0601a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 1,
+    "question": "To what extent are you in favour of closing residential streets to through traffic?",
+    "status": "approved",
+    "questionId": "ntas0601a-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 2,
+    "question": "To what extent are you in favour of having speed limits of 20 miles per hour in residential streets?",
+    "status": "approved",
+    "questionId": "ntas0601a-r18"
+  },
+  {
+    "source": "ntas",
+    "item": 3,
+    "question": "To what extent are you in favour of having speed bumps to slow down traffic in residential streets?",
+    "status": "approved",
+    "questionId": "ntas0601a-r19"
+  },
+  {
+    "source": "ntas",
+    "item": 4,
+    "question": "Thinking about the last five years, which of the following statements best reflect your opinion of the condition of roads in your local area?",
+    "status": "approved",
+    "questionId": "ntas0601a-r25"
+  },
+  {
+    "source": "ntas",
+    "item": 5,
+    "question": "I use my regular travel for health and fitness, as well as getting to places",
+    "status": "approved",
+    "questionId": "ntas0601b-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 6,
+    "question": "By personally driving a car, van or lorry",
+    "status": "approved",
+    "questionId": "ntas0601b-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 7,
+    "question": "Travelling by bus",
+    "status": "approved",
+    "questionId": "ntas0601b-r18"
+  },
+  {
+    "source": "ntas",
+    "item": 8,
+    "question": "How often travel in week: Cycling",
+    "status": "approved",
+    "questionId": "ntas0601b-r19"
+  },
+  {
+    "source": "ntas",
+    "item": 9,
+    "question": "How likely or unlikely are you to use more than one form of transport on your journey, if you knew this was quicker than using a single form of transport?",
+    "status": "approved",
+    "questionId": "ntas0601b-r24"
+  },
+  {
+    "source": "ntas",
+    "item": 10,
+    "question": "Would a standardised fare between £1 to £2 encourage you to use buses in the future?",
+    "status": "approved",
+    "questionId": "ntas0601d-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 11,
+    "question": "How satisfied, if at all, are you with the availability of real time information when travelling by bus?",
+    "status": "approved",
+    "questionId": "ntas0601d-r23"
+  },
+  {
+    "source": "ntas",
+    "item": 12,
+    "question": "If available, I would use an app to look at bus routes, fares, or live bus times",
+    "status": "approved",
+    "questionId": "ntas0601d-r29"
+  },
+  {
+    "source": "ntas",
+    "item": 13,
+    "question": "When travelling in a group of two or more it is cheaper to use private modes of transport (e.g. private car) rather than a bus",
+    "status": "approved",
+    "questionId": "ntas0601d-r30"
+  },
+  {
+    "source": "ntas",
+    "item": 14,
+    "question": "I find my time on the bus productive",
+    "status": "approved",
+    "questionId": "ntas0601d-r31"
+  },
+  {
+    "source": "ntas",
+    "item": 15,
+    "question": "Do you travel by motorcycle regularly? By regularly we mean at least once a month",
+    "status": "approved",
+    "questionId": "ntas0601e-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 16,
+    "question": "Moped, less than 50c",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 17,
+    "question": "Light motorcycle, up to 125cc",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 18,
+    "question": "Large restricted motorcycle, up to 25kW",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 19,
+    "question": "Large motorcycle, 25kW or more",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 20,
+    "question": "Which of the following statements best reflect your opinion on the parking of motor vehicles?",
+    "status": "approved",
+    "questionId": "ntas0601f-r13"
+  },
+  {
+    "source": "ntas",
+    "item": 21,
+    "question": "It is too dangerous for me to cycle on the roads",
+    "status": "approved",
+    "questionId": "ntas0101a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 22,
+    "question": "It is important drivers leave enough space for cyclists",
+    "status": "approved",
+    "questionId": "ntas0101a-r15"
+  },
+  {
+    "source": "ntas",
+    "item": 23,
+    "question": "All young children should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 24,
+    "question": "All disabled people should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 25,
+    "question": "Disabled people who find cycling easier than walking should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 26,
+    "question": "No one should be allowed to cycle in pedestrian areas",
+    "status": "approved",
+    "questionId": "ntas0101a-r19"
+  },
+  {
+    "source": "ntas",
+    "item": 27,
+    "question": "All older people (70 or over) should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 28,
+    "question": "Older people (70 or over) who find cycling easier than walking should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 29,
+    "question": "I use my regular travel for health and fitness, as well as getting to places",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 30,
+    "question": "Next time you buy a bicycle, how likely, if at all, would you be to buy an electric bicycle?",
+    "status": "approved",
+    "questionId": "ntas0101c-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 31,
+    "question": "In an average week, how often do you travel more than 10 minutes by walking?",
+    "status": "approved",
+    "questionId": "ntas0101d-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 32,
+    "question": "Thinking back to this time last year, would you say you are walking…",
+    "status": "approved",
+    "questionId": "ntas0101d-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 33,
+    "question": "Health related reasons",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 34,
+    "question": "Changed where I work",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 35,
+    "question": "Moved to a new area",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 36,
+    "question": "Have less free time",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 37,
+    "question": "Have purchased a new vehicle",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 38,
+    "question": "I can now afford to travel differently",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 39,
+    "question": "No longer have anyone to walk with",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 40,
+    "question": "I retired",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 41,
+    "question": "To improve my health",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 42,
+    "question": "To save money",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 43,
+    "question": "I have more free time",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 44,
+    "question": "I live in a new area",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 45,
+    "question": "I work somewhere else now",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 46,
+    "question": "I now have a dog",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 47,
+    "question": "Safety improvements to my area",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 48,
+    "question": "No longer have access to my previous form of transport",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 49,
+    "question": "I retired",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 50,
+    "question": "I am willing to reduce the amount I travel by plane, to help reduce the impact of climate change",
+    "status": "approved",
+    "questionId": "ntas0301a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 51,
+    "question": "People should be able to travel by plane as much as they like",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 52,
+    "question": "People should be able to travel by plane as much as they like, even if new terminals or runways are needed to meet the demand",
+    "status": "approved",
+    "questionId": "ntas0301a-r18"
+  },
+  {
+    "source": "ntas",
+    "item": 53,
+    "question": "People should be able to travel by plane as much as they like, even if this harms the environment",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 54,
+    "question": "The price of a plane ticket should reflect the environmental damage that flying causes, even if this makes air travel much more expensive",
+    "status": "approved",
+    "questionId": "ntas0301b-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 55,
+    "question": "Have you heard of carbon offsetting?",
+    "status": "approved",
+    "questionId": "ntas0301b-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 56,
+    "question": "How much, if anything, would you say you know about voluntary carbon offsetting schemes for air travel?",
+    "status": "approved",
+    "questionId": "ntas0301b-r23"
+  },
+  {
+    "source": "ntas",
+    "item": 57,
+    "question": "In general, when travelling on public transport, how often, if at all, do you think you can tell if someone is disabled?",
+    "status": "approved",
+    "questionId": "ntas0701a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 58,
+    "question": "How confident, if at all, are you that you can tell whether someone has an illness or condition that makes it more difficult to use public transport?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 59,
+    "question": "How confident, if at all, are you that you can tell whether someone has an impairment or condition that makes it more difficult to use public transport?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 60,
+    "question": "To what extent do you agree or disagree that there should be special provision made on public transport to accommodate disabled people?",
+    "status": "approved",
+    "questionId": "ntas0701b-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 61,
+    "question": "To what extent do you agree or disagree, that provision should be made on public transport to accommodate disabled passengers or passengers with reduced mobility?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 62,
+    "question": "All disabled people should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 63,
+    "question": "Disabled people who find cycling easier than walking should be allowed to cycle in pedestrian areas",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 64,
+    "question": "The law on parking vehicles on-street disabled spaces is not properly enforced in my immediate area, by this we mean 15-20 minutes walking distance from your home.",
+    "status": "approved",
+    "questionId": "ntas0701b-r16"
+  },
+  {
+    "source": "ntas",
+    "item": 65,
+    "question": "To what extent, if at all, would you support more accessible public transport for those with illnesses or conditions that find public transport more difficult, even it that raises fares?",
+    "status": "approved",
+    "questionId": "ntas0701b-r21"
+  },
+  {
+    "source": "ntas",
+    "item": 66,
+    "question": "I would give up my seat for someone I think has an illness or condition that makes it more difficult to use public transport.",
+    "status": "approved",
+    "questionId": "ntas0701c-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 67,
+    "question": "I would give up my seat for someone I think has an illness, impairment, or condition that makes it more difficult to use public transport",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 68,
+    "question": "I would give up my seat for somebody with an assistance card or badge, indicating they have a non-visible impairment",
+    "status": "approved",
+    "questionId": "ntas0701c-r14"
+  },
+  {
+    "source": "ntas",
+    "item": 69,
+    "question": "I would give up my seat for someone who is wearing a disability badge",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 70,
+    "question": "I would give up my seat for someone who is wearing a pregnancy badge",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 71,
+    "question": "How likely, if at all, would you be to make room on public transport for a disabled person?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 72,
+    "question": "Do you yourself drive a car at all these days?",
+    "status": "approved",
+    "questionId": "ntas0401a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 73,
+    "question": "To what extent do you agree or disagree that vehicles making deliveries cause congestion in your local area?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 74,
+    "question": "... congestion on motorways?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 75,
+    "question": "... traffic congestion in towns and cities?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 76,
+    "question": "... exhaust fumes from traffic in towns and cities?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 77,
+    "question": "If someone has drunk any alcohol they should not drive",
+    "status": "approved",
+    "questionId": "ntas0501a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 78,
+    "question": "I know how much alcohol I can drink before being over the legal drink-drive limit",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 79,
+    "question": "The number of people driving whilst impaired by illegal or legal drugs has increased in the last five years",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 80,
+    "question": "If someone has taken illegal drugs they should not drive any distance",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 81,
+    "question": "If someone has taken legal drugs they should not drive any distance",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 82,
+    "question": "The laws on driving whilst impaired by illegal or legal drugs, are not properly enforced",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 83,
+    "question": "How would you rate your understanding of the laws on using a mobile phone whilst driving?",
+    "status": "approved",
+    "questionId": "ntas0501b-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 84,
+    "question": "All mobiles while driving, including hands-free, is dangerous",
+    "status": "approved",
+    "questionId": "ntas0501b-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 85,
+    "question": "It is perfectly safe to talk on a hand-held mobile phone while driving",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 86,
+    "question": "The law on using mobile phones whilst driving is not properly enforced",
+    "status": "approved",
+    "questionId": "ntas0501b-r19"
+  },
+  {
+    "source": "ntas",
+    "item": 87,
+    "question": "How safe, if at all, do you think it is to use an application (app) whilst driving on a mobile phone using your hands?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 88,
+    "question": "How safe, if at all, do you think it is to use a mobile phone whilst stationary in traffic as the driver?",
+    "status": "approved",
+    "questionId": "ntas0501b-r26"
+  },
+  {
+    "source": "ntas",
+    "item": 89,
+    "question": "It is not safe to travel even slightly over the speed limit on motorways",
+    "status": "approved",
+    "questionId": "ntas0501c-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 90,
+    "question": "It is not safe to travel even slightly over the speed limit on residential streets",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 91,
+    "question": "On single carriageway A-roads it would be unsafe to drive at the maximum speed (i.e. 60 mph)",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 92,
+    "question": "Speed cameras save lives",
+    "status": "approved",
+    "questionId": "ntas0501c-r15"
+  },
+  {
+    "source": "ntas",
+    "item": 93,
+    "question": "Speed cameras are mostly there to make money",
+    "status": "approved",
+    "questionId": "ntas0501c-r16"
+  },
+  {
+    "source": "ntas",
+    "item": 94,
+    "question": "Average speed cameras are preferable to fixed speed cameras",
+    "status": "approved",
+    "questionId": "ntas0501c-r17"
+  },
+  {
+    "source": "ntas",
+    "item": 95,
+    "question": "How concerned, if at all, are you about the number of people who are killed or seriously injured in road traffic collisions in your immediate area? By this we mean within 15-20 minutes walking distance from your home.",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 96,
+    "question": "In 2018, almost 1,800 people were killed in accidents on Britain’s roads. Is this number more or less than you expected?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 97,
+    "question": "Which of the following statements best reflects your opinion on policing priorities…",
+    "status": "approved",
+    "questionId": "ntas0501d-r22"
+  },
+  {
+    "source": "ntas",
+    "item": 98,
+    "question": "It is not important to wear a seat belt for journeys under 15 minutes, either as a passenger or when driving",
+    "status": "approved",
+    "questionId": "ntas0501e-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 99,
+    "question": "I know how to ensure a child under the age of 7 is correctly and safely restrained in a car, i.e. that the car seat is correctly fitted and that their seat belt is fastened correctly",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 100,
+    "question": "Next time you buy a car, how likely would you be to buy an ultra-low emission car (either a plug-in hybrid or a battery electric car)?",
+    "status": "approved",
+    "questionId": "ntas0201a-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 101,
+    "question": "The next time you buy a car, how likely would you be to buy a car with lower CO2 emissions?",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 102,
+    "question": "People who drive vehicles that are better for the environment should pay less tax than those who drive more polluting vehicles",
+    "status": "approved",
+    "questionId": "ntas0201a-r18"
+  },
+  {
+    "source": "ntas",
+    "item": 103,
+    "question": "Low Emission Zones are mostly there to make money",
+    "status": "approved",
+    "questionId": "ntas0201b-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 104,
+    "question": "Low Emission Zones help to improve public health",
+    "status": "approved",
+    "questionId": "ntas0201b-r13"
+  },
+  {
+    "source": "ntas",
+    "item": 105,
+    "question": "I am in favour of Low Emission Zones",
+    "status": "approved",
+    "questionId": "ntas0201b-r14"
+  },
+  {
+    "source": "ntas",
+    "item": 106,
+    "question": "How concerned, if at all, are you about noise pollution, that is any unwanted or distracting noise, in your immediate area?",
+    "status": "approved",
+    "questionId": "ntas0201c-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 107,
+    "question": "What is your view on climate change?",
+    "status": "approved",
+    "questionId": "ntas0201d-r13"
+  },
+  {
+    "source": "ntas",
+    "item": 108,
+    "question": "I am willing to reduce the amount I travel by car, to help reduce the impact of climate change",
+    "status": "approved",
+    "questionId": "ntas0201e-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 109,
+    "question": "Many of the journeys of less than two miles that I now make by car I could just as easily walk",
+    "status": "approved",
+    "questionId": "ntas0201e-r18"
+  },
+  {
+    "source": "ntas",
+    "item": 110,
+    "question": "Many of the journeys of less than two miles that I now make by car I could just as easily make by bus",
+    "status": "approved",
+    "questionId": "ntas0201e-r19"
+  },
+  {
+    "source": "ntas",
+    "item": 111,
+    "question": "Many of the journeys of less than two miles that I now make by car I could just as easily cycle, if I had a bike",
+    "status": "approved",
+    "questionId": "ntas0201e-r20"
+  },
+  {
+    "source": "ntas",
+    "item": 112,
+    "question": "For the sake of the environment, everyone should reduce how much they use their cars",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 113,
+    "question": "People should be allowed to use their cars as much as they like, even if it causes damage to the environment",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 114,
+    "question": "There is no point in reducing my car use to help the environment unless others do the same",
+    "status": "approved",
+    "questionId": "ntas0201e-r27"
+  },
+  {
+    "source": "ntas",
+    "item": 115,
+    "question": "How concerned, if at all, are you about damage to the countryside from building roads?",
+    "status": "approved",
+    "questionId": "ntas0201f-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 116,
+    "question": "I am concerned about damage to my personal health from exhaust fumes",
+    "status": "approved",
+    "questionId": "ntas0201g-r12"
+  },
+  {
+    "source": "ntas",
+    "item": 117,
+    "question": "Everyone should reduce how much they use their motor vehicles in urban areas like cities or towns, for the sake of public health",
+    "status": "excluded",
+    "reason": "Duplicate/rephrased item, demographic variant, incomplete stem, or unsuitable detail for this batch."
+  },
+  {
+    "source": "ntas",
+    "item": 118,
+    "question": "How concerned, if at all, are you about air quality in your immediate area?",
+    "status": "approved",
+    "questionId": "ntas0201g-r18"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b1a",
+    "question": "How strongly do you feel you belong to your immediate neighbourhood?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b2a",
+    "question": "Do you think that over the past two years your area has…",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b3a",
+    "question": "To what extent would you agree or disagree that people in your neighbourhood pull together to improve the neighbourhood?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b4a",
+    "question": "Thinking about the people who live in this neighbourhood, to what extent do you believe they can be trusted?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b5a",
+    "question": "To what extent do you agree or disagree that you personally can influence decisions affecting your local area?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b6a",
+    "question": "To what extent do you agree or disagree that this local area is a place where people from different backgrounds get on well together?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b7a",
+    "question": "How satisfied or dissatisfied are you with the green and natural spaces in your local area?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b10a",
+    "question": "How much do you agree or disagree with the following statements? - I am proud to live in my local area",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b11a",
+    "question": "How much do you agree or disagree with the following statements? - In five years’ time I would like to still be living in my local area",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b12a",
+    "question": "How much do you agree or disagree with the following statements? - I would recommend my local area to others as a good place to live",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b15a",
+    "question": "Overall, how satisfied or dissatisfied are you with your local area as a place to live?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b16a",
+    "question": "To what extent do you agree or disagree that if I needed help, there are people who would be there for me?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b17a",
+    "question": "To what extent do you agree or disagree that if I wanted company or to socialise, there are people I can call on?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b18a",
+    "question": "Is there anyone who you can really count on to listen to you when you need to talk",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b19a",
+    "question": "Attractiveness of local area",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-b20a",
+    "question": "How often do you watch, read or listen to local news?",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-c6a",
+    "question": "Frequency of chatting to neighbours more than to just say hello",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-x4a",
+    "question": "How important is it for you personally to feel that you can influence decisions in your local area",
+    "status": "approved"
+  },
+  {
+    "source": "community-life-2025",
+    "questionId": "community-life-x5a",
+    "question": "Generally speaking, would you like to be more involved in the decisions your council makes that affect your local area",
+    "status": "approved"
+  }
+]

@@ -1,25 +1,37 @@
 {
-  "version": "surveys-v1",
+  "version": "surveys-v2-unique",
   "sourceCommit": "4c1ff5e3aef1816ae04af63218015066e186c147",
-  "verifiedQuestions": 109,
-  "scheduledDays": 100,
-  "scheduledSlots": 500,
-  "distinctDailySets": 100,
-  "repeatedQuestionSlots": 391,
+  "yearGoal": 1825,
+  "verifiedQuestions": 310,
+  "remainingToYearGoal": 1515,
+  "scheduledDays": 62,
+  "scheduledSlots": 310,
+  "distinctDailySets": 62,
+  "repeatedQuestionSlots": 0,
+  "unscheduledReserve": 0,
+  "firstScheduledDay": "2026-10-19",
+  "lastScheduledDay": "2026-12-19",
   "categories": {
     "Food": 42,
     "Flying": 18,
-    "Screen": 26,
+    "Screen": 37,
     "Everyday": 10,
-    "Traditions": 13
+    "Traditions": 13,
+    "Personality": 28,
+    "Music": 18,
+    "Interests": 30,
+    "Habits": 34,
+    "Travel": 61,
+    "Community": 19
   },
   "minValidAnswers": 213,
-  "sourceCount": 6,
+  "sourceCount": 15,
   "currentOrRepresentativeClaim": false,
   "limits": [
-    "Historical response frequencies, not current public opinion.",
-    "Unweighted item-specific valid response bases, not all respondents.",
-    "Some questions repeat; 100 distinct daily sets do not mean 500 distinct questions.",
-    "No multi-select blocks, demographic subdivisions, or simulated people are imported."
+    "Historical source reference groups, not current Swerve player votes.",
+    "Count-based and published-weighted items are distinguished; weights are never used to invent respondent counts.",
+    "One survey item/concept/original wording may be reserved once only. Rewordings or new-year copies are not new inventory.",
+    "Checkbox distributions, demographic variants and incomplete answer scales are excluded from this batch.",
+    "The verified inventory remains below the 1825-question year goal."
   ]
 }
