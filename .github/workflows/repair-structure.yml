@@ -1,0 +1,113 @@
+name: Restore Swerve project folders
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/repair-structure.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore folders safely
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import shutil
+
+          FILES = """
+          ef62ef9389308a1899a936bb0c90b5743326ccde23ebfd3103c12d65593bee76 .env.example
+          ae31f065797368e7d684c3a777cd987f561ad49f4318061510c1b578cd0321c3 .gitignore
+          32dcd743a0ffca59a737c87abcfcc3f57a0cede5cedb6a8b1b68d32a3b6d4506 .prettierrc.json
+          c7fef5c042a51953b0e0fea85bd757d149eb8a26dd1f47fcda5918a03d76ec88 README.md
+          d06cbfeed816604a5235a588eafa344e7e4054c21d47487d14b7381c00f5ea76 docs/architecture.md
+          b0c5f3027e8bd05718f26608a88640f316c9b450591f7a2dcd906220b7b19deb docs/backend-contract.md
+          08e9b77c6e23c44917de2446627debba20293b970d14b9d8c73d167fb523d56c docs/milestones.md
+          732d02f96db327a61ed9811df6b1b3d55d169258b6c0884ebaee4518cd9e7313 docs/prototype-audit.md
+          c5fb93955b5e07e0083ed24d760cc5c2a874a1b13901f7091bf03182ae0bd4a1 docs/screenshots/mobile-home.png
+          df8d605f234c45143848ffa98064a138e4137ead9b86f98ca2e1d3e337dd8e78 docs/screenshots/small-mobile-round.png
+          a0041216bb3f6483be0dbaeee8b5c363fd2285ce9c8fe8300f0430c924187ec7 e2e/game.spec.ts
+          7b62901f9baf1bc522d3bfd02c44d09480f8879d5c6b29047ec7568305dd5882 index.html
+          ac9c15e472260744504737b0fa6d5b5ea01ab3f15224550407347cd3776cf299 package-lock.json
+          63df3c3011fdfdc2e99210eb53e843d803bda2715db2feb926a92d7dc3f33e9c package.json
+          daa1613a3323c540e94dee5b7b0f7f4af65d26c7be5e5be63e01994b8c8a18f5 playwright.config.ts
+          6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7 public/licenses/dm-sans.txt
+          18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943 public/licenses/space-grotesk.txt
+          981eed53b9d68a287caf843cbb03cb6475bfcf433f0a8c364479fa5f6e74385e src/data/demo-questions.ts
+          2999f03fe4581cced900e53d0c24c9e78fe8295999c05a28029ae1628d41cc82 src/domain/game.ts
+          1d55483c84ccf4a9a24cffe5d35fd9e3b0e68b5478629b223bd4e0a0e5025e38 src/domain/modes.ts
+          af381a58a541e3a1714271deca9b6e0f5c01411b09a245326e7967cdc95d5919 src/domain/scoring.ts
+          f7359b799f0dae59d4c7835cf9345ad534b98785f9d6767ab683f9ca86970f78 src/domain/types.ts
+          ffc5f94cb180923384e5f0b7d9d0ae7a47769a580d1788c392ef884903e1332f src/main.ts
+          e4487580f394bdc9fbeaf180eaa57cf648997911643e365ba37992ca5b69f2b9 src/services/contracts.ts
+          dff7806cc7d79832f6d7327c1615103db17ad2f9c6eb9a0a57a3de78b3d958bc src/services/demo-challenges.ts
+          5d58c2e03e5bf6565275f0eba6b0f01ecc8a23d7ffb7752a9ec8339908091d2c src/services/demo-client.ts
+          e62ae11a7fd8977545351212518787f6aa646231c960f23742acdf2b6cb5157d src/services/http-client.ts
+          9d977e209cf7d1287ba67a734454cb36f8e46635dccad3e42cb2e3d84e2ec401 src/services/sharing.ts
+          15a1fd028e02c4f530342da1b8849730569ec0546889750dcf6cd10a60ced90e src/services/storage.ts
+          ada2f4c71e9e512e9062c2b80d900602baf347d03a99eaa65295eed86ff620f0 src/styles/base.css
+          941fd6f8a01616351f3b7c39729ef08e090934f44d660a7d2c71870648a64391 src/styles/mobile.css
+          3f08a46b629ae28c0a5c316594dc7f5d6d7f3105722af186737a4a3499ebf701 src/ui/controller.ts
+          1e4860258e0dccc85571f7271698207d7873bc77db4f537144eaa780e4d1d7f6 src/ui/help.ts
+          3925ec54e73389617791e5da200ac53f620422088050b134f0cd6c2b8d2c5f8e src/ui/home.ts
+          7ba130fe4c63c5af8d17f10ec80ae3d033ee9d7813c7bb4ddda13bad4cab5921 src/ui/results.ts
+          542b46c2da052e276bc206f54782d0d9d7312150e34fab81017a5f09fbee7347 src/ui/reveal.ts
+          ed10bfc30293008e4d39381d60b1746381d0edb88947b5aaeab4d08729b2b2fc src/ui/round.ts
+          af3f4c5dfaff94d91bddb05f3113e8f174f2e3557e5f078abd492047dbdbd137 src/ui/shared.ts
+          08c2f34272518b14b4a5a6940ca99414df58c5d5acc69f5c76377d915e41935b tests/fixtures.ts
+          3bef36c34c31cfd2458f0abc04cd55a3190517e85bdaacbd8b0c67e80430c320 tests/game.test.ts
+          28dd6541a613e45169f85cb58b62508a89e3ce6d8f52c2c757b25b18beb70bb7 tests/http-client.test.ts
+          430bf2acc226d3023b765ca7816291147349ed15db0d5257b5523e4c4ddf5081 tests/scoring.test.ts
+          264f5fb9a63673d3e39145f651396a82da70a3973488db94dab9766b17761a68 tests/storage.test.ts
+          d47f28dc96031aa20c5f913788f81e2f0349f28422df155a927be36aac5691b7 tsconfig.json
+          d9bf33cc7ea0383e52cd3702052d385945e28ddfa6fc04e039a46abd15042e01 vite.config.ts
+          """
+
+          def digest(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()
+
+          moves = []
+          for entry in FILES.strip().splitlines():
+              expected, destination = entry.split(" ", 1)
+              target = Path(destination)
+              name = target.name
+              source = Path("download" if destination == ".gitignore" else name.lstrip(".") if name.startswith(".") else name)
+              if target.is_file():
+                  if digest(target) != expected:
+                      raise SystemExit(f"STOP: {target} has changed. No files were moved.")
+                  continue
+              if not source.is_file() or digest(source) != expected:
+                  raise SystemExit(f"STOP: {source} is missing or changed. No files were moved.")
+              moves.append((source, target))
+
+          # Validate the whole plan before moving any files, and never overwrite an existing file.
+          for source, target in moves:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              shutil.move(str(source), str(target))
+              print(f"Restored {source} -> {target}")
+          print(f"Restored {len(moves)} paths. Original ci.yml/pages.yml remain as inactive templates.")
+          PY
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Test and build before saving
+        run: npm run check
+      - name: Save repaired project
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "The project folders are already correct."
+          else
+            git commit -m "Restore Swerve project folder structure"
+            git push origin HEAD:main
+          fi
